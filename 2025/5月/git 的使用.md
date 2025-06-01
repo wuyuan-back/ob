@@ -1,0 +1,10 @@
+- 同步篇
+	- 安装git
+	- 初始化git仓库 git init
+	- 添加远程仓库 git remote add origin [远程仓库的URL]
+	- 提交和推送
+		- git add .
+		- git commit -m "Initial commit"
+		- git push -u origin master
+	- 同步机制
+		- git pull origin master
