@@ -8,3 +8,4 @@
 		- git push -u origin master
 	- 同步机制
 		- git pull origin master
+- 使用fit插件
