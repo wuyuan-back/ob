@@ -1,4 +1,4 @@
-- [ ] markdown 语法表(cheatsheet)
+- [x] markdown 语法表(cheatsheet)
 - [x] 运用git同步，[[git 的使用]] 
 - [ ] 建立模板库
 - [ ]  [[快捷键]] 的使用
