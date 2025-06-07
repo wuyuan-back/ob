@@ -1,5 +1,5 @@
 ---
-created: {{date:YYYY-MM-DD}} {{time:HH:mm}}
+created: {{date:YYYY-MM-DD}} {time:HH:mm}}
 tags: [daily, plan]
 aliases: [{{date:YYYY-MM-DD}}]
 ---
@@ -12,15 +12,6 @@ type command
 action Templater: Insert template
 command DailySchedule
 templater true
-
-```
-^button-add-schedule
-
-## 🕒 时间轴规划
-```dataviewjs
-await dv.view("DailyTimeline")
-```
-
 ## 📅 今日核心任务 (MITs)
 - [ ] #学习 示例任务1 @due(今天 18:00) ^mit-1
 - [ ] #生活 示例任务2 ^mit-2
