@@ -1,10 +1,9 @@
 ---
-tags:
-  - daily
-  - plan
-aliases: 
-created: {{date:YYYY-MM-DD}} {{time:HH:mm}}
+created: {{date:YYYY-MM-DD}}&{{time:HH:mm}}
+tags: [daily, plan]
+aliases: [{{date:YYYY-MM-DD}}]
 ---
+
 # 🌞 {{date:YYYY年MM月DD日}} dddd
 
 ```button
