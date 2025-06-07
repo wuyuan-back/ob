@@ -1,7 +1,9 @@
 ---
-created: {{date:YYYY-MM-DD}}
-tags: [daily, plan]
-aliases: [{{date:YYYY-MM-DD}}]
+tags:
+  - daily
+  - plan
+aliases: 
+created: {{date:YYYY-MM-DD}} {{time:HH:mm}}
 ---
 # 🌞 {{date:YYYY年MM月DD日}} dddd
 
@@ -95,7 +97,6 @@ type command
 action Tasks: Move undone tasks to daily note
 command tomorrow
 class success
-```
 ```
 
 
