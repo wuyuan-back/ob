@@ -1,8 +1,7 @@
-
 ---
-{{date:YYYY-MM-DD}}
-{{time:HH:mm}}
+created: {{date:YYYY-MM-DD}} {{time:HH:mm}}
 tags: [daily, plan]
+aliases: [{{date:YYYY-MM-DD}}]
 ---
 
 # 🌞 {{date:YYYY年MM月DD日}} dddd
@@ -13,6 +12,7 @@ type command
 action Templater: Insert template
 command DailySchedule
 templater true
+
 ```
 ^button-add-schedule
 
