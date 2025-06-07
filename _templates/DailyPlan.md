@@ -1,10 +1,12 @@
 ---
-created: {{date:YYYY-MM-DD}}&{{time:HH:mm}}
-tags: [daily, plan]
-aliases: [{{date:YYYY-MM-DD}}]
+tags:
+  - daily
+  - plan
+aliases: 
+created:
 ---
 
-# 🌞 {{date:YYYY年MM月DD日}} dddd
+# 🌞 {{date : YYYY-MM-DD}}
 
 ```button
 name 添加今日课表
@@ -34,7 +36,7 @@ try {
 ```
 
 ## 📅 今日核心任务 (MITs)
-- [ ] #学习 高数作业P120-125 @due({{date:YYYY-MM-DD}}T18:00) ^mit-1
+- [ ] #学习 高数作业 @
 - [ ] #生活 健身房训练 @duration(60min) ^mit-2
 - [ ] #项目 实验报告数据处理 ^mit-3
 
