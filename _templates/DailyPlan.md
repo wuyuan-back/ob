@@ -1,14 +1,11 @@
 ---
-tags:
-  - daily
-  - plan
-aliases: 
-date:
-  date: 
-created:
+created: {{date:YYYY-MM-DD}} {{time:HH:mm}}
+tags: [daily, plan]
+aliases: [{{date:YYYY-MM-DD}}]
 ---
 
-# 🌞 {{date : YYYY-MM-DD}}
+# 🌞 
+{{date:YYYY-MM-DD}}
 
 ```button
 name 添加今日课表
