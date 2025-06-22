@@ -1,0 +1,4 @@
+- 先有效果，再迭代（Cursor,Windsurf)
+- 产品需求
+- 工作流：v0.dev -> windsurf->Cursor
+- 
