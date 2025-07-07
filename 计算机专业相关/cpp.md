@@ -1,10 +1,18 @@
 <> vs ""
 non.h vs .h
-###reference
+## reference
 & change the value 
-void quadratic(int a,int b,int c,double& root 1,double& root 2)
+EX:void quadratic(int a,int b,int c,double& root 1,double& root 2)
 {
 
 }
+## string in cpp
+use == != even +
+内联函数
+s1 ="hello"
+s1.append("world");
+s1.erase(int start,int end);
+
+
 
 
