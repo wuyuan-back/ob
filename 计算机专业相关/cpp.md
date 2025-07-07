@@ -35,4 +35,7 @@ s+= 41;// "hi?)" transfer into the ASC||
 ## string input
 cin >> value; only a word a time;
 
+string在函数中的传递
+不同于C，值改变，需要&,才能改变。
+
 
