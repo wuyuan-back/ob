@@ -25,4 +25,14 @@ Can't string s = "hi" +"there";//error
 
 int n = (int)"42";
 ## error
+int n = StringtoInter("42");
+yes;
+
+string s ="hi";
+s += '?' //"hi?"
+s+= 41;// "hi?)" transfer into the ASC||
+
+## string input
+cin >> value; only a word a time;
+
 
