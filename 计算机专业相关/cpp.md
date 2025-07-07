@@ -12,6 +12,9 @@ use == != even +
 s1 ="hello"
 s1.append("world");
 s1.erase(int start,int end);
+str.find()
+yes return index;
+no 
 
 
 
