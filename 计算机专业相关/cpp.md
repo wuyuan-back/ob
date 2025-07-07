@@ -12,4 +12,17 @@ use == != even +
 s1 ="hello"
 s1.append("world");
 s1.erase(int start,int end);
+str.find()
+yes return index;
+no return string:: npos;
 ![[Pasted image 20250707104226.png]]
+## c vsC++
+C strings char ararys
+C++ string string objiects
+"  " usually is a string
+string s = "hello ";
+Can't string s = "hi" +"there";//error
+
+int n = (int)"42";
+## error
+
