@@ -81,3 +81,8 @@ int computeSUm(Grid<int>& g)//不是复制
   cout<< s[i] << endl;
   }
 ```
+## remove
+![[Pasted image 20250708160547.png]]
+Vector  inside is a huge array; 
+similar linked list 
+disadvantages: difficult to find index. 
