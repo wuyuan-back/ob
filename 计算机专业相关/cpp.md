@@ -50,4 +50,8 @@ matrix[1][0] = 42;
 ```
 
 
-![[Pasted image 20250708144512.png]]
+![[Pasted image 20250708144512.png]]![[Pasted image 20250708144649.png]]
+iterate over a grid /遍历/
+```c++
+int computeSUm(Grid<int>& g)//不是复制
+```
