@@ -66,6 +66,10 @@ int computeSUm(Grid<int>& g)//不是复制
  ![[Pasted image 20250708153337.png]]
   set can replace
   insert just move behind others
-  remove move forward ### n
+  remove move forward ==no gap==
+  EX1 of  v.remove
+  ![[Pasted image 20250708154739.png]]
+  answer:C
  
+ use v+= to add elements;
  
