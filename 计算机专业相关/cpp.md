@@ -72,4 +72,12 @@ int computeSUm(Grid<int>& g)//不是复制
   answer:C
  
  use v+= to add elements;
- 
+ ```C++
+  for(string/*typename*/ s: v){
+	  cout<< s << endl;
+  }
+  for(int i = 0; i< v.size;i++)//"for-each loop
+  {
+  cout<< s[i] << endl;
+  }
+```
