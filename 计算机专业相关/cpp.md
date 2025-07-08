@@ -57,6 +57,15 @@ int computeSUm(Grid<int>& g)//不是复制
 ```
  
  ## collections
-  
+ # vector 
+  can resize array
+ ```c++
+  #include"vector.h"
+  vector<string> names;
+```
+ ![[Pasted image 20250708153337.png]]
+  set can replace
+  insert just move behind others
+  remove move forward ### n
  
  
