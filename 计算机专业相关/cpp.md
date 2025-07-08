@@ -35,7 +35,19 @@ s+= 41;// "hi?)" transfer into the ASC||
 ## string input
 cin >> value; only a word a time;
 
-string在函数中的传递
-不同于C，值改变，需要&,才能改变。
+## Grid
+->data structure
+STL;standard Template Library;
+vector Grid stack Queue Set Map
+### grid
+two dimensional array
+
+```c++
+#icnlude “grid.h"
+Grid<int> matrix(4,3);
+matrix[1][0] = 42;
+
+```
 
 
+![[Pasted image 20250708144512.png]]
