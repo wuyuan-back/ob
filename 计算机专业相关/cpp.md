@@ -86,3 +86,52 @@ int computeSUm(Grid<int>& g)//不是复制
 Vector  inside is a huge array; 
 similar linked list 
 disadvantages: difficult to find index. 
+
+
+- Stack
+	- Last-in,First-out(LIFO)
+	- on-do feature
+	- ![[Pasted image 20250712182850.png]]
+	- bottom->top
+	- cannot loop over a stack
+		- ![[Pasted image 20250712183152.png]]
+		- know the diiferent between  s.peek() and s.pop()
+		- 后进先出！！
+	- checkbalance
+		- 判断(){}是否闭合
+
+```c++
+int checkBalence(string code){
+for(int i = o;i < s.length();i++)
+{
+	char c = code[i];
+	if(c=='(' || c == '{')
+	{
+		s.push(c);
+	}
+	else if(c==')' ){
+		if(s.peek() == '('){
+		s.pop();
+		}else
+		{
+		return i; //error
+		}
+		  
+	else if(c=='}' ){
+		if(s.peek() == '{}'){
+		s.pop();
+		}else
+		{
+		return i; //error
+		}
+	}
+	if(s.isEmpty()){
+	return -1;
+	}else{
+	return code.length();
+	
+	}
+}
+}
+```
+
