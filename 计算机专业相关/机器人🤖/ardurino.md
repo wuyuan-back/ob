@@ -54,6 +54,8 @@ Arduino在数字电路中常用的函数主要包括以下几个：
 这些函数是Arduino数字电路操作的基础，通过合理使用它们，可以实现对各种数字输入输出设备的控制和信号处理。
 电池；突出正，平负
 电压低于10.5v需充电
+
+## 中断
 Arduino在模拟电路中常用的函数主要有`analogRead()`和`analogWrite()`。以下是这两个函数的详细介绍：
 
 1. `analogRead(pin)`
@@ -89,3 +91,84 @@ Arduino在模拟电路中常用的函数主要有`analogRead()`和`analogWrite()
 - `analogWrite()`：常用于控制LED的亮度或直流电机的转速。
 
 通过这两个函数，Arduino可以方便地与各种模拟传感器和执行器进行交互，实现复杂的控制功能。
+Arduino 提供了中断功能，允许程序在特定事件发生时暂停当前任务，转而执行一段预定义的代码（称为中断服务例程，ISR）。以下是与中断相关的函数和概念：
+
+1. `attachInterrupt()`
+- 功能：将一个中断服务例程（ISR）附加到指定的中断引脚。
+- 参数：
+  - `interrupt`：中断编号，通常为 `0` 或 `1`（某些 Arduino 板可能支持更多）。
+  - `callback`：中断服务例程的名称，即当中断发生时要执行的函数。
+  - `mode`：触发模式，可以是以下几种之一：
+      - `LOW`：当引脚电平为低时触发中断。
+      - `CHANGE`：当引脚电平从高变低或从低变高时触发中断。
+      - `RISING`：当引脚电平从低变高时触发中断。
+      - `FALLING`：当引脚电平从高变低时触发中断。
+- 示例：
+  
+  ```cpp
+    void myISR() {
+      // 中断服务例程代码
+      digitalWrite(13, HIGH); // 点亮LED
+    }
+
+    void setup() {
+      pinMode(2, INPUT_PULLUP); // 将2号引脚设置为输入模式，并启用内部上拉电阻
+      attachInterrupt(0, myISR, FALLING); // 将中断服务例程附加到中断0（数字2引脚），当电平从高变低时触发
+    }
+
+    void loop() {
+      // 主循环代码
+    }
+    ```
+
+2. `detachInterrupt()`
+- 功能：从指定的中断引脚分离中断服务例程。
+- 参数：
+  - `interrupt`：中断编号，通常为 `0` 或 `1`。
+- 示例：
+  
+  ```cpp
+    detachInterrupt(0); // 分离中断0的中断服务例程
+    ```
+
+3. 中断引脚
+- Arduino Uno：数字引脚2和3通常用于中断0和中断1。
+- 其他 Arduino 板：支持的中断引脚可能不同，具体可以参考相应板的文档。
+
+注意事项
+1. 中断服务例程（ISR）的编写：
+   - ISR 应该尽可能短小精悍，避免复杂的计算和调用耗时的函数，因为 ISR 需要快速执行以避免阻塞其他中断。
+   - ISR 中不能使用 `delay()` 函数，因为这会导致中断响应延迟。
+   - ISR 中不能使用 `Serial.print()` 等串口通信函数，因为串口通信可能会被中断。
+2. 中断优先级：
+   - Arduino 的中断系统是简单的，通常只有一个全局中断优先级。如果有多个中断同时触发，Arduino 会按照中断编号的顺序依次处理。
+3. 中断的稳定性：
+   - 中断触发的稳定性取决于外部信号的质量。如果信号抖动较大，可能会导致中断频繁触发。
+
+示例代码：使用中断检测按钮按下
+
+```cpp
+volatile bool buttonPressed = false; // 使用volatile关键字，因为ISR会修改这个变量
+
+void buttonISR() {
+  buttonPressed = true; // 在ISR中设置标志位
+}
+
+void setup() {
+  pinMode(2, INPUT_PULLUP); // 将2号引脚设置为输入模式，并启用内部上拉电阻
+  attachInterrupt(0, buttonISR, FALLING); // 将中断服务例程附加到中断0（数字2引脚），当电平从高变低时触发
+}
+
+void loop() {
+  if (buttonPressed) { // 检查标志位
+    buttonPressed = false; // 重置标志位
+    digitalWrite(13, HIGH); // 点亮LED
+    delay(500); // 延时500毫秒
+    digitalWrite(13, LOW); // 熄灭LED
+  }
+}
+```
+
+在这个示例中，当按钮按下时，中断服务例程 `buttonISR` 会被触发，设置一个全局变量 `buttonPressed` 为 `true`。在主循环中，程序会检查这个变量，执行相应的操作。
+
+通过使用中断，可以实现更高效和响应更快的事件处理，特别是在需要及时响应外部信号的情况下。
