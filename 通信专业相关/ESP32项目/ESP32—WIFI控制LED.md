@@ -59,18 +59,47 @@ void setup() {
 
 这是学习的精髓，选择 1-2 个你最感兴趣的“魔法”进行深入研究。
 
-1.  **机制一： 服务器搭建
-    *  创建服务器对象
-    * 
-``
-    *   **它用了什么设计模式？**（如观察者模式、发布-订阅、中间件）
-    *   **它的优点和缺点是什么？**
-    *   **代码片段**：粘贴关键代码并附上你的注释。
+1.  **机制一： 服务器搭建    ```
+    
+```c++
+// 创建Web服务器对象，端口80
+WebServer server(80);
 
-2.  **机制二： [例如：插件系统]**
-    *   **它是如何实现扩展性的？**（接口定义、加载机制）
-    *   **它是如何被发现和加载的？**
-    *   **画出它的架构图**。
+// 配置Web服务器路由
+
+  server.on("/", HTTP_GET, handleRoot);
+  server.on("/led", HTTP_GET, handleLED);
+  server.on("/status", HTTP_GET, handleStatus);
+
+void loop() { // 处理客户端请求 
+server.handleClient(); 
+}
+
+//处理根路径请求
+void handleRoot() {
+  server.send(200, "text/html", index_html);
+}
+
+// 处理LED控制请求
+void handleLED() {
+  if (server.hasArg("state")) {
+    ledState = server.arg("state");
+    if (ledState == "on") {
+      digitalWrite(ledPin, HIGH);
+    } else {
+      digitalWrite(ledPin, LOW);
+    }
+  }
+  server.send(200, "text/plain", "LED状态已设置为: " + ledState);
+}
+// 返回当前LED状态
+
+void handleStatus() {
+
+  server.send(200, "text/plain", ledState);
+
+}
+```
 
 ---
 
@@ -94,18 +123,3 @@ void setup() {
 4.  **“偷师”清单**
     *   列出你可以在自己项目中直接使用/借鉴的具体想法、代码片段或工具。
 
-### 推荐的拆解工具
-
-*   **代码阅读**：IDE (VSCode, PyCharm, IntelliJ) + 调试器。
-*   **绘图**：Draw.io, Excalidraw, Mermaid（用于在 Markdown 中画图）。
-*   **笔记**：Obsidian, Notion, Typora，或任何你喜欢的 Markdown 编辑器。
-*   **代码分析**：`tree` 命令查看目录结构，`git log` 查看历史。
-
-### 操作流程建议
-
-1.  **目标驱动**：不要想一口吃成胖子。先明确你学习这个项目的**个人目标**（比如，我想学会如何写一个插件系统）。
-2.  **由外而内**：严格遵守上述顺序，先花足够的时间在**第一部分和第二部分**，建立全局观。
-3.  **单点突破**：在第三、四部分，选择一个最核心、你最感兴趣的功能流程进行深度追踪。搞懂一个，往往能触类旁通。
-4.  **输出倒逼输入**：书写笔记的过程，本身就是一种最深度的思考和学习。尝试向一个“虚拟的听众”解释清楚这个项目。
-
-记住，拆解一个大型项目是一个迭代的过程。你可能需要多次往返于宏观和微观视图之间。祝你拆解愉快，学有所成！
