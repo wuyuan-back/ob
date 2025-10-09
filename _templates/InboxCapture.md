@@ -1,1 +1,0 @@
-tt- {{DATE:HH:mm}} {{VALUE}} %% #灵感 %%
