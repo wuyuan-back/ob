@@ -18,7 +18,7 @@
 ==Highlight Text==
 
 ~~Strike through
-- [x] check box 
+- [ ] check box
 
 
 
