@@ -7,6 +7,7 @@ PSC=10000-1
 
 
 # 注意事项
-1.常见错误：要使用定时器必须先添加TIM2使能端。
-HAL_StatusTypeDef HAL_TIM_Base_Start_IT(TIM_HandleTypeDef * htim);
-在
+## 常见错误：
+### 要使用定时器必须先添加TIM2使能端。
+- HAL_StatusTypeDef HAL_TIM_Base_Start_IT(TIM_HandleTypeDef * htim);
+- 在HAL_tim库的2365行
