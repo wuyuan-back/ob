@@ -12,8 +12,11 @@ void led_show(int led_locate，int led_state)
 	else
 	{HAL_GPIO_WritePin(GPIOC,GPIO_PIN_8<<(led_locate-1),GPIO_PIN_SET);
 	}
-	HAL_GPIO_WritePin(GPIO_D,GPIO_PIN_2,GPIO_PIN_SET);
-	HAL_GPIO_WritePin(GPIO_D,GPIO_PIN_2,GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(GPIOD,GPIO_PIN_2,GPIO_PIN_SET);
+	HAL_GPIO_WritePin(GPIOD,GPIO_PIN_2,GPIO_PIN_RESET);
 	
 }
 ```
+可能存在问题，灯光打架
+建议：
+- [ ] 使用全局变量
