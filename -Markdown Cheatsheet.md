@@ -18,7 +18,7 @@
 ==Highlight Text==
 
 ~~Strike through
-- [ ] check box
+- [ ] check box = ctrl L
 
 
 
