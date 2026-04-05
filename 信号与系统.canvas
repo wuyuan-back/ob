@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"584836d0f4ae0878","x":0,"y":-220,"width":250,"height":60,"type":"text","text":"信号与系统"},
-		{"id":"b899eccbcc057916","x":20,"y":-80,"width":400,"height":400,"type":"file","file":"离散时间系统分析.md"}
+		{"id":"b899eccbcc057916","x":20,"y":-80,"width":400,"height":400,"type":"file","file":"2026/信号与系统/离散时间系统分析.md"}
 	],
 	"edges":[]
 }
