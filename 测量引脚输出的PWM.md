@@ -23,4 +23,23 @@ cubeMx
 - NVICseetings 使能中断
 ## 代码实现
 - 在tim.h找到中断使能函数，HAL_TIM_Start_IT(   )
-- 再找到输入捕获的回调函数,TIM_IT_CaptureCallback
+- 再找到输入捕获的回调函数,TIM_IT_CaptureCallback()
+- 
+```C
+uint32_t fre ,capture_value;
+
+
+void C
+{
+	if(htim->Instance == TIM17)
+	{
+		capture_value = HAL_TIM_ReadCaptureValue(htim//在tim.h中找到ctrl f找到readcapture 函数
+		TIM17->CNT = 0;
+		fre = (80000000/(80*capture_value));
+	}
+
+}
+
+
+//写完之后再到lcd_show()lcd显示函数中添加
+```
