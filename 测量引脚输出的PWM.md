@@ -14,4 +14,13 @@ PWM的上升沿，产生中断
 - 通过PA15，PB4测量PWM波
 - 通过杜邦线将PA1连接到PA7引脚测量PWM波
 
-# 
+# 通过PA7完成脉冲输入捕获
+# 环境配置
+cubeMx
+- PA17，设置为TIM17_ch1
+- 左侧找到TIM17,修改channel 1 为input capture mode即输入捕获
+- PSC设置为80－1
+- NVICseetings 使能中断
+## 代码实现
+- 在tim.h找到中断使能函数，HAL_TIM_Start_IT(   )
+- 再找到输入捕获的回调函数,TIM_IT_CaptureCallback
