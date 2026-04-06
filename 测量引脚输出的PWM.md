@@ -33,7 +33,7 @@ void C
 {
 	if(htim->Instance == TIM17)
 	{
-		capture_value = HAL_TIM_ReadCaptureValue(htim//在tim.h中找到ctrl f找到readcapture 函数
+		capture_value = HAL_TIM_ReadCaptureValue(htim,TIM_CHANNEL_1);//在tim.h中找到ctrl f找到readcapture 函数
 		TIM17->CNT = 0;
 		fre = (80000000/(80*capture_value));
 	}
@@ -43,3 +43,6 @@ void C
 
 //写完之后再到lcd_show()lcd显示函数中添加
 ```
+>[!TIPs]
+>这个函数实际上读取的是CCR值，本质是，触发中断时CNT赋值给CCR
+>所以也可以通过cature_value = TIM17->CCR1;的等效写法
