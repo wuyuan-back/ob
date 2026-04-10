@@ -17,5 +17,14 @@ HAL_ADC_Start(&hadc1)
 >
 
 
-~~
+```C
+double get_vol(ADC_HandleTypedef *hadc)
+{
+ HAL_ADC_Start(&hadc1);
+ uint32_t adc_value = HAL_ADC_GetValue(hadc);
+ return 3.3*adc_value/4096;
+}
+```
+adc为12bit
+$2^{12}$
 
