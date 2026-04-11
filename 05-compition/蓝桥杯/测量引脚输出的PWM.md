@@ -46,3 +46,10 @@ void TIM_IT_CaptureCallback()
 >[!TIPs]
 >这个函数实际上读取的是CCR值，本质是，触发中断时CNT赋值给CCR
 >所以也可以通过cature_value = TIM17->CCR1;的等效写法
+
+
+使用PWMinput on CH1;
+![[Pasted image 20260411144246.png]]
+在tim.h中2430行
+有中断使能函数
+HAL_StatusTypeDef HAL_TIM_IC_Start_IT
