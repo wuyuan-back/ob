@@ -56,3 +56,22 @@ HAL_StatusTypeDef HAL_TIM_IC_Start_IT
 ![[Pasted image 20260411151038.png]]
 channel的定义位于stm32g4xx_hal_tim.c文件中
 也可以在.h库中搜索channel
+```C
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim)
+{
+	if(htim->Instance == TIM2)
+	{
+		captureA =HAL_TIM_ReadCapturedValue(&htim2,TIM_CHANNEL_1)+1;
+		freA_measure = 1000000/captureA;
+		
+		
+	}
+	if(htim->Instance == TIM3)
+	{
+		captureB =HAL_TIM_ReadCapturedValue(&htim3,TIM_CHANNEL_1)+1;
+		freB_measure = 1000000/captureB;
+		
+		
+	}
+}//更为简单,也是PWM测量
+```
