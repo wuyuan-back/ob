@@ -53,3 +53,6 @@ void TIM_IT_CaptureCallback()
 在tim.h中2430行
 有中断使能函数
 HAL_StatusTypeDef HAL_TIM_IC_Start_IT
+![[Pasted image 20260411151038.png]]
+channel的定义位于stm32g4xx_hal_tim.c文件中
+go to defination失效
