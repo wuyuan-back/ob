@@ -29,7 +29,7 @@ cubeMx
 uint32_t fre ,capture_value;
 
 
-void C
+void TIM_IT_CaptureCallback()
 {
 	if(htim->Instance == TIM17)
 	{
