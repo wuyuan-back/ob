@@ -3,7 +3,7 @@
  [![Howland current pump circuit diagram labeled with resistors and opamp, AI generated](https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQiIT2Mr-hWLMmACrM7_4yD8fN0AHCMPvG4ueOOqQLhFfKSBWsIVW3DOjuUz5Vi) Opens in a new window](https://www.allaboutcircuits.com/technical-articles/the-howland-current-pump/) [![](https://encrypted-tbn1.gstatic.com/favicon-tbn?q=tbn:ANd9GcR9Qdwhy2KOJkvxeW8UZQohCd1GNr0xIU38i-yGxqP9uv4sivsBqk3MoeTY_zAHQbtdkSC31XM4Ru9RWYIHHf00Q_FKRlr7If2yGD4eDzEiGo50)www.allaboutcircuits.com](https://www.allaboutcircuits.com/technical-articles/the-howland-current-pump/)
 
 为了方便你理解和设计，我们可以对照图中的符号（通常标注为 $R_1, R_2, R_3, R_4$）来总结它的关键点：
-
+![[20260422_215759.png]]
 ### 1. 电路构成
 
 - **输入端 ($V_1, V_2$)：** 通常 $V_2$ 接信号电压，$V_1$ 接地（或者反过来，决定输出电流的方向）。
