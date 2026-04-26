@@ -1,6 +1,0 @@
-- 先有效果，再迭代（Cursor,Windsurf)
-- 产品需求
-- 工作流：v0.dev -> windsurf->Cursor
-- image -> text ->image
-- 非软件工程师的问题，存在unknown,自己都不知道自自己不知道，缺乏理解
-- 零基础，无法解决问题和思考
