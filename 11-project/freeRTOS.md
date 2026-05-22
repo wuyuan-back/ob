@@ -14,3 +14,8 @@ cubeMX
 - 编写代码
 - StartDefaultTask 函数定义
 	- 使用osdelay 延时
+	- 编写Task1
+- 回到CubeMx的界面
+	- 
+	- Tasks and Queues 标签页
+	- 
