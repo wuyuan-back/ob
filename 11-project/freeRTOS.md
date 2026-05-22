@@ -13,3 +13,4 @@ cubeMX
 		- 注意此时cpu调度权移到Free RTOS 手中后边代码将不会被执行
 - 编写代码
 - StartDefaultTask 函数定义
+	- 使用osdelay 延时
