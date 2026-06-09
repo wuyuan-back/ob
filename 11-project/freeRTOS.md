@@ -16,6 +16,17 @@ cubeMX
 	- 使用osdelay 延时
 	- 编写Task1
 - 回到CubeMx的界面
-	- 
-	- Tasks and Queues 标签页
-	- 
+	- freeRtos
+		- Tasks and Queues 标签页
+	- 在cubeMx中编辑
+		- 修改任务函数和任务名称
+		- 可视化修改与添加
+- FreeRTOS 任务调度原理
+- PC寄存器 指向当前指向的指令，可以修改PC寄存器的值（汇编）
+	- 时间片 重新计算时间片
+	- 记录状态参数 分别指向任务A和任务B 多线程（状态流转）
+		- 就绪态
+		- 阻塞态(使用osDelay)
+		- 运行态
+		- 挂起态
+		- ![[Pasted image 20260522122042.png]]
