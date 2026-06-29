@@ -29,4 +29,4 @@ cubeMX
 		- 阻塞态(使用osDelay)
 		- 运行态
 		- 挂起态
-		- ![[Pasted image 20260522122042.png]]
+		- ![[04-images/Pasted image 20260522122042.png]]
