@@ -22,4 +22,8 @@ the same thing came in
 - Quantize(sequence to symbols)
 - symbols to bits
 ![[Pasted image 20260703144940.png]]
+Simple(简化)
+Binary interfaces: packet structure(data) or stream(voice video)
+learn
+reduce bit rate for sources,
 
