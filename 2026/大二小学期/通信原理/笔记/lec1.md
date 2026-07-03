@@ -17,4 +17,9 @@ the same thing came in
 - signals and systems
 ![[Pasted image 20260703143432.png]]
 # information theory
+## Source Coding
+- Analog waveform to sequence
+- Quantize(sequence to symbols)
+- symbols to bits
+![[Pasted image 20260703144940.png]]
 
