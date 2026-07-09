@@ -9,7 +9,7 @@ created: 2026-06-30
 
 # OpenHarmony 轻量系统启动框架
 
-> 本文系统梳理 OpenHarmony 轻量系统（Hi3861/Hispark Pegasus）的启动流程与注册宏体系，与 [[点灯实验.md]] 互为补充。
+> 本文系统梳理 OpenHarmony 轻量系统（Hi3861/Hispark Pegasus）的启动流程与注册宏体系，与 [[点灯实验]] 互为补充。
 
 ---
 
@@ -114,7 +114,7 @@ void LOS_DoInitCall(void)
 
 ## 四、实战中的关键差异
 
-对比 [[点灯实验.md#三、延伸收获：OpenHarmony-的启动时序认知]] 中的实际教训：
+对比 [[点灯实验#三、延伸收获：OpenHarmony-的启动时序认知]] 中的实际教训：
 
 | 宏 | 多线程就绪 | 能否 `while(1)` | 能否 `osThreadNew` | 典型场景 |
 |---|---|---|---|---|
@@ -167,8 +167,8 @@ APP_FEATURE_INIT(LedDemoEntry);
 
 ## 六、参考链接
 
-- [[点灯实验.md]] — 本文的实战背景，记录了 5 个典型踩坑
-- [[2026/大二小学期/下半年规划.md]] — 鸿蒙实验在本学期规划中的位置
+- [[点灯实验]] — 本文的实战背景，记录了 5 个典型踩坑
+- [[下半年规划]] — 鸿蒙实验在本学期规划中的位置
 - OpenHarmony 源码：`utils/native/lite/include/ohos_init.h`
 - CMSIS-RTOS V2 API 参考：`osThreadNew`、`osDelay`、`osPriority`
 

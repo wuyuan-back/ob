@@ -314,7 +314,7 @@ write_bitstream -force project.bit
 
 ## 0x09 资源快链
 
-- [[2026/大二小学期/verilog/verilog]] - 语法速查手册
+- [[verilog]] - 语法速查手册
 - HDLBits - 刷题网站
 - EDA Playground - 在线仿真
 - OpenCores - 开源 IP 核
