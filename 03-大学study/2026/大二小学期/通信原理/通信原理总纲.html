@@ -1,0 +1,1230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>通信原理 · 总纲</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+<style>
+/* ===== CSS Variables & Theme ===== */
+:root {
+  --bg: #0a0e14;
+  --bg-card: #141b22;
+  --bg-card-hover: #1a2330;
+  --bg-sidebar: #0d1219;
+  --border: #1e2a36;
+  --text: #c8d6e5;
+  --text-muted: #6b7d8e;
+  --text-bright: #e8eef5;
+  --accent: #3b9eff;
+  --accent-dim: #2a6fbf;
+  --accent-bg: rgba(59, 158, 255, 0.08);
+  --orange: #ff9d3b;
+  --green: #3bd68b;
+  --red: #ff5c5c;
+  --purple: #a78bfa;
+  --cyan: #3bd6c6;
+  --yellow: #ffd23b;
+  --pink: #ff6b9d;
+  --radius: 10px;
+  --radius-sm: 6px;
+  --shadow: 0 2px 12px rgba(0,0,0,0.3);
+  --transition: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --font-mono: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, monospace;
+  --sidebar-w: 260px;
+}
+
+/* ===== Reset & Base ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  display: flex;
+  min-height: 100vh;
+}
+
+a { color: var(--accent); text-decoration: none; transition: var(--transition); }
+a:hover { color: #5cb8ff; }
+code {
+  font-family: var(--font-mono);
+  background: rgba(255,255,255,0.05);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.88em;
+}
+:target { animation: flash 1.2s ease-out; }
+@keyframes flash {
+  0%   { background: rgba(59,158,255,0.18); }
+  100% { background: transparent; }
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #2a3a4a; }
+
+/* ===== Sidebar ===== */
+.sidebar {
+  position: fixed; top: 0; left: 0; bottom: 0;
+  width: var(--sidebar-w);
+  background: var(--bg-sidebar);
+  border-right: 1px solid var(--border);
+  overflow-y: auto;
+  z-index: 100;
+  padding: 24px 0 24px 0;
+}
+.sidebar-header {
+  padding: 0 20px 20px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 12px;
+}
+.sidebar-header .logo {
+  font-size: 1.25rem; font-weight: 700; color: var(--text-bright);
+  display: flex; align-items: center; gap: 8px;
+}
+.sidebar-header .logo .icon { font-size: 1.5rem; }
+.sidebar-header .subtitle { font-size: 0.78rem; color: var(--text-muted); margin-top: 4px; }
+.sidebar-nav { padding: 0 12px; }
+.sidebar-nav .nav-section {
+  margin-bottom: 4px;
+}
+.sidebar-nav .nav-section-title {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  padding: 12px 12px 6px;
+  font-weight: 600;
+}
+.sidebar-nav a {
+  display: flex; align-items: center; gap: 8px;
+  padding: 7px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  transition: var(--transition);
+  border-left: 2px solid transparent;
+}
+.sidebar-nav a:hover,
+.sidebar-nav a.active {
+  color: var(--text-bright);
+  background: var(--accent-bg);
+  border-left-color: var(--accent);
+}
+.sidebar-nav a .ch-num {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--accent);
+  min-width: 24px;
+  text-align: center;
+}
+.sidebar-progress {
+  margin: 20px 20px 0;
+  padding: 14px;
+  background: var(--bg-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+.sidebar-progress .label {
+  font-size: 0.75rem; color: var(--text-muted);
+  display: flex; justify-content: space-between;
+  margin-bottom: 8px;
+}
+.sidebar-progress .bar {
+  height: 6px;
+  background: var(--border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.sidebar-progress .bar-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--green));
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+
+/* ===== Main Content ===== */
+.main {
+  margin-left: var(--sidebar-w);
+  flex: 1;
+  max-width: 1100px;
+  padding: 48px 56px 80px;
+}
+
+/* ===== Hero ===== */
+.hero {
+  text-align: center;
+  padding: 60px 0 48px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 48px;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--text-bright);
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+}
+.hero h1 .highlight {
+  background: linear-gradient(135deg, var(--accent), var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.hero .tagline {
+  font-size: 1.1rem;
+  color: var(--text-muted);
+  max-width: 600px;
+  margin: 0 auto 24px;
+}
+.hero .stats {
+  display: flex; justify-content: center; gap: 40px;
+  margin-top: 28px;
+}
+.hero .stat { text-align: center; }
+.hero .stat .num {
+  font-size: 1.8rem; font-weight: 800;
+  background: linear-gradient(135deg, var(--accent), var(--cyan));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.hero .stat .label { font-size: 0.8rem; color: var(--text-muted); margin-top: 2px; }
+
+/* ===== Blockquote ===== */
+blockquote {
+  border-left: 3px solid var(--accent);
+  padding: 16px 20px;
+  margin: 24px 0;
+  background: var(--accent-bg);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-style: italic;
+  color: var(--text-muted);
+}
+
+/* ===== Section Titles ===== */
+.section-title {
+  font-size: 1.6rem; font-weight: 700; color: var(--text-bright);
+  margin: 48px 0 24px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--border);
+  display: flex; align-items: center; gap: 10px;
+}
+.section-title .emoji { font-size: 1.4rem; }
+.section-subtitle {
+  font-size: 1.15rem; font-weight: 600; color: var(--text-bright);
+  margin: 32px 0 16px;
+}
+
+/* ===== Mind Map ===== */
+.mindmap {
+  display: flex; flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 32px 0;
+}
+.mindmap .root-card {
+  width: 100%; text-align: center; margin-bottom: 4px;
+}
+.mindmap .root-label {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--accent), var(--purple));
+  color: #fff;
+  padding: 10px 28px;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  letter-spacing: 0.04em;
+}
+.mindmap .branch {
+  flex: 1 1 170px; max-width: 200px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  transition: var(--transition);
+  cursor: default;
+}
+.mindmap .branch:hover {
+  border-color: var(--accent-dim);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+}
+.mindmap .branch-title {
+  font-weight: 700; font-size: 0.9rem;
+  margin-bottom: 10px;
+  display: flex; align-items: center; gap: 6px;
+}
+.mindmap .branch-title .dot {
+  width: 8px; height: 8px; border-radius: 50%; display: inline-block;
+}
+.mindmap .branch ul {
+  list-style: none;
+  font-size: 0.78rem; color: var(--text-muted);
+}
+.mindmap .branch ul li { padding: 2px 0; }
+.mindmap .branch ul li::before { content: '› '; color: var(--accent-dim); }
+
+/* ===== Chapter Cards ===== */
+.chapter-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.chapter-card:hover { border-color: #2a3f55; }
+.chapter-card .ch-header {
+  display: flex; align-items: center; gap: 14px;
+  padding: 18px 22px;
+  cursor: pointer;
+  user-select: none;
+  transition: var(--transition);
+}
+.chapter-card .ch-header:hover { background: rgba(255,255,255,0.015); }
+.chapter-card .ch-num {
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800; font-size: 0.85rem;
+  flex-shrink: 0;
+}
+.chapter-card .ch-info { flex: 1; }
+.chapter-card .ch-info h3 { font-size: 1.05rem; color: var(--text-bright); }
+.chapter-card .ch-info .ch-eng { font-size: 0.75rem; color: var(--text-muted); }
+.chapter-card .ch-toggle {
+  font-size: 1.2rem; color: var(--text-muted);
+  transition: transform 0.3s ease;
+}
+.chapter-card.open .ch-toggle { transform: rotate(180deg); }
+.chapter-card .ch-body {
+  display: none;
+  padding: 0 22px 22px;
+  border-top: 1px solid var(--border);
+}
+.chapter-card.open .ch-body { display: block; }
+.chapter-card .ch-body .topics {
+  display: flex; flex-wrap: wrap; gap: 8px;
+  margin: 16px 0;
+}
+.chapter-card .ch-body .topic-tag {
+  font-size: 0.78rem;
+  padding: 5px 12px;
+  border-radius: 16px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+}
+
+/* ===== Formula Cards ===== */
+.formula-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+.formula-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: var(--transition);
+}
+.formula-card:hover { border-color: var(--accent-dim); }
+.formula-card .formula-name {
+  font-size: 0.8rem; color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.formula-card .formula-desc {
+  font-size: 0.78rem; color: var(--text-muted);
+  margin-top: 8px;
+}
+
+/* ===== Comparison Table ===== */
+.table-wrap {
+  overflow-x: auto;
+  margin: 20px 0;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+thead { background: var(--bg-sidebar); }
+th {
+  padding: 12px 16px;
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-bright);
+  border-bottom: 2px solid var(--border);
+  white-space: nowrap;
+}
+td {
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-muted);
+}
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: rgba(255,255,255,0.015); }
+td:first-child, th:first-child { font-weight: 600; color: var(--text-bright); }
+
+/* ===== Block Diagram ===== */
+.block-diagram {
+  display: flex; align-items: center; justify-content: center;
+  flex-wrap: wrap; gap: 0;
+  padding: 28px 16px;
+  margin: 20px 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow-x: auto;
+}
+.block-diagram .block {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 16px;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-bright);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.block-diagram .arrow {
+  font-size: 1.2rem;
+  color: var(--text-muted);
+  margin: 0 6px;
+  flex-shrink: 0;
+}
+.block-diagram .block.modulator { border-color: var(--accent-dim); color: var(--accent); }
+.block-diagram .block.channel  { border-color: var(--orange); color: var(--orange); }
+.block-diagram .block.demod    { border-color: var(--green); color: var(--green); }
+.block-diagram .block.source   { border-color: var(--purple); color: var(--purple); }
+.block-diagram .block.sink     { border-color: var(--purple); color: var(--purple); }
+.block-diagram .block.noise    { border-color: var(--red); color: var(--red); }
+
+/* ===== Part Divider ===== */
+.part-divider {
+  display: flex; align-items: center; gap: 16px;
+  margin: 40px 0 20px;
+}
+.part-divider .part-num {
+  font-size: 0.75rem; font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.part-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* ===== Back to Top ===== */
+.back-top {
+  position: fixed; bottom: 28px; right: 28px;
+  width: 42px; height: 42px;
+  border-radius: 50%;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: var(--transition);
+  z-index: 50;
+  opacity: 0;
+  pointer-events: none;
+}
+.back-top.visible { opacity: 1; pointer-events: auto; }
+.back-top:hover { border-color: var(--accent); color: var(--accent); }
+
+/* ===== Responsive ===== */
+@media (max-width: 768px) {
+  .sidebar { display: none; }
+  .main { margin-left: 0; padding: 24px 20px 60px; }
+  .hero h1 { font-size: 2rem; }
+  .hero .stats { gap: 20px; }
+  .mindmap .branch { flex: 1 1 140px; max-width: none; }
+  .formula-grid { grid-template-columns: 1fr; }
+  .block-diagram { justify-content: flex-start; }
+}
+
+/* ===== Print ===== */
+@media print {
+  .sidebar, .back-top { display: none; }
+  .main { margin-left: 0; padding: 0; }
+  .chapter-card .ch-body { display: block !important; }
+  body { font-size: 11pt; color: #000; background: #fff; }
+}
+</style>
+</head>
+<body>
+
+<!-- ==================== SIDEBAR ==================== -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <div class="logo">
+      <span class="icon">📡</span> 通信原理
+    </div>
+    <div class="subtitle">Principles of Communications</div>
+  </div>
+  <nav class="sidebar-nav">
+    <div class="nav-section">
+      <div class="nav-section-title">总览</div>
+      <a href="#hero">🏠 课程概览</a>
+      <a href="#mindmap">🧠 知识体系</a>
+      <a href="#system-model">📊 通信系统模型</a>
+      <a href="#key-formulas">📐 核心公式</a>
+    </div>
+    <div class="nav-section">
+      <div class="nav-section-title">第一部分 · 基础篇</div>
+      <a href="#ch1"><span class="ch-num">1</span> 绪论</a>
+      <a href="#ch2"><span class="ch-num">2</span> 确知信号分析</a>
+      <a href="#ch3"><span class="ch-num">3</span> 随机过程</a>
+      <a href="#ch4"><span class="ch-num">4</span> 信道</a>
+    </div>
+    <div class="nav-section">
+      <div class="nav-section-title">第二部分 · 模拟通信</div>
+      <a href="#ch5"><span class="ch-num">5</span> 模拟调制系统</a>
+    </div>
+    <div class="nav-section">
+      <div class="nav-section-title">第三部分 · 数字通信</div>
+      <a href="#ch6"><span class="ch-num">6</span> 数字基带传输</a>
+      <a href="#ch7"><span class="ch-num">7</span> 数字带通传输</a>
+      <a href="#ch8"><span class="ch-num">8</span> 新型数字调制</a>
+    </div>
+    <div class="nav-section">
+      <div class="nav-section-title">第四部分 · 编码</div>
+      <a href="#ch9"><span class="ch-num">9</span> 模拟信号数字传输</a>
+      <a href="#ch10"><span class="ch-num">10</span> 最佳接收</a>
+      <a href="#ch11"><span class="ch-num">11</span> 差错控制编码</a>
+    </div>
+    <div class="nav-section">
+      <div class="nav-section-title">第五部分 · 同步</div>
+      <a href="#ch12"><span class="ch-num">12</span> 正交编码</a>
+      <a href="#ch13"><span class="ch-num">13</span> 同步原理</a>
+    </div>
+    <div class="nav-section">
+      <div class="nav-section-title">工具</div>
+      <a href="#comparison">📋 调制方式对比</a>
+      <a href="#resources">📚 学习资源</a>
+    </div>
+  </nav>
+  <div class="sidebar-progress">
+    <div class="label"><span>学习进度</span><span id="progress-pct">1 / 13</span></div>
+    <div class="bar"><div class="bar-fill" id="progress-bar" style="width: 7.7%"></div></div>
+  </div>
+</aside>
+
+<!-- ==================== MAIN ==================== -->
+<main class="main">
+
+<!-- Hero -->
+<section id="hero" class="hero">
+  <h1>通信原理 <span class="highlight">总纲</span></h1>
+  <p class="tagline">通信的本质是信息的有效可靠传输 —— Claude Shannon</p>
+  <div class="stats">
+    <div class="stat"><div class="num">13</div><div class="label">章节</div></div>
+    <div class="stat"><div class="num">5</div><div class="label">知识模块</div></div>
+    <div class="stat"><div class="num">10</div><div class="label">周学习计划</div></div>
+    <div class="stat"><div class="num">~125h</div><div class="label">预计学时</div></div>
+  </div>
+</section>
+
+<!-- ===== 知识体系 MIND MAP ===== -->
+<section id="mindmap">
+  <h2 class="section-title"><span class="emoji">🧠</span> 知识体系总览</h2>
+  <div class="mindmap">
+    <div class="root-card">
+      <span class="root-label">📡 通信原理</span>
+    </div>
+    <div class="branch">
+      <div class="branch-title"><span class="dot" style="background:var(--accent)"></span> 基础篇</div>
+      <ul>
+        <li>通信系统模型</li>
+        <li>信息量与熵</li>
+        <li>确知信号分析</li>
+        <li>随机过程</li>
+        <li>高斯白噪声</li>
+        <li>信道与香农公式</li>
+      </ul>
+    </div>
+    <div class="branch">
+      <div class="branch-title"><span class="dot" style="background:var(--orange)"></span> 模拟调制</div>
+      <ul>
+        <li>AM / DSB / SSB / VSB</li>
+        <li>角度调制 FM / PM</li>
+        <li>抗噪声性能分析</li>
+        <li>频分复用 FDM</li>
+      </ul>
+    </div>
+    <div class="branch">
+      <div class="branch-title"><span class="dot" style="background:var(--green)"></span> 数字基带/带通</div>
+      <ul>
+        <li>码型 HDB3 / AMI</li>
+        <li>码间串扰 & Nyquist</li>
+        <li>眼图 / 均衡</li>
+        <li>ASK / FSK / PSK / DPSK</li>
+        <li>QAM / MSK / OFDM</li>
+      </ul>
+    </div>
+    <div class="branch">
+      <div class="branch-title"><span class="dot" style="background:var(--purple)"></span> 编码</div>
+      <ul>
+        <li>采样定理 & PCM / ΔM</li>
+        <li>匹配滤波器</li>
+        <li>MAP / ML 准则</li>
+        <li>线性分组码</li>
+        <li>卷积码 / 交织</li>
+      </ul>
+    </div>
+    <div class="branch">
+      <div class="branch-title"><span class="dot" style="background:var(--pink)"></span> 同步与扩展</div>
+      <ul>
+        <li>载波同步</li>
+        <li>位同步 / 帧同步</li>
+        <li>正交编码</li>
+        <li>伪随机序列</li>
+        <li>扩频通信基础</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 通信系统模型 ===== -->
+<section id="system-model">
+  <h2 class="section-title"><span class="emoji">📊</span> 通信系统一般模型</h2>
+  <div class="block-diagram">
+    <div class="block source">信息源</div>
+    <span class="arrow">→</span>
+    <div class="block source">信源编码</div>
+    <span class="arrow">→</span>
+    <div class="block source">信道编码</div>
+    <span class="arrow">→</span>
+    <div class="block modulator">调制器</div>
+    <span class="arrow">→</span>
+    <div class="block channel">信道</div>
+    <span class="arrow">→</span>
+    <div class="block demod">解调器</div>
+    <span class="arrow">→</span>
+    <div class="block sink">信道译码</div>
+    <span class="arrow">→</span>
+    <div class="block sink">信源译码</div>
+    <span class="arrow">→</span>
+    <div class="block sink">信宿</div>
+  </div>
+  <div style="text-align:center;margin-top:8px;">
+    <span class="block noise" style="display:inline-block;font-size:0.78rem;">⬆ 噪声源 $n(t)$</span>
+  </div>
+
+  <h3 class="section-subtitle">三大核心指标</h3>
+  <div class="formula-grid">
+    <div class="formula-card">
+      <div class="formula-name">🕐 有效性 (Efficiency)</div>
+      <div style="font-size:1.1rem;text-align:center;color:var(--text-bright);padding:8px;">频带利用率 $\eta = \dfrac{R_B}{B}$</div>
+      <div class="formula-desc">单位频带传输的比特率 (bps/Hz)</div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">✅ 可靠性 (Reliability)</div>
+      <div style="font-size:1.1rem;text-align:center;color:var(--text-bright);padding:8px;">误码率 $P_e = \dfrac{N_e}{N}$</div>
+      <div class="formula-desc">错误码元数 / 传输总码元数</div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">🔒 安全性 (Security)</div>
+      <div style="font-size:0.95rem;text-align:center;color:var(--text-muted);padding:8px;">加密与认证机制</div>
+      <div class="formula-desc">信息不被未授权方截获或篡改</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 核心公式 ===== -->
+<section id="key-formulas">
+  <h2 class="section-title"><span class="emoji">📐</span> 核心公式速查</h2>
+  <div class="formula-grid">
+    <div class="formula-card">
+      <div class="formula-name">信息量 (自信息)</div>
+      <div>$$I(x_i) = -\log_2 P(x_i) \quad \text{(bit)}$$</div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">信息熵 (平均信息量)</div>
+      <div>$$H(X) = -\sum_{i=1}^{n} P(x_i) \log_2 P(x_i)$$</div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">香农信道容量公式</div>
+      <div>$$C = B \log_2\!\left(1 + \frac{S}{N}\right)$$</div>
+      <div class="formula-desc">$C$: 信道容量 (bps), $B$: 带宽 (Hz), $S/N$: 信噪比</div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">奈奎斯特无码间干扰准则</div>
+      <div>$$R_B \leq 2B \quad \text{或} \quad \sum_{k} H\!\left(f + \frac{k}{T_s}\right) = T_s$$</div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">采样定理 (Nyquist)</div>
+      <div>$$f_s \geq 2f_H$$</div>
+      <div class="formula-desc">采样频率至少为信号最高频率的 2 倍</div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">AM 调制信号</div>
+      <div>$$s_{\text{AM}}(t) = [A_0 + m(t)]\cos(\omega_c t)$$</div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">DSB-SC 调制信号</div>
+      <div>$$s_{\text{DSB}}(t) = m(t)\cos(\omega_c t)$$</div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">FM 信号</div>
+      <div>$$s_{\text{FM}}(t) = A\cos\!\left[\omega_c t + K_f\!\int_0^t m(\tau)d\tau\right]$$</div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">2PSK 误码率</div>
+      <div>$$P_e = \frac{1}{2}\text{erfc}\!\left(\sqrt{\frac{E_b}{N_0}}\right)$$</div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">匹配滤波器输出 SNR</div>
+      <div>$$\left(\frac{S}{N}\right)_{\max} = \frac{2E}{n_0}$$</div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">PCM 量化信噪比</div>
+      <div>$$(S/N)_q \approx 6.02N + 1.76 \quad \text{(dB)}$$</div>
+      <div class="formula-desc">$N$: 每样点编码位数</div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">QAM 信号一般形式</div>
+      <div>$$s_{\text{QAM}}(t) = I(t)\cos(\omega_c t) - Q(t)\sin(\omega_c t)$$</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 第 1 章 ===== -->
+<div class="part-divider"><span class="part-num">第一部分 · 基础篇</span></div>
+
+<div class="chapter-card" id="ch1">
+  <div class="ch-header" onclick="toggleChapter(this)">
+    <div class="ch-num" style="background:rgba(59,158,255,0.15);color:var(--accent)">1</div>
+    <div class="ch-info">
+      <h3>绪论</h3>
+      <div class="ch-eng">Introduction to Communication Systems</div>
+    </div>
+    <span class="ch-toggle">▼</span>
+  </div>
+  <div class="ch-body">
+    <div class="topics">
+      <span class="topic-tag">通信系统模型</span>
+      <span class="topic-tag">模拟 vs 数字通信</span>
+      <span class="topic-tag">信息量 $I = -\log_2 P$</span>
+      <span class="topic-tag">信息熵 $H(X)$</span>
+      <span class="topic-tag">码元速率 $R_B$</span>
+      <span class="topic-tag">比特率 $R_b$</span>
+      <span class="topic-tag">误码率 $P_e$</span>
+      <span class="topic-tag">误信率 $P_b$</span>
+    </div>
+    <p style="color:var(--text-muted);font-size:0.88rem;">
+      <strong>核心问题：</strong>通信系统由哪几部分组成？如何衡量一个通信系统的性能？
+      掌握模拟通信与数字通信的本质区别，以及有效性、可靠性两大指标的定义与计算。
+    </p>
+  </div>
+</div>
+
+<div class="chapter-card" id="ch2">
+  <div class="ch-header" onclick="toggleChapter(this)">
+    <div class="ch-num" style="background:rgba(59,158,255,0.15);color:var(--accent)">2</div>
+    <div class="ch-info">
+      <h3>确知信号分析</h3>
+      <div class="ch-eng">Deterministic Signal Analysis</div>
+    </div>
+    <span class="ch-toggle">▼</span>
+  </div>
+  <div class="ch-body">
+    <div class="topics">
+      <span class="topic-tag">傅里叶变换</span>
+      <span class="topic-tag">能量谱密度</span>
+      <span class="topic-tag">功率谱密度</span>
+      <span class="topic-tag">自相关函数</span>
+      <span class="topic-tag">Parseval 定理</span>
+      <span class="topic-tag">卷积定理</span>
+      <span class="topic-tag">希尔伯特变换</span>
+    </div>
+    <p style="color:var(--text-muted);font-size:0.88rem;">
+      <strong>关键公式：</strong>能量信号 $E = \int_{-\infty}^{\infty} |s(t)|^2 dt = \int_{-\infty}^{\infty} |S(f)|^2 df$
+      <br>功率信号 $P = \lim_{T\to\infty} \frac{1}{T}\int_{-T/2}^{T/2} |s(t)|^2 dt$
+      <br><strong>核心工具：</strong>傅里叶变换是分析信号频谱的基础工具，是后续所有调制分析的前提。
+    </p>
+  </div>
+</div>
+
+<div class="chapter-card" id="ch3">
+  <div class="ch-header" onclick="toggleChapter(this)">
+    <div class="ch-num" style="background:rgba(59,158,255,0.15);color:var(--accent)">3</div>
+    <div class="ch-info">
+      <h3>随机过程</h3>
+      <div class="ch-eng">Random Processes & Noise</div>
+    </div>
+    <span class="ch-toggle">▼</span>
+  </div>
+  <div class="ch-body">
+    <div class="topics">
+      <span class="topic-tag">平稳随机过程 (SSS/WSS)</span>
+      <span class="topic-tag">各态历经性</span>
+      <span class="topic-tag">高斯过程</span>
+      <span class="topic-tag">白噪声 $n_0/2$</span>
+      <span class="topic-tag">窄带随机过程</span>
+      <span class="topic-tag">包络与相位分布</span>
+      <span class="topic-tag">正弦波+窄带噪声</span>
+    </div>
+    <p style="color:var(--text-muted);font-size:0.88rem;">
+      <strong>为什么重要？</strong> 实际通信中的信号和噪声都是随机的——热噪声、散粒噪声等。
+      随机过程是分析通信系统抗噪声性能的数学基础。
+      <br><strong>核心分布：</strong>高斯分布、瑞利分布、莱斯分布、均匀分布
+    </p>
+  </div>
+</div>
+
+<div class="chapter-card" id="ch4">
+  <div class="ch-header" onclick="toggleChapter(this)">
+    <div class="ch-num" style="background:rgba(59,158,255,0.15);color:var(--accent)">4</div>
+    <div class="ch-info">
+      <h3>信道</h3>
+      <div class="ch-eng">Channel Characteristics & Capacity</div>
+    </div>
+    <span class="ch-toggle">▼</span>
+  </div>
+  <div class="ch-body">
+    <div class="topics">
+      <span class="topic-tag">恒参信道</span>
+      <span class="topic-tag">随参信道 (衰落)</span>
+      <span class="topic-tag">多径效应</span>
+      <span class="topic-tag">香农公式 $C = B\log_2(1+S/N)$</span>
+      <span class="topic-tag">信道容量三要素</span>
+      <span class="topic-tag">调制信道模型</span>
+      <span class="topic-tag">编码信道模型</span>
+    </div>
+    <blockquote>
+      香农公式的意义：它给出了在给定带宽和信噪比条件下，无差错传输的最大信息速率上限。
+      增大带宽或提高信噪比都能提高信道容量，但 <strong>带宽换信噪比并不等价</strong>。
+    </blockquote>
+  </div>
+</div>
+
+<!-- ===== 第 5 章 ===== -->
+<div class="part-divider"><span class="part-num">第二部分 · 模拟通信</span></div>
+
+<div class="chapter-card" id="ch5">
+  <div class="ch-header" onclick="toggleChapter(this)">
+    <div class="ch-num" style="background:rgba(255,157,59,0.15);color:var(--orange)">5</div>
+    <div class="ch-info">
+      <h3>模拟调制系统</h3>
+      <div class="ch-eng">Analog Modulation — AM · DSB · SSB · FM · PM</div>
+    </div>
+    <span class="ch-toggle">▼</span>
+  </div>
+  <div class="ch-body">
+    <div class="topics">
+      <span class="topic-tag">AM 调幅</span>
+      <span class="topic-tag">DSB-SC 抑制载波</span>
+      <span class="topic-tag">SSB 单边带</span>
+      <span class="topic-tag">VSB 残留边带</span>
+      <span class="topic-tag">FM 调频</span>
+      <span class="topic-tag">PM 调相</span>
+      <span class="topic-tag">相干解调</span>
+      <span class="topic-tag">包络检波</span>
+      <span class="topic-tag">门限效应</span>
+      <span class="topic-tag">调制制度增益 $G$</span>
+    </div>
+    <h4 style="margin-top:16px;color:var(--text-bright);font-size:0.9rem;">线性调制对比</h4>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>方式</th><th>带宽</th><th>制度增益 $G$</th><th>特点</th></tr></thead>
+        <tbody>
+          <tr><td>AM</td><td>$2f_m$</td><td>$\frac{2}{3}$ (单音)</td><td>包络检波简单，功率利用率低</td></tr>
+          <tr><td>DSB-SC</td><td>$2f_m$</td><td>$2$</td><td>需相干解调，功率效率高</td></tr>
+          <tr><td>SSB</td><td>$f_m$</td><td>$1$</td><td>带宽最省，实现复杂</td></tr>
+          <tr><td>VSB</td><td>略大于 $f_m$</td><td>—</td><td>电视图像传输，折中方案</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="color:var(--text-muted);font-size:0.88rem;margin-top:12px;">
+      <strong>FM 核心公式：</strong>卡森带宽 $B_{\text{FM}} \approx 2(\Delta f + f_m) = 2f_m(\beta + 1)$，
+      制度增益 $G_{\text{FM}} = 3\beta^2(\beta+1)$，$\beta$ 为调频指数。
+    </p>
+  </div>
+</div>
+
+<!-- ===== 第 6-8 章 ===== -->
+<div class="part-divider"><span class="part-num">第三部分 · 数字通信</span></div>
+
+<div class="chapter-card" id="ch6">
+  <div class="ch-header" onclick="toggleChapter(this)">
+    <div class="ch-num" style="background:rgba(59,214,139,0.15);color:var(--green)">6</div>
+    <div class="ch-info">
+      <h3>数字基带传输系统</h3>
+      <div class="ch-eng">Digital Baseband Transmission</div>
+    </div>
+    <span class="ch-toggle">▼</span>
+  </div>
+  <div class="ch-body">
+    <div class="topics">
+      <span class="topic-tag">常用码型 (NRZ/RZ/AMI/HDB3)</span>
+      <span class="topic-tag">码间串扰 ISI</span>
+      <span class="topic-tag">Nyquist 第一准则</span>
+      <span class="topic-tag">升余弦滚降滤波器</span>
+      <span class="topic-tag">眼图</span>
+      <span class="topic-tag">时域均衡 (迫零/LMS)</span>
+      <span class="topic-tag">部分响应系统</span>
+    </div>
+    <blockquote>
+      <strong>Nyquist 第一准则：</strong>无 ISI 的充要条件——
+      $\displaystyle\sum_{k=-\infty}^{\infty} H\!\left(f + \frac{k}{T_s}\right) = T_s,\quad |f| \leq \frac{1}{2T_s}$
+      <br>实际系统常用<strong>升余弦滚降</strong>：$\alpha = 0$ 为理想低通，$\alpha > 0$ 增加带宽换实现可行性。
+    </blockquote>
+  </div>
+</div>
+
+<div class="chapter-card" id="ch7">
+  <div class="ch-header" onclick="toggleChapter(this)">
+    <div class="ch-num" style="background:rgba(59,214,139,0.15);color:var(--green)">7</div>
+    <div class="ch-info">
+      <h3>数字带通传输系统</h3>
+      <div class="ch-eng">Digital Passband Transmission — ASK · FSK · PSK</div>
+    </div>
+    <span class="ch-toggle">▼</span>
+  </div>
+  <div class="ch-body">
+    <div class="topics">
+      <span class="topic-tag">2ASK (OOK)</span>
+      <span class="topic-tag">2FSK</span>
+      <span class="topic-tag">2PSK (BPSK)</span>
+      <span class="topic-tag">2DPSK (差分)</span>
+      <span class="topic-tag">MASK / MFSK / MPSK</span>
+      <span class="topic-tag">相干解调</span>
+      <span class="topic-tag">非相干解调</span>
+    </div>
+    <h4 style="margin-top:16px;color:var(--text-bright);font-size:0.9rem;">二进制调制误码率对比 (相干)</h4>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>调制方式</th><th>误码率 $P_e$ (相干解调)</th><th>带宽</th></tr></thead>
+        <tbody>
+          <tr><td>2ASK</td><td>$\frac{1}{2}\text{erfc}\!\left(\sqrt{\frac{E_b}{4N_0}}\right)$</td><td>$2R_B$</td></tr>
+          <tr><td>2FSK</td><td>$\frac{1}{2}\text{erfc}\!\left(\sqrt{\frac{E_b}{2N_0}}\right)$</td><td>$|f_2-f_1| + 2R_B$</td></tr>
+          <tr><td>2PSK</td><td>$\frac{1}{2}\text{erfc}\!\left(\sqrt{\frac{E_b}{N_0}}\right)$</td><td>$2R_B$</td></tr>
+          <tr><td>2DPSK</td><td>$\frac{1}{2}\exp\!\left(-\frac{E_b}{N_0}\right)$ (差分相干)</td><td>$2R_B$</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="color:var(--text-muted);font-size:0.88rem;margin-top:12px;">
+      <strong>性能排序 (相同 $E_b/N_0$)：</strong>2PSK 最優 → 2DPSK ≈ 1.5dB 损失 → 2FSK ≈ 3dB 损失 → 2ASK ≈ 6dB 损失
+    </p>
+  </div>
+</div>
+
+<div class="chapter-card" id="ch8">
+  <div class="ch-header" onclick="toggleChapter(this)">
+    <div class="ch-num" style="background:rgba(59,214,139,0.15);color:var(--green)">8</div>
+    <div class="ch-info">
+      <h3>新型数字调制技术</h3>
+      <div class="ch-eng">Advanced Digital Modulation — QAM · MSK · OFDM</div>
+    </div>
+    <span class="ch-toggle">▼</span>
+  </div>
+  <div class="ch-body">
+    <div class="topics">
+      <span class="topic-tag">QAM 正交幅度调制</span>
+      <span class="topic-tag">16QAM / 64QAM / 256QAM</span>
+      <span class="topic-tag">星座图</span>
+      <span class="topic-tag">MSK 最小频移键控</span>
+      <span class="topic-tag">GMSK</span>
+      <span class="topic-tag">OFDM 正交频分复用</span>
+      <span class="topic-tag">循环前缀 CP</span>
+      <span class="topic-tag">子载波正交性</span>
+    </div>
+    <blockquote>
+      <strong>QAM = 幅度 + 相位联合调制：</strong>MQAM 的频带利用率为 $\log_2 M$ bps/Hz，
+      但 $M$ 越大星座点越密，抗噪性越差。
+      <br><strong>OFDM</strong> 将高速数据流分成多路低速子载波并行传输，有效对抗频率选择性衰落，是 4G/5G/WiFi 的核心技术。
+    </blockquote>
+  </div>
+</div>
+
+<!-- ===== 第 9-11 章 ===== -->
+<div class="part-divider"><span class="part-num">第四部分 · 信源与信道编码</span></div>
+
+<div class="chapter-card" id="ch9">
+  <div class="ch-header" onclick="toggleChapter(this)">
+    <div class="ch-num" style="background:rgba(167,139,250,0.15);color:var(--purple)">9</div>
+    <div class="ch-info">
+      <h3>模拟信号的数字传输</h3>
+      <div class="ch-eng">Source Coding — Sampling · Quantization · PCM</div>
+    </div>
+    <span class="ch-toggle">▼</span>
+  </div>
+  <div class="ch-body">
+    <div class="topics">
+      <span class="topic-tag">低通采样定理 $f_s \geq 2f_H$</span>
+      <span class="topic-tag">带通采样定理</span>
+      <span class="topic-tag">均匀量化</span>
+      <span class="topic-tag">非均匀量化 (A律/μ律)</span>
+      <span class="topic-tag">PCM 脉冲编码调制</span>
+      <span class="topic-tag">ΔM 增量调制</span>
+      <span class="topic-tag">过载失真</span>
+      <span class="topic-tag">时分复用 TDM</span>
+    </div>
+    <p style="color:var(--text-muted);font-size:0.88rem;">
+      <strong>PCM 三步骤：</strong>采样 → 量化 → 编码
+      <br><strong>量化信噪比：</strong>$(S/N)_q \approx 6.02N + 1.76$ dB（均匀量化，正弦信号）
+      <br><strong>非均匀量化：</strong>A律 (中国/欧洲 PCM 30/32) 和 μ律 (北美 PCM 24) 压缩扩张
+    </p>
+  </div>
+</div>
+
+<div class="chapter-card" id="ch10">
+  <div class="ch-header" onclick="toggleChapter(this)">
+    <div class="ch-num" style="background:rgba(167,139,250,0.15);color:var(--purple)">10</div>
+    <div class="ch-info">
+      <h3>数字信号的最佳接收</h3>
+      <div class="ch-eng">Optimum Reception — Matched Filter & MAP/ML</div>
+    </div>
+    <span class="ch-toggle">▼</span>
+  </div>
+  <div class="ch-body">
+    <div class="topics">
+      <span class="topic-tag">匹配滤波器 $h(t) = s(T-t)$</span>
+      <span class="topic-tag">相关接收机</span>
+      <span class="topic-tag">最大后验概率 MAP</span>
+      <span class="topic-tag">最大似然 ML</span>
+      <span class="topic-tag">最小误码率准则</span>
+      <span class="topic-tag">二进制最佳接收机结构</span>
+    </div>
+    <blockquote>
+      <strong>匹配滤波器核心结论：</strong>在白噪声背景下，匹配滤波器使输出 SNR 最大化——
+      $\left(\frac{S}{N}\right)_{\max} = \frac{2E}{n_0}$，
+      只与信号能量 $E$ 和噪声功率谱密度 $n_0$ 有关，<strong>与信号波形无关</strong>。
+    </blockquote>
+  </div>
+</div>
+
+<div class="chapter-card" id="ch11">
+  <div class="ch-header" onclick="toggleChapter(this)">
+    <div class="ch-num" style="background:rgba(167,139,250,0.15);color:var(--purple)">11</div>
+    <div class="ch-info">
+      <h3>差错控制编码</h3>
+      <div class="ch-eng">Channel Coding — Block Codes · Convolutional Codes</div>
+    </div>
+    <span class="ch-toggle">▼</span>
+  </div>
+  <div class="ch-body">
+    <div class="topics">
+      <span class="topic-tag">检错 vs 纠错</span>
+      <span class="topic-tag">汉明距离</span>
+      <span class="topic-tag">线性分组码 $(n,k)$</span>
+      <span class="topic-tag">生成矩阵 $G$</span>
+      <span class="topic-tag">监督矩阵 $H$</span>
+      <span class="topic-tag">伴随式译码</span>
+      <span class="topic-tag">循环码 CRC</span>
+      <span class="topic-tag">卷积码</span>
+      <span class="topic-tag">Viterbi 译码</span>
+      <span class="topic-tag">交织</span>
+    </div>
+    <p style="color:var(--text-muted);font-size:0.88rem;">
+      <strong>核心思想：</strong>通过添加冗余比特实现差错控制，以<strong>带宽换可靠性</strong>。
+      <br>线性分组码 $(n,k,d_{\min})$：$n$ 码长，$k$ 信息位，$d_{\min}$ 最小汉明距离
+      <br>纠错能力：$t = \lfloor (d_{\min}-1)/2 \rfloor$ &nbsp;|&nbsp; 检错能力：$e = d_{\min}-1$
+    </p>
+  </div>
+</div>
+
+<!-- ===== 第 12-13 章 ===== -->
+<div class="part-divider"><span class="part-num">第五部分 · 同步与扩展</span></div>
+
+<div class="chapter-card" id="ch12">
+  <div class="ch-header" onclick="toggleChapter(this)">
+    <div class="ch-num" style="background:rgba(255,107,157,0.15);color:var(--pink)">12</div>
+    <div class="ch-info">
+      <h3>正交编码与伪随机序列</h3>
+      <div class="ch-eng">Orthogonal Codes & Pseudo-Random Sequences</div>
+    </div>
+    <span class="ch-toggle">▼</span>
+  </div>
+  <div class="ch-body">
+    <div class="topics">
+      <span class="topic-tag">正交码 (Walsh 码)</span>
+      <span class="topic-tag">m 序列</span>
+      <span class="topic-tag">Gold 序列</span>
+      <span class="topic-tag">扩频通信 (DSSS/FHSS)</span>
+      <span class="topic-tag">CDMA 码分多址</span>
+      <span class="topic-tag">伪随机序列性质</span>
+    </div>
+  </div>
+</div>
+
+<div class="chapter-card" id="ch13">
+  <div class="ch-header" onclick="toggleChapter(this)">
+    <div class="ch-num" style="background:rgba(255,107,157,0.15);color:var(--pink)">13</div>
+    <div class="ch-info">
+      <h3>同步原理</h3>
+      <div class="ch-eng">Synchronization — Carrier · Symbol · Frame</div>
+    </div>
+    <span class="ch-toggle">▼</span>
+  </div>
+  <div class="ch-body">
+    <div class="topics">
+      <span class="topic-tag">载波同步 (Costas环/平方环)</span>
+      <span class="topic-tag">位同步 (早迟门/Gardner)</span>
+      <span class="topic-tag">帧同步 (巴克码/独特码)</span>
+      <span class="topic-tag">网同步</span>
+      <span class="topic-tag">锁相环 PLL</span>
+    </div>
+    <blockquote>
+      同步是数字通信系统正常工作的<strong>前提条件</strong>。
+      没有准确的载波同步 → 无法相干解调；没有位同步 → 无法正确判决；没有帧同步 → 无法解析数据帧结构。
+    </blockquote>
+  </div>
+</div>
+
+<!-- ===== 调制方式对比总表 ===== -->
+<section id="comparison">
+  <h2 class="section-title"><span class="emoji">📋</span> 调制方式综合对比</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>调制方式</th>
+          <th>类型</th>
+          <th>带宽</th>
+          <th>$P_e$ (相干)</th>
+          <th>制度增益</th>
+          <th>典型应用</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>AM</td><td>模拟·线性</td><td>$2f_m$</td><td>—</td><td>$\leq 2/3$</td><td>中短波广播</td></tr>
+        <tr><td>DSB-SC</td><td>模拟·线性</td><td>$2f_m$</td><td>—</td><td>$2$</td><td>立体声广播</td></tr>
+        <tr><td>SSB</td><td>模拟·线性</td><td>$f_m$</td><td>—</td><td>$1$</td><td>短波通信</td></tr>
+        <tr><td>FM</td><td>模拟·非线性</td><td>$2f_m(\beta+1)$</td><td>—</td><td>$3\beta^2(\beta+1)$</td><td>广播/对讲机</td></tr>
+        <tr><td>2ASK</td><td>数字·带通</td><td>$2R_B$</td><td>中</td><td>—</td><td>光纤 (OOK)</td></tr>
+        <tr><td>2FSK</td><td>数字·带通</td><td>$|f_1-f_2|+2R_B$</td><td>较低</td><td>—</td><td>低速数传</td></tr>
+        <tr><td>2PSK</td><td>数字·带通</td><td>$2R_B$</td><td>最低</td><td>—</td><td>卫星通信</td></tr>
+        <tr><td>QPSK</td><td>数字·带通</td><td>$R_B$</td><td>低</td><td>—</td><td>卫星/4G</td></tr>
+        <tr><td>16QAM</td><td>数字·带通</td><td>$R_B/2$</td><td>中</td><td>—</td><td>4G LTE/5G</td></tr>
+        <tr><td>OFDM</td><td>数字·多载波</td><td>$N \cdot \Delta f$</td><td>低 (含编码)</td><td>—</td><td>WiFi/4G/5G/DVB</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ===== 资源 ===== -->
+<section id="resources">
+  <h2 class="section-title"><span class="emoji">📚</span> 学习资源</h2>
+  <div class="formula-grid">
+    <div class="formula-card">
+      <div class="formula-name">📖 主教材</div>
+      <div style="color:var(--text-bright);font-size:0.92rem;">
+        《通信原理（第7版）》<br>樊昌信、曹丽娜 编著<br>国防工业出版社
+      </div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">🎬 推荐课程</div>
+      <div style="color:var(--text-muted);font-size:0.85rem;">
+        ⭐ 西电 · 曹丽娜（B站/中国大学MOOC）<br>
+        ⭐ 北邮 · 杨鸿文（B站/中国大学MOOC）<br>
+        MIT 6.450 · 数字通信原理
+      </div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">🛠️ 仿真工具</div>
+      <div style="color:var(--text-muted);font-size:0.85rem;">
+        MATLAB / Simulink — 调制仿真、眼图、星座图<br>
+        Python (NumPy/SciPy/Matplotlib) — 信号处理与可视化
+      </div>
+    </div>
+    <div class="formula-card">
+      <div class="formula-name">📝 配套笔记</div>
+      <div style="color:var(--text-muted);font-size:0.85rem;">
+        每周笔记整理到 [[通信原理/笔记/]]<br>
+        习题与错题 → [[通信原理/习题/]]<br>
+        进度更新 → [[学习进度追踪]]
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Back to Top -->
+<button class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" title="回到顶部">↑</button>
+
+<script>
+// ===== Chapter toggle =====
+function toggleChapter(header) {
+  const card = header.parentElement;
+  card.classList.toggle('open');
+  updateProgress();
+}
+
+// ===== Back to top visibility =====
+const backTop = document.getElementById('backTop');
+window.addEventListener('scroll', () => {
+  backTop.classList.toggle('visible', window.scrollY > 400);
+  updateActiveNav();
+});
+
+// ===== Sidebar active nav highlight =====
+function updateActiveNav() {
+  const sections = document.querySelectorAll('section[id], .chapter-card[id]');
+  const links = document.querySelectorAll('.sidebar-nav a');
+  let current = '';
+  sections.forEach(s => {
+    const top = s.getBoundingClientRect().top;
+    if (top < 200) current = s.id;
+  });
+  links.forEach(a => {
+    a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+  });
+}
+
+// ===== Progress tracking =====
+function updateProgress() {
+  const total = document.querySelectorAll('.chapter-card').length;
+  const open = document.querySelectorAll('.chapter-card.open').length;
+  const pct = total > 0 ? Math.round((open / total) * 100) : 0;
+  document.getElementById('progress-pct').textContent = open + ' / ' + total;
+  document.getElementById('progress-bar').style.width = pct + '%';
+}
+
+// ===== Expand first chapter by default =====
+document.querySelector('.chapter-card').classList.add('open');
+updateProgress();
+
+// ===== KaTeX auto-render =====
+document.addEventListener('DOMContentLoaded', () => {
+  renderMathInElement(document.body, {
+    delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '$', right: '$', display: false},
+    ],
+    throwOnError: false
+  });
+});
+
+// ===== Keyboard navigation =====
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    document.querySelectorAll('.chapter-card.open').forEach(c => c.classList.remove('open'));
+    updateProgress();
+  }
+});
+</script>
+
+</body>
+</html>
