@@ -6,3 +6,8 @@
 6. 为什么仿真 BER 和理论 BER 不完全相同？
 7. QPSK 的四个星座点为什么能够表示 2 bit？
 8. 为什么通信仿真需要大量随机比特？
+BPSK和QPSK的本质都是
+BPSK
+1个symbol 只有 1个bit 
+QPSK
+1个symbol 有2个bit
