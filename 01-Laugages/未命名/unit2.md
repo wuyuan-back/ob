@@ -113,5 +113,19 @@ La situaition de famile
 - Je suis celibataire I am single
 - j'ai un copain/J'ai une copine
 - je suis en couple
-- Je suis fiance i am engaged
-- 
+- Je suis fiancé./ Je suis fiancée i am engaged
+- Je suis marié.（男性） Je suis mariée.（女性）
+- Je suis divorcé.（男性） Je suis divorcée.（女性）
+- Je suis veuf/Je suis veuve
+
+# lesson Q
+les verbes en "IR"
+**les verbes en -IR** = **以 -ir 结尾的动词**。
+
+法语动词根据词尾通常分成三大类：
+
+1. **-ER**：parler（说）
+2. **-IR**：finir（完成）
+3. **-RE**：prendre（拿）、vendre（卖）等
+
+你现在学的 **-IR 动词**，首先重点掌握最规则的一类，也就是 **finir 类型**。
