@@ -129,3 +129,96 @@ les verbes en "IR"
 3. **-RE**：prendre（拿）、vendre（卖）等
 
 你现在学的 **-IR 动词**，首先重点掌握最规则的一类，也就是 **finir 类型**。
+FINIR finishi
+FNIR
+- Je fin==is==
+- Tu finis
+- Il Elle fin==it==
+- Nous fin==issons==
+- Vous fin==issez==
+- Ils/Elles fin==issent==
+
+UNIR
+- J'unis
+- Tu unis
+
+CHOISIR
+Je choisis
+### 1. **unir** —— 联合、团结
+
+**unir = to unite / 联合、团结**
+
+它属于比较规则的 **-ir 动词**，现在时变位：
+
+|人称|变位|
+|---|---|
+|je|**unis**|
+|tu|**unis**|
+|il / elle|**unit**|
+|nous|**unissons**|
+|vous|**unissez**|
+|ils / elles|**unissent**|
+
+例句：
+
+> **Nous unissons nos forces.**  
+> 我们团结我们的力量。
+
+注意它的特点：
+
+**-is, -is, -it, -issons, -issez, -issent**
+
+---
+
+### 2. **choisir** —— 选择
+
+**choisir = to choose / 选择**
+
+也是非常典型的规则 **-ir 动词**：
+
+|人称|变位|
+|---|---|
+|je|**choisis**|
+|tu|**choisis**|
+|il / elle|**choisit**|
+|nous|**choisissons**|
+|vous|**choisissez**|
+|ils / elles|**choisissent**|
+
+例句：
+
+> **Je choisis le français.**  
+> 我选择法语。
+
+> **Tu choisis quoi ?**  
+> 你选择什么？
+
+---
+
+### ⭐ 你现在可以直接记住这个规律
+
+以 **choisir** 为代表：
+
+**choisir → chois- + 词尾**
+
+> je **choisis**  
+> tu **choisis**  
+> il **choisit**  
+> nous **choisissons**  
+> vous **choisissez**  
+> ils **choisissent**
+
+所以看到很多这种 **-ir 动词**：
+
+> finir（完成）  
+> choisir（选择）  
+> réussir（成功）  
+> grandir（长大）  
+> réfléchir（思考）  
+> remplir（填满）
+
+可以先尝试套：
+
+**-is / -is / -it / -issons / -issez / -issent**
+
+这是你学习法语 **les verbes en -IR（-IR 动词）**时最重要的一组规律。
