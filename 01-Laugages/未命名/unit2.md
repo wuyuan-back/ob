@@ -107,3 +107,11 @@ QUOI 口语
 	- je m'appelle xxxx.
 	- Je suis xxxx.
 	- Mon nom est xxxx,
+
+# lesson P
+La situaition de famile
+- Je suis celibataire I am single
+- j'ai un copain/J'ai une copine
+- je suis en couple
+- Je suis fiance i am engaged
+- 
