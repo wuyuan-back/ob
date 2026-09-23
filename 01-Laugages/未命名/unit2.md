@@ -90,6 +90,20 @@ QUE
 - Que fais-tu? What are you doing?
 - Que veux-tu regarder a la television?
 
-QUOI
-Tu fais quoi?
-Tu veux regarder quoi a la televisi
+QUOI 口语
+- Tu fais quoi?
+- Tu veux regarder quoi a la television
+
+# lesson O
+- whats your name
+	- Comment vous appelez-vous? how are you calling yourself == whats your name
+	- Vous vous appelez comment? whats your name
+	- Que est votre no,?
+	- Comment tu t'appelles?
+	- Tu t'appelles comment?
+	- Quel est ton nom?
+	- C'est quoi ton nom?
+-  my name is
+	- je m'appelle xxxx.
+	- Je suis xxxx.
+	- Mon nom est xxxx,
