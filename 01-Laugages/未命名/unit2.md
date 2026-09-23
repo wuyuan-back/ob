@@ -77,4 +77,19 @@ Les petits-enfants
 La belle-famille
 Le beau-pere
 La belle-mere
-la beau
+Le beau-frere brother
+La belle-soeur
+
+# lesson N
+
+QUI(who)
+- Qui est-il? who is he
+- Qui vient avec toi ce soir?
+
+QUE
+- Que fais-tu? What are you doing?
+- Que veux-tu regarder a la television?
+
+QUOI
+Tu fais quoi?
+Tu veux regarder quoi a la televisi
