@@ -62,4 +62,18 @@ Ils / EIles viennent
 la famile
 
 Les grands-parents 
-Le grand
+Le grand-pere (grand farther)
+La grand-mere
+
+Les parents
+Le pere
+La mere
+
+Les enfants children
+Le fils
+La fille
+Les petits-enfants
+
+La belle-famille
+Le beau-pere
+La belle-mere
