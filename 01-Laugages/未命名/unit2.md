@@ -47,3 +47,19 @@ De 20 a50
 41 quarante te un
 
 50 cinquante
+
+# lessons L
+
+VENIR(to come)
+Je viens
+Tu viens
+II/Elle vient
+Nous venons
+Vous venez
+Ils / EIles viennent
+
+# lessonM
+la famile
+
+Les grands-parents 
+Le grand
