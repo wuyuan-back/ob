@@ -16,5 +16,34 @@ PARL+ER
 
 Je parl==e==
 Tu parl==es==
-II.
+II/Elle parl==e==
+Nous parl==ons==
+Vous parl==ez==
+IIs/Elles parl==ent== not pronounce
 
+![[Pasted image 20260923110338.png]]
+
+REGARD ER
+Je regarde
+Tu regardes
+II/Elle regarde
+same rule
+
+Aller(to go)
+
+Lesson K
+De 20 a50
+20 vingt
+21 vingt et un
+22 vingt-deux
+29 ving-neuf
+
+30 trente
+31 trente et un
+32 trente-deux
+39 trente-neuf
+
+40 quarante
+41 quarante te un
+
+50 cinquante
