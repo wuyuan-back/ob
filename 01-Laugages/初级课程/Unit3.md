@@ -53,4 +53,29 @@ Il doit choisir
 Nous devons re(2)pondre(answer)
 
 - Lesson D
-Les
+Les pays europeens
+Greece ->La Grece
+portugal->Le Portugal
+Spain-> L'Espagne
+Italy-? L'ltalie
+Luxemburg->Le lexembourg
+France->La France
+Netherlands->Les Pays-Bas
+Ireland->L'Irlande
+United Kingdom->Le Royaume Uni
+Germany->L'Allemagne
+Belgium-> La Belgique
+Denmark-> Le Danemark
+Austria->L'Autriche
+Sweden->La Sue(4)de
+Finland-> La Finlande
+Estonia->L'Estonie
+Latvia->La Lettonie
+Lithuania->La lithuanie
+Peland ->La pologne
+Czech Republic ->La Re(2(publique Tche(4)que
+Cyprus->Chypre
+Malta->Malte
+Slovenia->La slove(2)nie
+Hungary->La Hongrie
+
