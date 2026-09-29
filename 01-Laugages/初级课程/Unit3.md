@@ -129,3 +129,35 @@ Nous vous admirons.
 Elle vous téléphone.
 Je vous écrit.
 
+- Lesson J
+Le temps
+Hier yesterday
+Hier matin
+Hier après-midi afternoon
+Hier soir
+
+Aujourd'hui today
+Ce matin
+Cet aprè-mide
+Ce soir
+
+Demain tomorrow
+Demain matin
+Demain après-mide
+Demain soir
+
+- Lesson K
+De 50 à 75
+50 cinquante
+51 cinquante et un
+52 cinquante-deux
+53 cinquante-trois
+54 cinquante-quatre
+55 cinquante-cinq
+56 cinquante-six
+57 cinquante-sept
+58 cinquante-huit
+59 cinquante-neuf
+
+60 soixante
+61 soix
