@@ -98,4 +98,15 @@ J'attends
 Tu attends
 Il/Elle attend
 Nous attendons
-Vou
+Vous attendez
+Ils/Elles attendent
+
+J'attends le train.
+Tu attends avec moi.   avec=with
+Il attend sa femme.
+Nous attendons tranquilement.
+Vous attendez les enfants.
+Elles attendent votre re(2)ponse.
+
+-  Lesson I
+Le verbe R
