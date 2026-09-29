@@ -79,3 +79,23 @@ Malta->Malte
 Slovenia->La slove(2)nie
 Hungary->La Hongrie
 
+- Lesson E 
+Les nationalite(2)s
+
+- Lesson F
+Les Ame(2)riques
+USA->Les Etats-Unis->ame(2)ricain/ame(2)ricaine
+Canada->Le Canada->canadian/canadienne
+Mexico-> Le Mexique->mexicain/mexicaine
+Brasil -> Le Bre(2)sil->bre(2)silien/bre(2)silienne
+Argentina->L'Argentine->argentin/argenntine
+Chile->Le Chili->chilien.chiliennne
+Bolivia->La bolivie->bolivien/bolivienne
+
+- Lesson G
+Le verbe Attendre to wait
+J'attends
+Tu attends
+Il/Elle attend
+Nous attendons
+Vou
