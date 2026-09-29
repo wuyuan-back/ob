@@ -160,4 +160,27 @@ De 50 à 75
 59 cinquante-neuf
 
 60 soixante
-61 soix
+61 soixante et un
+
+==70 soixante-dix==
+71 soixante et onze
+72 soixante-douze
+73 soixante-treize
+74 soixante-quatorze
+75 soixante-quinze
+
+- Lesson L
+De 75 à 100
+75 soixante-quinze
+76 soixante-seize
+77 soixante-sept
+78 soixante-dix-huit
+79 soixante-dix-neuf
+
+80 quatre-vingts
+81 quatre-vingt -un
+82 quatre-vingt-trois
+
+90 quatre-vingt-dix
+91 quatre-vingt-onze
+92 quatre- vingt-douze
