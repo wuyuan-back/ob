@@ -108,7 +108,7 @@ Nous attendons tranquilement.
 Vous attendez les enfants.
 Elles attendent votre re(2)ponse.
 
--  Lesson I
+-  Lesson H
 Le verbe Répondre
 Je réponds
 Tu réponds
@@ -116,4 +116,16 @@ Il Elle répond
 Nous répondons
 Vous répondez
 Ils Elles répondent
+
+- Lesson I
+Les pronoms te et vous
+TE
+Je te(you) regarde. I regard you.
+Nous te parlons. 主宾谓
+Elle t'invite
+
+Vous 
+Nous vous admirons.
+Elle vous téléphone.
+Je vous écrit.
 
