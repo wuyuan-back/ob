@@ -109,4 +109,11 @@ Vous attendez les enfants.
 Elles attendent votre re(2)ponse.
 
 -  Lesson I
-Le verbe R
+Le verbe Répondre
+Je réponds
+Tu réponds
+Il Elle répond
+Nous répondons
+Vous répondez
+Ils Elles répondent
+
