@@ -17,4 +17,4 @@ PSC=10000-1
 - HAL_StatusTypeDef HAL_TIM_Base_Start_IT(TIM_HandleTypeDef * htim);
 - 在HAL_tim库的2365行
 2.不可以将led_show()的代码放在中断函数之内，因为中断函数的执行与主循坏无关，无法具体确定是处于lcd的临时存储状态，所以==不要将显示的代码放在中断函数以内==
-3.
+3.头文件中定义要加extern 声明全局变量。
