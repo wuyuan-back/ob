@@ -9,6 +9,15 @@ tags:
   - 类型/词汇
   - 类型/变位
   - 类型/错误
+flashcards:
+  q-vxp3: { nid: 1792832820525, hash: ibpfq75p, sync: fnfmqnhc }
+  q-kiaj: { nid: 1792832820586, hash: zvh89e4m, sync: bnw5e5dx }
+  q-s8qz: { nid: 1792832820649, hash: 2w5saxcq, sync: wrf94byw }
+  q-p779: { nid: 1792832820699, hash: wsn9jpme, sync: 78iarnzs }
+  q-v242: { nid: 1792832820771, hash: qrmhqyhn, sync: q6w5q947 }
+  q-f4e4: { nid: 1792832820832, hash: cdw84mpg, sync: jhfgfxyx }
+  q-c5ru: { nid: 1792832820895, hash: qrtg46v3, sync: dt6dh46t }
+  q-qce6: { nid: 1792832820957, hash: 9224c8vn, sync: 4uvum5es }
 ---
 
 # Unit 4 · Lesson G
@@ -89,16 +98,22 @@ Il faut un parapluie car il pleut
 ## 卡片区
 
 falloir 的现在时变位？::只有 `il faut` 一个形式（无人称动词）。⚠ 易错：没有 `je faut` / `tu faut`。
+^q-vxp3
 
 “这里不能吸烟”用法语怎么说？::Il ne faut pas fumer ici。⚠ 易错：`ne…pas` 夹住 `faut`，不是 `fumer`。
+^q-kiaj
 
 “需要一张身份证”用法语怎么说？::Il faut une carte d'identité。⚠ 易错：名词前要有冠词 `une`。
+^q-s8qz
 
 “必须遵守规则”用法语怎么说？::Il faut respecter les règles。⚠ 易错：`respecter` 用原形。
+^q-p779
 
 “雨伞”的法语（带冠词）？::un parapluie（阳性）。例：Il faut un parapluie car il pleut.
+^q-v242
 
 “规则”的法语（带冠词）？::une règle（阴性）。例：Il faut respecter les règles.
+^q-f4e4
 
 ### Il faut 的两种接法？ #card
 
@@ -106,6 +121,7 @@ falloir 的现在时变位？::只有 `il faut` 一个形式（无人称动词�
 ② `Il faut + 名词`：Il faut une carte d'identité.
 
 ⚠ 易错：接动词时用原形，接名词时名词要带冠词。
+^q-c5ru
 
 ### Il faut 和 devoir 的区别？ #card
 
@@ -113,3 +129,4 @@ falloir 的现在时变位？::只有 `il faut` 一个形式（无人称动词�
 - `devoir`：有人称，具体某人的义务。Je dois respecter les règles.
 
 ⚠ 易错：`Il faut` 不能变人称。
+^q-qce6
