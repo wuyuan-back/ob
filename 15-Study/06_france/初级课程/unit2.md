@@ -9,6 +9,31 @@ tags:
   - 类型/语法
   - 类型/数字
   - 类型/错误
+flashcards:
+  q-g7xh: { nid: 1792841304120, hash: r6frymqr, sync: pwwtccm8 }
+  q-uf7v: { nid: 1792841304173, hash: x4akgmks, sync: xrwaru7z }
+  q-caaj: { nid: 1792841304235, hash: ew9z8asb, sync: j2t6tt6i }
+  q-zate: { nid: 1792841304298, hash: 5nj5bku8, sync: k6tbsm97 }
+  q-ss3t: { nid: 1792841304360, hash: 25r799qh, sync: 36usd9ex }
+  q-8rk2: { nid: 1792841304422, hash: g98b35qp, sync: mct4wsgm }
+  q-p3dv: { nid: 1792841304500, hash: zjhuc6ua, sync: 5vciw7ka }
+  q-taw2: { nid: 1792841304548, hash: 9ka8tgfb, sync: dmcryjp7 }
+  q-iqg3: { nid: 1792841304623, hash: qj3iruk3, sync: qtfnrsrh }
+  q-u2vs: { nid: 1792841304685, hash: jvkxcy4r, sync: 9id6xwdb }
+  q-edse: { nid: 1792841304745, hash: d94886iv, sync: xpi9t5gr }
+  q-st6p: { nid: 1792841304809, hash: gtkyqfaf, sync: 3h8nmdf8 }
+  q-ih3m: { nid: 1792841304869, hash: 7ts3s33x, sync: e3i97qzs }
+  q-66ct: { nid: 1792841304931, hash: mifdiu29, sync: 648b8jz2 }
+  q-hcgw: { nid: 1792841304995, hash: 3jwc6gix, sync: 7jdm24xq }
+  q-6b4f: { nid: 1792841305055, hash: 55atmfjy, sync: d6ejci6h }
+  q-g7vd: { nid: 1792841305117, hash: j73muy9a, sync: w88uy36d }
+  q-st3u: { nid: 1792841305179, hash: c5hqdcr9, sync: yvnepgz7 }
+  q-zgen: { nid: 1792841305241, hash: ub4tvh3h, sync: 7z4mt4su }
+  q-hzph: { nid: 1792841305304, hash: 7ybs2kyh, sync: f6prmzim }
+  q-34rf: { nid: 1792841305367, hash: h4isxpzf, sync: 627qkmzr }
+  q-qeh8: { nid: 1792841305426, hash: yxmcbvdt, sync: masd9vu2 }
+  q-zkc6: { nid: 1792841305490, hash: h4j95pan, sync: r8e2phff }
+  q-bsp3: { nid: 1792841305553, hash: qps3s8w9, sync: ekhwvwmt }
 ---
 
 # Unit 2
@@ -531,42 +556,61 @@ Je choisis
 ## 卡片区
 
 阳性单数名词以元音或哑音 h 开头时，用 `ce` 还是 `cet`？::`cet`。例：cet ordinateur, cet homme。
+^q-g7xh
 
 “这些人”的法语？::`ces personnes`。⚠ 易错：`ces` 不分阴阳性。
+^q-uf7v
 
 `-er` 动词现在时的词尾？::`-e, -es, -e, -ons, -ez, -ent`。⚠ 易错：`-ent` 不发音。
+^q-caaj
 
 `aller + 动词原形` 表示什么？::最近将来时（要去做某事）。例：Je vais étudier。
+^q-zate
 
 21、31、41 的法语？::`vingt et un`、`trente et un`、`quarante et un`。⚠ 易错：`et` 前后有空格，不连字符。
+^q-ss3t
 
 `venir de + 地点` 表示什么？::来自某地。例：Je viens de France。
+^q-8rk2
 
 “祖父母 / 父母 / 孩子 / 孙辈”的法语？::`les grands-parents` / `les parents` / `les enfants` / `les petits-enfants`。
+^q-p3dv
 
 `beau-frère` 和 `belle-sœur` 是什么意思？::姻亲兄弟（姐夫 / 妹夫等）；姻亲姐妹（嫂子 / 弟媳等）。⚠ 易错：不是亲兄弟 / 亲姐妹。
+^q-taw2
 
 `qui / que / quoi` 的区别？::`qui` 问人；`que` 问物（句首）；`quoi` 问物（动词后 / 口语）。
+^q-iqg3
 
 “你在做什么？”的正式说法？::`Que fais-tu ?` / `Qu'est-ce que tu fais ?`
+^q-u2vs
 
 “你叫什么名字？”的正式说法？::`Comment vous appelez-vous ?` / `Quel est votre nom ?`
+^q-edse
 
 “我叫……”的三种说法？::`Je m'appelle…` / `Je suis…` / `Mon nom est…`
+^q-st6p
 
 `s'appeler` 的 `je / tu / il` 形式？::`je m'appelle, tu t'appelles, il/elle s'appelle`。
+^q-ih3m
 
 “单身 / 已婚 / 离婚 / 丧偶”的法语？::`célibataire` / `marié(e)` / `divorcé(e)` / `veuf (veuve)`。
+^q-66ct
 
 `veuf` 的阴性形式？::`veuve`。
+^q-hcgw
 
 `finir` 型 `-ir` 动词的现在时词尾？::`-is, -is, -it, -issons, -issez, -issent`。
+^q-6b4f
 
 `choisir` 的 `nous` 形式？::`nous choisissons`。⚠ 易错：不是 `nous choisisons`。
+^q-g7vd
 
 “我选择法语”用法语怎么说？::`Je choisis le français`。
+^q-st3u
 
 “我们团结我们的力量”用法语怎么说？::`Nous unissons nos forces`。
+^q-zgen
 
 ### `ce / cet / cette / ces` 怎么选？ #card
 
@@ -578,6 +622,7 @@ Je choisis
 | 复数 | ces | 阴阳性复数 |
 
 ⚠ 易错：`cet ordinateur`，不是 `ce ordinateur`。
+^q-hzph
 
 ### `parler` 现在时变位？ #card
 
@@ -591,6 +636,7 @@ Je choisis
 | ils/elles | parlent |
 
 ⚠ 易错：`-ent` 不发音。
+^q-34rf
 
 ### `aller` 现在时变位？ #card
 
@@ -604,6 +650,7 @@ Je choisis
 | ils/elles | vont |
 
 ⚠ 易错：`aller` 是不规则动词，不能套 `-er` 规则。
+^q-qeh8
 
 ### `venir` 现在时变位？ #card
 
@@ -617,6 +664,7 @@ Je choisis
 | ils/elles | viennent |
 
 ⚠ 易错：`ils/elles viennent`，词干 `vienn-`。
+^q-zkc6
 
 ### `finir` 现在时变位？ #card
 
@@ -630,3 +678,4 @@ Je choisis
 | ils/elles | finissent |
 
 ⚠ 易错：复数词干有 `-iss-`。
+^q-bsp3

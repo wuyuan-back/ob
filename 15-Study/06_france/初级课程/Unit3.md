@@ -10,6 +10,31 @@ tags:
   - 类型/数字
   - 类型/国家
   - 类型/错误
+flashcards:
+  q-wjg6: { nid: 1792841309769, hash: wsigr85r, sync: 6qqb89wz }
+  q-i7tf: { nid: 1792841309830, hash: txmeyghn, sync: z39xq9se }
+  q-h8nc: { nid: 1792841309891, hash: an67dwgj, sync: dqnsgwir }
+  q-mvpd: { nid: 1792841309954, hash: ffhrqxar, sync: a8rwsizd }
+  q-gkxv: { nid: 1792841310016, hash: fp63qgwy, sync: 5udrqrcu }
+  q-jhsn: { nid: 1792841310078, hash: detq7682, sync: t2rpwhr8 }
+  q-ticr: { nid: 1792841310140, hash: cc49jnq9, sync: ejfmft9x }
+  q-g9ve: { nid: 1792841310204, hash: e74aesiz, sync: i8sigwm4 }
+  q-vmhx: { nid: 1792841310266, hash: wrz36si5, sync: ifxna2br }
+  q-785m: { nid: 1792841310328, hash: 7rsgp7e7, sync: 9c9eva2t }
+  q-7n7f: { nid: 1792841310388, hash: wc39dfwt, sync: x3dyj6jk }
+  q-sr86: { nid: 1792841310452, hash: 8gi652hz, sync: 4wrqbc6i }
+  q-d6fh: { nid: 1792841310528, hash: 2yaefznc, sync: 9mvbpyzf }
+  q-rtyv: { nid: 1792841310591, hash: xg7vs8f4, sync: edwwa2vz }
+  q-4udq: { nid: 1792841310654, hash: hsmcmwgk, sync: khfg49h9 }
+  q-ifzz: { nid: 1792841310716, hash: sti79zz4, sync: gr3mgji6 }
+  q-pexp: { nid: 1792841310777, hash: dm7ixjr5, sync: ukmch6yx }
+  q-bum7: { nid: 1792841310840, hash: bn25wajv, sync: exxcrszs }
+  q-xmt5: { nid: 1792841310903, hash: zfrx4qdy, sync: 25hmqsc7 }
+  q-txyr: { nid: 1792841310964, hash: c75gz9b9, sync: 97rbn8ge }
+  q-hwpq: { nid: 1792841311028, hash: fkzguknd, sync: fxmhw93t }
+  q-axi9: { nid: 1792841311090, hash: 9wnvc3fw, sync: ac5kwacz }
+  q-frbq: { nid: 1792841311150, hash: p59fpfvu, sync: jh92vg2s }
+  q-j4u8: { nid: 1792841311213, hash: hht2q6a2, sync: kdchucj7 }
 ---
 
 # Unit 3
@@ -544,48 +569,68 @@ De 75 à 100
 ## 卡片区
 
 `-eau / -au / -eu` 结尾的名词复数加什么？::加 `-x`。例：des eaux, des tuyaux, des feux。⚠ 易错：不是加 `-s`。
+^q-wjg6
 
 `un œil` 的复数？::des yeux。⚠ 易错：不是 des œils。
+^q-i7tf
 
 `pouvoir` 后接什么形式？::动词原形。例：Je peux chanter。
+^q-h8nc
 
 `devoir` 和 `pouvoir` 的区别？::`devoir` = 必须（义务）；`pouvoir` = 能 / 可以（能力或许可）。
+^q-mvpd
 
 阴性国家前的介词？::`en`。例：en France, en Allemagne。
+^q-gkxv
 
 阳性国家前的介词？::`au`。例：au Portugal, au Canada。
+^q-jhsn
 
 复数国家前的介词？::`aux`。例：aux États-Unis, aux Pays-Bas。
+^q-ticr
 
 “英国”的法语（带冠词）？::`le Royaume-Uni`。⚠ 易错：有连字符。
+^q-g9ve
 
 “美国”的法语（带冠词）？::`les États-Unis`。⚠ 易错：复数，用 `aux`：aux États-Unis。
+^q-vmhx
 
 “加拿大”的国籍（男 / 女）？::`canadien / canadienne`。⚠ 易错：不是 canadian。
+^q-785m
 
 `répondre` 的 `je` 形式？::`je réponds`。⚠ 易错：词尾 `-ds`。
+^q-7n7f
 
 “回答某人”用法语怎么说？::`répondre à quelqu'un`。例：Je réponds à Marie。
+^q-sr86
 
 `te` 和 `vous` 的区别？::`te` = 你（非正式单数）；`vous` = 您 / 你们（正式或复数）。
+^q-d6fh
 
 “她邀请你”用法语怎么说？::`Elle t'invite`。⚠ 易错：`te` 在元音前变成 `t'`。
+^q-rtyv
 
 70 和 77 的法语？::`soixante-dix`；`soixante-dix-sept`。⚠ 易错：77 不是 soixante-sept。
+^q-4udq
 
 80 和 81 的法语？::`quatre-vingts`；`quatre-vingt-un`。⚠ 易错：80 有 `s`，81 没有 `s`，也没有 `et`。
+^q-ifzz
 
 82 的法语？::`quatre-vingt-deux`。⚠ 易错：不是 quatre-vingt-trois。
+^q-pexp
 
 90 和 91 的法语？::`quatre-vingt-dix`；`quatre-vingt-onze`。
+^q-bum7
 
 国籍形容词的阴阳性一般怎么变？::阳性 + `-e` → 阴性；`-ien` → `-ienne`；`-ais` → `-aise`。⚠ 有例外，如 `grec → grecque`。
+^q-xmt5
 
 ### `-ou` 结尾复数加 `-x` 的七个词？ #card
 
 `bijou`、`caillou`、`chou`、`genou`、`hibou`、`joujou`、`pou` → 加 `-x`；其余 `-ou` 加 `-s`。
 
 ⚠ 易错：这七个是常考例外，不要漏。
+^q-txyr
 
 ### `pouvoir` 现在时变位？ #card
 
@@ -599,6 +644,7 @@ De 75 à 100
 | ils/elles | peuvent |
 
 ⚠ 易错：单数 `peu-`，复数 `pouv-`。
+^q-hwpq
 
 ### `devoir` 现在时变位？ #card
 
@@ -612,6 +658,7 @@ De 75 à 100
 | ils/elles | doivent |
 
 ⚠ 易错：`ils/elles doivent`，不要漏 `-ent`。
+^q-axi9
 
 ### `attendre` 现在时变位？ #card
 
@@ -625,6 +672,7 @@ De 75 à 100
 | ils/elles | attendent |
 
 ⚠ 易错：`j'attends` 词尾有 `-ds`。
+^q-frbq
 
 ### `hier / aujourd'hui / demain` 的时间表达？ #card
 
@@ -635,3 +683,4 @@ De 75 à 100
 | soir | hier soir | ce soir | demain soir |
 
 ⚠ 易错：`après-midi` 是阳性，用 `cet`。
+^q-j4u8
