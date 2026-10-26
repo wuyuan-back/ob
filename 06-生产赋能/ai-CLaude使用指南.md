@@ -77,3 +77,4 @@ graph LR
 
 - [[通信专业相关/FPGA相关学习/FPGA项目实战/FPGA项目实战笔记 Mian]]
 - [[06-生产赋能/prompt工程]]
+- [[06-生产赋能/CC-Switch/CC-Switch与OpenCodeGo|CC Switch 与 OpenCode Go 接入配置]]
