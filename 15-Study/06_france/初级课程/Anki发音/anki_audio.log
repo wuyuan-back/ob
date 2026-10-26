@@ -1,0 +1,422 @@
+2026-10-26 18:25:51,307 INFO AnkiConnect version: 6
+2026-10-26 18:25:51,307 INFO 模式：DRY-RUN
+2026-10-26 18:25:51,388 INFO 模型 Obsidian-basic 现有字段：['Front', 'Back', 'Context', 'Source']
+2026-10-26 18:25:51,388 INFO 需要新增字段 Audio（index=4）
+2026-10-26 18:25:51,453 INFO 模板 Card 1 将插入 Audio 播放器
+2026-10-26 18:25:51,583 INFO 卡组 法语：56 张
+2026-10-26 18:25:51,634 INFO 卡组 法语::初级课程：56 张
+2026-10-26 18:25:51,704 INFO 卡组 法语::初级课程::Unit 2：24 张
+2026-10-26 18:25:51,762 INFO 卡组 法语::初级课程::Unit 3：24 张
+2026-10-26 18:25:51,828 INFO 卡组 法语::初级课程::Unit 4：8 张
+2026-10-26 18:25:51,829 INFO 待处理 56 张卡
+2026-10-26 18:25:51,913 INFO [PLAN] 1792832820525  | Back/<code> | fr_f288a217ed63.mp3 | 'il faut, je faut, tu faut.'
+2026-10-26 18:25:51,916 INFO [PLAN] 1792832820586  | Back/<code> | fr_5d27896a942d.mp3 | 'ne...pas, faut, fumer.'
+2026-10-26 18:25:51,916 INFO [PLAN] 1792832820649  | Back/<code> | fr_06f0d0c2c385.mp3 | 'une.'
+2026-10-26 18:25:51,916 INFO [PLAN] 1792832820699  | Back/<code> | fr_46e6c748bdda.mp3 | 'respecter.'
+2026-10-26 18:25:51,917 INFO [PLAN] 1792832820771  | Back/plain | fr_c1942689bf61.mp3 | 'un parapluie, Il faut un parapluie car il pleut.'
+2026-10-26 18:25:51,923 INFO [PLAN] 1792832820832  | Back/plain | fr_90e2c39186dc.mp3 | 'une règle, Il faut respecter les règles.'
+2026-10-26 18:25:51,923 INFO [PLAN] 1792832820895  | Back/<code> | fr_d07fad51ed95.mp3 | 'Il faut.'
+2026-10-26 18:25:51,923 INFO [PLAN] 1792832820957  | Back/<code> | fr_641fb3b1c750.mp3 | 'Il faut, devoir.'
+2026-10-26 18:25:51,923 INFO [PLAN] 1792841304120  | Back/<code> | fr_ad5c133249b6.mp3 | 'cet.'
+2026-10-26 18:25:51,923 INFO [PLAN] 1792841304173  | Back/<code> | fr_ead89fb0d931.mp3 | 'ces personnes, ces.'
+2026-10-26 18:25:51,924 INFO [SKIP] 1792841304235 ：没有找到可读的法语片段
+2026-10-26 18:25:51,925 INFO [PLAN] 1792841304298  | Back/plain | fr_28d05335fffd.mp3 | 'Je vais étudier.'
+2026-10-26 18:25:51,925 INFO [PLAN] 1792841304360  | Back/<code> | fr_f42ad2e73dfb.mp3 | 'vingt et un, trente et un, quarante et un, et.'
+2026-10-26 18:25:51,926 INFO [PLAN] 1792841304422  | Back/plain | fr_41c83bb53674.mp3 | 'Je viens de France.'
+2026-10-26 18:25:51,926 INFO [PLAN] 1792841304500  | Back/<code> | fr_f1a87cd62d30.mp3 | 'les grands-parents, les parents, les enfants, les petits-enfants.'
+2026-10-26 18:25:51,926 INFO [PLAN] 1792841304548  | Front/<code> | fr_ee67d391299f.mp3 | 'beau-frère, belle-sœur.'
+2026-10-26 18:25:51,927 INFO [PLAN] 1792841304623  | Back/<code> | fr_79764a83352e.mp3 | 'qui, que, quoi.'
+2026-10-26 18:25:51,927 INFO [PLAN] 1792841304685  | Back/<code> | fr_a4183d456082.mp3 | "Que fais-tu, Qu'est-ce que tu fais."
+2026-10-26 18:25:51,927 INFO [PLAN] 1792841304745  | Back/<code> | fr_796465e5f0cb.mp3 | 'Comment vous appelez-vous, Quel est votre nom.'
+2026-10-26 18:25:51,927 INFO [PLAN] 1792841304809  | Back/<code> | fr_0490c58bbb11.mp3 | "Je m'appelle, Je suis, Mon nom est."
+2026-10-26 18:25:51,927 INFO [PLAN] 1792841304869  | Back/<code> | fr_d1ac95dc2035.mp3 | "je m'appelle, tu t'appelles, il, elle s'appelle."
+2026-10-26 18:25:51,928 INFO [PLAN] 1792841304931  | Back/<code> | fr_8e767df78b8a.mp3 | 'célibataire, mariée, divorcée, veuf, veuve.'
+2026-10-26 18:25:51,928 INFO [PLAN] 1792841304995  | Back/<code> | fr_1d67617a0328.mp3 | 'veuve.'
+2026-10-26 18:25:51,928 INFO [PLAN] 1792841305055  | Front/<code> | fr_7fab9533745c.mp3 | 'finir.'
+2026-10-26 18:25:51,928 INFO [PLAN] 1792841305117  | Back/<code> | fr_c0fcee2e5a70.mp3 | 'nous choisissons, nous choisisons.'
+2026-10-26 18:25:51,928 INFO [PLAN] 1792841305179  | Back/<code> | fr_3ab215399f09.mp3 | 'Je choisis le français.'
+2026-10-26 18:25:51,928 INFO [PLAN] 1792841305241  | Back/<code> | fr_650063167dfc.mp3 | 'Nous unissons nos forces.'
+2026-10-26 18:25:51,928 INFO [PLAN] 1792841305304  | Back/<code> | fr_7c80be9799c5.mp3 | 'cet ordinateur, ce ordinateur.'
+2026-10-26 18:25:51,928 INFO [PLAN] 1792841305367  | Back/plain | fr_563b7c23bc7a.mp3 | 'je parle tu parles il, elle parle nous parlons vous parlez ils, elles parlent ⚠.'
+2026-10-26 18:25:51,929 INFO [PLAN] 1792841305426  | Back/<code> | fr_61e6bc4a7c95.mp3 | 'aller.'
+2026-10-26 18:25:51,929 INFO [PLAN] 1792841305490  | Back/<code> | fr_3bfb31093123.mp3 | 'ils, elles viennent.'
+2026-10-26 18:25:51,929 INFO [PLAN] 1792841305553  | Back/plain | fr_eb3ea42c1012.mp3 | 'je finis tu finis il, elle finit nous finissons vous finissez ils, elles finissent ⚠.'
+2026-10-26 18:25:51,929 INFO [PLAN] 1792841309769  | Back/plain | fr_e26c3f03ef15.mp3 | 'des eaux, des tuyaux, des feux.'
+2026-10-26 18:25:51,929 INFO [PLAN] 1792841309830  | Back/plain | fr_c1bc05d3372c.mp3 | 'des yeux, des œils.'
+2026-10-26 18:25:51,930 INFO [PLAN] 1792841309891  | Back/plain | fr_249140be963c.mp3 | 'Je peux chanter.'
+2026-10-26 18:25:51,930 INFO [PLAN] 1792841309954  | Back/<code> | fr_f5662bc8c9d4.mp3 | 'devoir, pouvoir.'
+2026-10-26 18:25:51,930 INFO [PLAN] 1792841310016  | Back/<code> | fr_fc7264146ab2.mp3 | 'en.'
+2026-10-26 18:25:51,930 INFO [PLAN] 1792841310078  | Back/<code> | fr_3593283c79e2.mp3 | 'au.'
+2026-10-26 18:25:51,930 INFO [PLAN] 1792841310140  | Back/<code> | fr_466c0769b1da.mp3 | 'aux.'
+2026-10-26 18:25:51,930 INFO [PLAN] 1792841310204  | Back/<code> | fr_506b2869fe1a.mp3 | 'le Royaume-Uni.'
+2026-10-26 18:25:51,930 INFO [PLAN] 1792841310266  | Back/<code> | fr_3336e1266e30.mp3 | 'les États-Unis, aux.'
+2026-10-26 18:25:51,930 INFO [PLAN] 1792841310328  | Back/<code> | fr_0d2cec8a74ac.mp3 | 'canadien, canadienne.'
+2026-10-26 18:25:51,931 INFO [PLAN] 1792841310388  | Back/<code> | fr_7192aaec77dc.mp3 | 'je réponds.'
+2026-10-26 18:25:51,931 INFO [PLAN] 1792841310452  | Back/<code> | fr_210b4f8554cb.mp3 | "répondre à quelqu'un."
+2026-10-26 18:25:51,931 INFO [PLAN] 1792841310528  | Back/<code> | fr_f376b5d1a010.mp3 | 'te, vous.'
+2026-10-26 18:25:51,931 INFO [PLAN] 1792841310591  | Back/<code> | fr_a7d3ca42dce8.mp3 | "Elle t'invite, te."
+2026-10-26 18:25:51,931 INFO [PLAN] 1792841310654  | Back/<code> | fr_3972ba2c9fbf.mp3 | 'soixante-dix, soixante-dix-sept.'
+2026-10-26 18:25:51,932 INFO [PLAN] 1792841310716  | Back/<code> | fr_327857c369cf.mp3 | 'quatre-vingts, quatre-vingt-un, et.'
+2026-10-26 18:25:51,932 INFO [PLAN] 1792841310777  | Back/<code> | fr_1dedc8061870.mp3 | 'quatre-vingt-deux.'
+2026-10-26 18:25:51,932 INFO [PLAN] 1792841310840  | Back/<code> | fr_9924be288dbd.mp3 | 'quatre-vingt-dix, quatre-vingt-onze.'
+2026-10-26 18:25:51,932 INFO [PLAN] 1792841310903  | Back/<code> | fr_1c5818add0f1.mp3 | 'grec, grecque.'
+2026-10-26 18:25:51,932 INFO [PLAN] 1792841310964  | Back/<code> | fr_06ab81fd7ebe.mp3 | 'bijou, caillou, chou, genou, hibou, joujou, pou.'
+2026-10-26 18:25:51,933 INFO [PLAN] 1792841311028  | Back/plain | fr_9b4b0b55704b.mp3 | 'je peux tu peux il, elle peut nous pouvons vous pouvez ils, elles peuvent ⚠.'
+2026-10-26 18:25:51,933 INFO [PLAN] 1792841311090  | Back/<code> | fr_6766e8f9121d.mp3 | 'ils, elles doivent.'
+2026-10-26 18:25:51,933 INFO [PLAN] 1792841311150  | Back/<code> | fr_c52df5edda92.mp3 | "j'attends."
+2026-10-26 18:25:51,933 INFO [PLAN] 1792841311213  | Back/<code> | fr_f68789c0d958.mp3 | 'après-midi, cet.'
+2026-10-26 18:25:51,933 INFO dry-run 完成。加 --apply 才会真正写入 Anki。
+2026-10-26 18:26:32,628 INFO AnkiConnect version: 6
+2026-10-26 18:26:32,628 INFO 模式：DRY-RUN
+2026-10-26 18:26:32,701 INFO 模型 Obsidian-basic 现有字段：['Front', 'Back', 'Context', 'Source']
+2026-10-26 18:26:32,701 INFO 需要新增字段 Audio（index=4）
+2026-10-26 18:26:32,758 INFO 模板 Card 1 将插入 Audio 播放器
+2026-10-26 18:26:32,882 INFO 卡组 法语：56 张
+2026-10-26 18:26:32,950 INFO 卡组 法语::初级课程：56 张
+2026-10-26 18:26:33,016 INFO 卡组 法语::初级课程::Unit 2：24 张
+2026-10-26 18:26:33,081 INFO 卡组 法语::初级课程::Unit 3：24 张
+2026-10-26 18:26:33,140 INFO 卡组 法语::初级课程::Unit 4：8 张
+2026-10-26 18:26:33,140 INFO 待处理 56 张卡
+2026-10-26 18:26:33,203 INFO [PLAN] 1792832820525 法语::初级课程::Unit 4 | Back/<code> | fr_f288a217ed63.mp3 | 'il faut, je faut, tu faut.'
+2026-10-26 18:26:33,204 INFO [PLAN] 1792832820586 法语::初级课程::Unit 4 | Back/<code> | fr_5d27896a942d.mp3 | 'ne...pas, faut, fumer.'
+2026-10-26 18:26:33,204 INFO [PLAN] 1792832820649 法语::初级课程::Unit 4 | Back/<code> | fr_06f0d0c2c385.mp3 | 'une.'
+2026-10-26 18:26:33,204 INFO [PLAN] 1792832820699 法语::初级课程::Unit 4 | Back/<code> | fr_46e6c748bdda.mp3 | 'respecter.'
+2026-10-26 18:26:33,205 INFO [PLAN] 1792832820771 法语::初级课程::Unit 4 | Back/plain | fr_c1942689bf61.mp3 | 'un parapluie, Il faut un parapluie car il pleut.'
+2026-10-26 18:26:33,205 INFO [PLAN] 1792832820832 法语::初级课程::Unit 4 | Back/plain | fr_90e2c39186dc.mp3 | 'une règle, Il faut respecter les règles.'
+2026-10-26 18:26:33,205 INFO [PLAN] 1792832820895 法语::初级课程::Unit 4 | Back/<code> | fr_d07fad51ed95.mp3 | 'Il faut.'
+2026-10-26 18:26:33,205 INFO [PLAN] 1792832820957 法语::初级课程::Unit 4 | Back/<code> | fr_641fb3b1c750.mp3 | 'Il faut, devoir.'
+2026-10-26 18:26:33,205 INFO [PLAN] 1792841304120 法语::初级课程::Unit 2 | Back/<code> | fr_ad5c133249b6.mp3 | 'cet.'
+2026-10-26 18:26:33,205 INFO [PLAN] 1792841304173 法语::初级课程::Unit 2 | Back/<code> | fr_ead89fb0d931.mp3 | 'ces personnes, ces.'
+2026-10-26 18:26:33,206 INFO [SKIP] 1792841304235 法语::初级课程::Unit 2：没有找到可读的法语片段
+2026-10-26 18:26:33,206 INFO [PLAN] 1792841304298 法语::初级课程::Unit 2 | Back/plain | fr_28d05335fffd.mp3 | 'Je vais étudier.'
+2026-10-26 18:26:33,206 INFO [PLAN] 1792841304360 法语::初级课程::Unit 2 | Back/<code> | fr_f42ad2e73dfb.mp3 | 'vingt et un, trente et un, quarante et un, et.'
+2026-10-26 18:26:33,206 INFO [PLAN] 1792841304422 法语::初级课程::Unit 2 | Back/plain | fr_41c83bb53674.mp3 | 'Je viens de France.'
+2026-10-26 18:26:33,206 INFO [PLAN] 1792841304500 法语::初级课程::Unit 2 | Back/<code> | fr_f1a87cd62d30.mp3 | 'les grands-parents, les parents, les enfants, les petits-enfants.'
+2026-10-26 18:26:33,207 INFO [PLAN] 1792841304548 法语::初级课程::Unit 2 | Front/<code> | fr_ee67d391299f.mp3 | 'beau-frère, belle-sœur.'
+2026-10-26 18:26:33,207 INFO [PLAN] 1792841304623 法语::初级课程::Unit 2 | Back/<code> | fr_79764a83352e.mp3 | 'qui, que, quoi.'
+2026-10-26 18:26:33,207 INFO [PLAN] 1792841304685 法语::初级课程::Unit 2 | Back/<code> | fr_a4183d456082.mp3 | "Que fais-tu, Qu'est-ce que tu fais."
+2026-10-26 18:26:33,207 INFO [PLAN] 1792841304745 法语::初级课程::Unit 2 | Back/<code> | fr_796465e5f0cb.mp3 | 'Comment vous appelez-vous, Quel est votre nom.'
+2026-10-26 18:26:33,207 INFO [PLAN] 1792841304809 法语::初级课程::Unit 2 | Back/<code> | fr_0490c58bbb11.mp3 | "Je m'appelle, Je suis, Mon nom est."
+2026-10-26 18:26:33,208 INFO [PLAN] 1792841304869 法语::初级课程::Unit 2 | Back/<code> | fr_d1ac95dc2035.mp3 | "je m'appelle, tu t'appelles, il, elle s'appelle."
+2026-10-26 18:26:33,208 INFO [PLAN] 1792841304931 法语::初级课程::Unit 2 | Back/<code> | fr_8e767df78b8a.mp3 | 'célibataire, mariée, divorcée, veuf, veuve.'
+2026-10-26 18:26:33,208 INFO [PLAN] 1792841304995 法语::初级课程::Unit 2 | Back/<code> | fr_1d67617a0328.mp3 | 'veuve.'
+2026-10-26 18:26:33,208 INFO [PLAN] 1792841305055 法语::初级课程::Unit 2 | Front/<code> | fr_7fab9533745c.mp3 | 'finir.'
+2026-10-26 18:26:33,208 INFO [PLAN] 1792841305117 法语::初级课程::Unit 2 | Back/<code> | fr_c0fcee2e5a70.mp3 | 'nous choisissons, nous choisisons.'
+2026-10-26 18:26:33,208 INFO [PLAN] 1792841305179 法语::初级课程::Unit 2 | Back/<code> | fr_3ab215399f09.mp3 | 'Je choisis le français.'
+2026-10-26 18:26:33,209 INFO [PLAN] 1792841305241 法语::初级课程::Unit 2 | Back/<code> | fr_650063167dfc.mp3 | 'Nous unissons nos forces.'
+2026-10-26 18:26:33,209 INFO [PLAN] 1792841305304 法语::初级课程::Unit 2 | Back/<code> | fr_7c80be9799c5.mp3 | 'cet ordinateur, ce ordinateur.'
+2026-10-26 18:26:33,209 INFO [PLAN] 1792841305367 法语::初级课程::Unit 2 | Back/plain | fr_a360afbd9db8.mp3 | 'je parle tu parles il, elle parle nous parlons vous parlez ils, elles parlent.'
+2026-10-26 18:26:33,209 INFO [PLAN] 1792841305426 法语::初级课程::Unit 2 | Back/<code> | fr_61e6bc4a7c95.mp3 | 'aller.'
+2026-10-26 18:26:33,209 INFO [PLAN] 1792841305490 法语::初级课程::Unit 2 | Back/<code> | fr_3bfb31093123.mp3 | 'ils, elles viennent.'
+2026-10-26 18:26:33,210 INFO [PLAN] 1792841305553 法语::初级课程::Unit 2 | Back/plain | fr_5e3af7a49e12.mp3 | 'je finis tu finis il, elle finit nous finissons vous finissez ils, elles finissent.'
+2026-10-26 18:26:33,210 INFO [PLAN] 1792841309769 法语::初级课程::Unit 3 | Back/plain | fr_e26c3f03ef15.mp3 | 'des eaux, des tuyaux, des feux.'
+2026-10-26 18:26:33,210 INFO [PLAN] 1792841309830 法语::初级课程::Unit 3 | Back/plain | fr_c1bc05d3372c.mp3 | 'des yeux, des œils.'
+2026-10-26 18:26:33,210 INFO [PLAN] 1792841309891 法语::初级课程::Unit 3 | Back/plain | fr_249140be963c.mp3 | 'Je peux chanter.'
+2026-10-26 18:26:33,210 INFO [PLAN] 1792841309954 法语::初级课程::Unit 3 | Back/<code> | fr_f5662bc8c9d4.mp3 | 'devoir, pouvoir.'
+2026-10-26 18:26:33,211 INFO [PLAN] 1792841310016 法语::初级课程::Unit 3 | Back/<code> | fr_fc7264146ab2.mp3 | 'en.'
+2026-10-26 18:26:33,211 INFO [PLAN] 1792841310078 法语::初级课程::Unit 3 | Back/<code> | fr_3593283c79e2.mp3 | 'au.'
+2026-10-26 18:26:33,211 INFO [PLAN] 1792841310140 法语::初级课程::Unit 3 | Back/<code> | fr_466c0769b1da.mp3 | 'aux.'
+2026-10-26 18:26:33,211 INFO [PLAN] 1792841310204 法语::初级课程::Unit 3 | Back/<code> | fr_506b2869fe1a.mp3 | 'le Royaume-Uni.'
+2026-10-26 18:26:33,211 INFO [PLAN] 1792841310266 法语::初级课程::Unit 3 | Back/<code> | fr_3336e1266e30.mp3 | 'les États-Unis, aux.'
+2026-10-26 18:26:33,211 INFO [PLAN] 1792841310328 法语::初级课程::Unit 3 | Back/<code> | fr_0d2cec8a74ac.mp3 | 'canadien, canadienne.'
+2026-10-26 18:26:33,212 INFO [PLAN] 1792841310388 法语::初级课程::Unit 3 | Back/<code> | fr_7192aaec77dc.mp3 | 'je réponds.'
+2026-10-26 18:26:33,212 INFO [PLAN] 1792841310452 法语::初级课程::Unit 3 | Back/<code> | fr_210b4f8554cb.mp3 | "répondre à quelqu'un."
+2026-10-26 18:26:33,213 INFO [PLAN] 1792841310528 法语::初级课程::Unit 3 | Back/<code> | fr_f376b5d1a010.mp3 | 'te, vous.'
+2026-10-26 18:26:33,213 INFO [PLAN] 1792841310591 法语::初级课程::Unit 3 | Back/<code> | fr_a7d3ca42dce8.mp3 | "Elle t'invite, te."
+2026-10-26 18:26:33,213 INFO [PLAN] 1792841310654 法语::初级课程::Unit 3 | Back/<code> | fr_3972ba2c9fbf.mp3 | 'soixante-dix, soixante-dix-sept.'
+2026-10-26 18:26:33,213 INFO [PLAN] 1792841310716 法语::初级课程::Unit 3 | Back/<code> | fr_327857c369cf.mp3 | 'quatre-vingts, quatre-vingt-un, et.'
+2026-10-26 18:26:33,213 INFO [PLAN] 1792841310777 法语::初级课程::Unit 3 | Back/<code> | fr_1dedc8061870.mp3 | 'quatre-vingt-deux.'
+2026-10-26 18:26:33,214 INFO [PLAN] 1792841310840 法语::初级课程::Unit 3 | Back/<code> | fr_9924be288dbd.mp3 | 'quatre-vingt-dix, quatre-vingt-onze.'
+2026-10-26 18:26:33,214 INFO [PLAN] 1792841310903 法语::初级课程::Unit 3 | Back/<code> | fr_1c5818add0f1.mp3 | 'grec, grecque.'
+2026-10-26 18:26:33,214 INFO [PLAN] 1792841310964 法语::初级课程::Unit 3 | Back/<code> | fr_06ab81fd7ebe.mp3 | 'bijou, caillou, chou, genou, hibou, joujou, pou.'
+2026-10-26 18:26:33,214 INFO [PLAN] 1792841311028 法语::初级课程::Unit 3 | Back/plain | fr_6e975dfba187.mp3 | 'je peux tu peux il, elle peut nous pouvons vous pouvez ils, elles peuvent.'
+2026-10-26 18:26:33,215 INFO [PLAN] 1792841311090 法语::初级课程::Unit 3 | Back/<code> | fr_6766e8f9121d.mp3 | 'ils, elles doivent.'
+2026-10-26 18:26:33,215 INFO [PLAN] 1792841311150 法语::初级课程::Unit 3 | Back/<code> | fr_c52df5edda92.mp3 | "j'attends."
+2026-10-26 18:26:33,215 INFO [PLAN] 1792841311213 法语::初级课程::Unit 3 | Back/<code> | fr_f68789c0d958.mp3 | 'après-midi, cet.'
+2026-10-26 18:26:33,215 INFO dry-run 完成。加 --apply 才会真正写入 Anki。
+2026-10-26 18:26:41,143 INFO AnkiConnect version: 6
+2026-10-26 18:26:41,143 INFO 模式：APPLY
+2026-10-26 18:26:41,848 INFO 已导出备份：E:\ob\-first\-first\15-Study\06_france\初级课程\Anki发音\backup\pre-audio-20261026-182641.apkg
+2026-10-26 18:26:41,908 INFO 模型 Obsidian-basic 现有字段：['Front', 'Back', 'Context', 'Source']
+2026-10-26 18:26:41,909 INFO 需要新增字段 Audio（index=4）
+2026-10-26 18:26:42,025 INFO 已新增字段 Audio
+2026-10-26 18:26:42,091 INFO 模板 Card 1 将插入 Audio 播放器
+2026-10-26 18:26:42,147 INFO 已更新模板
+2026-10-26 18:26:42,147 INFO 待处理 1 张卡
+2026-10-26 18:26:44,305 INFO [DONE] 1792841304500 ：les grands-parents, les parents, les enfants, les petits-enfants.
+2026-10-26 18:26:44,508 INFO 已写入 manifest：E:\ob\-first\-first\15-Study\06_france\初级课程\Anki发音\audio_manifest.json
+2026-10-26 18:26:44,508 INFO 完成：生成/更新 1，已存在 0，跳过 0，失败 0
+2026-10-26 18:26:56,413 INFO AnkiConnect version: 6
+2026-10-26 18:26:56,414 INFO 模式：APPLY
+2026-10-26 18:26:57,114 INFO 已导出备份：E:\ob\-first\-first\15-Study\06_france\初级课程\Anki发音\backup\pre-audio-20261026-182656.apkg
+2026-10-26 18:26:57,175 INFO 模型 Obsidian-basic 现有字段：['Front', 'Back', 'Context', 'Source', 'Audio']
+2026-10-26 18:26:57,175 INFO 字段 Audio 已存在，跳过
+2026-10-26 18:26:57,233 INFO 模板 Card 1 已包含 Audio 播放器，跳过
+2026-10-26 18:26:57,354 INFO 卡组 法语：56 张
+2026-10-26 18:26:57,413 INFO 卡组 法语::初级课程：56 张
+2026-10-26 18:26:57,495 INFO 卡组 法语::初级课程::Unit 2：24 张
+2026-10-26 18:26:57,568 INFO 卡组 法语::初级课程::Unit 3：24 张
+2026-10-26 18:26:57,628 INFO 卡组 法语::初级课程::Unit 4：8 张
+2026-10-26 18:26:57,628 INFO 待处理 56 张卡
+2026-10-26 18:26:59,533 INFO [DONE] 1792832820525 法语::初级课程::Unit 4：il faut, je faut, tu faut.
+2026-10-26 18:27:01,547 INFO [DONE] 1792832820586 法语::初级课程::Unit 4：ne...pas, faut, fumer.
+2026-10-26 18:27:03,572 INFO [DONE] 1792832820649 法语::初级课程::Unit 4：une.
+2026-10-26 18:27:05,603 INFO [DONE] 1792832820699 法语::初级课程::Unit 4：respecter.
+2026-10-26 18:27:07,806 INFO [DONE] 1792832820771 法语::初级课程::Unit 4：un parapluie, Il faut un parapluie car il pleut.
+2026-10-26 18:27:10,087 INFO [DONE] 1792832820832 法语::初级课程::Unit 4：une règle, Il faut respecter les règles.
+2026-10-26 18:27:12,165 INFO [DONE] 1792832820895 法语::初级课程::Unit 4：Il faut.
+2026-10-26 18:27:14,508 INFO [DONE] 1792832820957 法语::初级课程::Unit 4：Il faut, devoir.
+2026-10-26 18:27:16,528 INFO [DONE] 1792841304120 法语::初级课程::Unit 2：cet.
+2026-10-26 18:27:18,710 INFO [DONE] 1792841304173 法语::初级课程::Unit 2：ces personnes, ces.
+2026-10-26 18:27:18,911 INFO [SKIP] 1792841304235 法语::初级课程::Unit 2：没有找到可读的法语片段
+2026-10-26 18:27:20,775 INFO [DONE] 1792841304298 法语::初级课程::Unit 2：Je vais étudier.
+2026-10-26 18:27:23,025 INFO [DONE] 1792841304360 法语::初级课程::Unit 2：vingt et un, trente et un, quarante et un, et.
+2026-10-26 18:27:25,030 INFO [DONE] 1792841304422 法语::初级课程::Unit 2：Je viens de France.
+2026-10-26 18:27:25,276 INFO [OK]   1792841304500 法语::初级课程::Unit 2：已存在 fr_f1a87cd62d30.mp3
+2026-10-26 18:27:27,375 INFO [DONE] 1792841304548 法语::初级课程::Unit 2：beau-frère, belle-sœur.
+2026-10-26 18:27:29,243 INFO [DONE] 1792841304623 法语::初级课程::Unit 2：qui, que, quoi.
+2026-10-26 18:27:31,605 INFO [DONE] 1792841304685 法语::初级课程::Unit 2：Que fais-tu, Qu'est-ce que tu fais.
+2026-10-26 18:27:33,555 INFO [DONE] 1792841304745 法语::初级课程::Unit 2：Comment vous appelez-vous, Quel est votre nom.
+2026-10-26 18:27:35,450 INFO [DONE] 1792841304809 法语::初级课程::Unit 2：Je m'appelle, Je suis, Mon nom est.
+2026-10-26 18:27:37,620 INFO [DONE] 1792841304869 法语::初级课程::Unit 2：je m'appelle, tu t'appelles, il, elle s'appelle.
+2026-10-26 18:27:43,966 INFO [DONE] 1792841304931 法语::初级课程::Unit 2：célibataire, mariée, divorcée, veuf, veuve.
+2026-10-26 18:27:45,855 INFO [DONE] 1792841304995 法语::初级课程::Unit 2：veuve.
+2026-10-26 18:27:48,001 INFO [DONE] 1792841305055 法语::初级课程::Unit 2：finir.
+2026-10-26 18:27:49,950 INFO [DONE] 1792841305117 法语::初级课程::Unit 2：nous choisissons, nous choisisons.
+2026-10-26 18:27:52,025 INFO [DONE] 1792841305179 法语::初级课程::Unit 2：Je choisis le français.
+2026-10-26 18:27:59,459 INFO [DONE] 1792841305241 法语::初级课程::Unit 2：Nous unissons nos forces.
+2026-10-26 18:28:01,147 INFO [DONE] 1792841305304 法语::初级课程::Unit 2：cet ordinateur, ce ordinateur.
+2026-10-26 18:28:03,302 INFO [DONE] 1792841305367 法语::初级课程::Unit 2：je parle tu parles il, elle parle nous parlons vous parlez ils, elles parlent.
+2026-10-26 18:28:05,353 INFO [DONE] 1792841305426 法语::初级课程::Unit 2：aller.
+2026-10-26 18:28:07,964 INFO [DONE] 1792841305490 法语::初级课程::Unit 2：ils, elles viennent.
+2026-10-26 18:28:09,995 INFO [DONE] 1792841305553 法语::初级课程::Unit 2：je finis tu finis il, elle finit nous finissons vous finissez ils, elles finissent.
+2026-10-26 18:28:11,897 INFO [DONE] 1792841309769 法语::初级课程::Unit 3：des eaux, des tuyaux, des feux.
+2026-10-26 18:28:13,851 INFO [DONE] 1792841309830 法语::初级课程::Unit 3：des yeux, des œils.
+2026-10-26 18:28:26,357 INFO [DONE] 1792841309891 法语::初级课程::Unit 3：Je peux chanter.
+2026-10-26 18:28:28,384 INFO [DONE] 1792841309954 法语::初级课程::Unit 3：devoir, pouvoir.
+2026-10-26 18:28:30,575 INFO [DONE] 1792841310016 法语::初级课程::Unit 3：en.
+2026-10-26 18:28:32,688 INFO [DONE] 1792841310078 法语::初级课程::Unit 3：au.
+2026-10-26 18:28:34,778 INFO [DONE] 1792841310140 法语::初级课程::Unit 3：aux.
+2026-10-26 18:28:39,804 INFO [DONE] 1792841310204 法语::初级课程::Unit 3：le Royaume-Uni.
+2026-10-26 18:28:42,475 INFO [DONE] 1792841310266 法语::初级课程::Unit 3：les États-Unis, aux.
+2026-10-26 18:28:44,304 INFO [DONE] 1792841310328 法语::初级课程::Unit 3：canadien, canadienne.
+2026-10-26 18:28:46,140 INFO [DONE] 1792841310388 法语::初级课程::Unit 3：je réponds.
+2026-10-26 18:28:47,957 INFO [DONE] 1792841310452 法语::初级课程::Unit 3：répondre à quelqu'un.
+2026-10-26 18:28:49,845 INFO [DONE] 1792841310528 法语::初级课程::Unit 3：te, vous.
+2026-10-26 18:28:51,715 INFO [DONE] 1792841310591 法语::初级课程::Unit 3：Elle t'invite, te.
+2026-10-26 18:28:53,713 INFO [DONE] 1792841310654 法语::初级课程::Unit 3：soixante-dix, soixante-dix-sept.
+2026-10-26 18:28:55,677 INFO [DONE] 1792841310716 法语::初级课程::Unit 3：quatre-vingts, quatre-vingt-un, et.
+2026-10-26 18:28:57,632 INFO [DONE] 1792841310777 法语::初级课程::Unit 3：quatre-vingt-deux.
+2026-10-26 18:28:59,680 INFO [DONE] 1792841310840 法语::初级课程::Unit 3：quatre-vingt-dix, quatre-vingt-onze.
+2026-10-26 18:29:01,543 INFO [DONE] 1792841310903 法语::初级课程::Unit 3：grec, grecque.
+2026-10-26 18:29:03,685 INFO [DONE] 1792841310964 法语::初级课程::Unit 3：bijou, caillou, chou, genou, hibou, joujou, pou.
+2026-10-26 18:29:12,145 INFO [DONE] 1792841311028 法语::初级课程::Unit 3：je peux tu peux il, elle peut nous pouvons vous pouvez ils, elles peuvent.
+2026-10-26 18:29:14,353 INFO [DONE] 1792841311090 法语::初级课程::Unit 3：ils, elles doivent.
+2026-10-26 18:29:47,070 INFO [DONE] 1792841311150 法语::初级课程::Unit 3：j'attends.
+2026-10-26 18:29:48,853 INFO [DONE] 1792841311213 法语::初级课程::Unit 3：après-midi, cet.
+2026-10-26 18:29:49,072 INFO 已写入 manifest：E:\ob\-first\-first\15-Study\06_france\初级课程\Anki发音\audio_manifest.json
+2026-10-26 18:29:49,072 INFO 完成：生成/更新 54，已存在 1，跳过 1，失败 0
+2026-10-26 18:30:40,820 INFO AnkiConnect version: 6
+2026-10-26 18:30:40,821 INFO 模式：DRY-RUN
+2026-10-26 18:30:40,886 INFO 模型 Obsidian-basic 现有字段：['Front', 'Back', 'Context', 'Source', 'Audio']
+2026-10-26 18:30:40,887 INFO 字段 Audio 已存在，跳过
+2026-10-26 18:30:40,959 INFO 模板 Card 1 已包含 Audio 播放器，跳过
+2026-10-26 18:30:41,093 INFO 卡组 法语：56 张
+2026-10-26 18:30:41,148 INFO 卡组 法语::初级课程：56 张
+2026-10-26 18:30:41,222 INFO 卡组 法语::初级课程::Unit 2：24 张
+2026-10-26 18:30:41,281 INFO 卡组 法语::初级课程::Unit 3：24 张
+2026-10-26 18:30:41,345 INFO 卡组 法语::初级课程::Unit 4：8 张
+2026-10-26 18:30:41,346 INFO 待处理 56 张卡
+2026-10-26 18:30:41,510 INFO [OK]   1792832820525 法语::初级课程::Unit 4：已存在 fr_f288a217ed63.mp3
+2026-10-26 18:30:41,576 INFO [OK]   1792832820586 法语::初级课程::Unit 4：已存在 fr_5d27896a942d.mp3
+2026-10-26 18:30:41,635 INFO [OK]   1792832820649 法语::初级课程::Unit 4：已存在 fr_06f0d0c2c385.mp3
+2026-10-26 18:30:41,700 INFO [OK]   1792832820699 法语::初级课程::Unit 4：已存在 fr_46e6c748bdda.mp3
+2026-10-26 18:30:41,777 INFO [OK]   1792832820771 法语::初级课程::Unit 4：已存在 fr_c1942689bf61.mp3
+2026-10-26 18:30:41,844 INFO [OK]   1792832820832 法语::初级课程::Unit 4：已存在 fr_90e2c39186dc.mp3
+2026-10-26 18:30:41,902 INFO [OK]   1792832820895 法语::初级课程::Unit 4：已存在 fr_d07fad51ed95.mp3
+2026-10-26 18:30:41,960 INFO [OK]   1792832820957 法语::初级课程::Unit 4：已存在 fr_641fb3b1c750.mp3
+2026-10-26 18:30:42,027 INFO [OK]   1792841304120 法语::初级课程::Unit 2：已存在 fr_ad5c133249b6.mp3
+2026-10-26 18:30:42,093 INFO [OK]   1792841304173 法语::初级课程::Unit 2：已存在 fr_ead89fb0d931.mp3
+2026-10-26 18:30:42,094 INFO [SKIP] 1792841304235 法语::初级课程::Unit 2：没有找到可读的法语片段
+2026-10-26 18:30:42,153 INFO [OK]   1792841304298 法语::初级课程::Unit 2：已存在 fr_28d05335fffd.mp3
+2026-10-26 18:30:42,211 INFO [OK]   1792841304360 法语::初级课程::Unit 2：已存在 fr_f42ad2e73dfb.mp3
+2026-10-26 18:30:42,275 INFO [OK]   1792841304422 法语::初级课程::Unit 2：已存在 fr_41c83bb53674.mp3
+2026-10-26 18:30:42,352 INFO [OK]   1792841304500 法语::初级课程::Unit 2：已存在 fr_f1a87cd62d30.mp3
+2026-10-26 18:30:42,418 INFO [OK]   1792841304548 法语::初级课程::Unit 2：已存在 fr_ee67d391299f.mp3
+2026-10-26 18:30:42,476 INFO [OK]   1792841304623 法语::初级课程::Unit 2：已存在 fr_79764a83352e.mp3
+2026-10-26 18:30:42,549 INFO [OK]   1792841304685 法语::初级课程::Unit 2：已存在 fr_a4183d456082.mp3
+2026-10-26 18:30:42,600 INFO [OK]   1792841304745 法语::初级课程::Unit 2：已存在 fr_796465e5f0cb.mp3
+2026-10-26 18:30:42,674 INFO [OK]   1792841304809 法语::初级课程::Unit 2：已存在 fr_0490c58bbb11.mp3
+2026-10-26 18:30:42,732 INFO [OK]   1792841304869 法语::初级课程::Unit 2：已存在 fr_d1ac95dc2035.mp3
+2026-10-26 18:30:42,799 INFO [OK]   1792841304931 法语::初级课程::Unit 2：已存在 fr_8e767df78b8a.mp3
+2026-10-26 18:30:42,857 INFO [OK]   1792841304995 法语::初级课程::Unit 2：已存在 fr_1d67617a0328.mp3
+2026-10-26 18:30:42,915 INFO [OK]   1792841305055 法语::初级课程::Unit 2：已存在 fr_7fab9533745c.mp3
+2026-10-26 18:30:42,983 INFO [OK]   1792841305117 法语::初级课程::Unit 2：已存在 fr_c0fcee2e5a70.mp3
+2026-10-26 18:30:43,041 INFO [OK]   1792841305179 法语::初级课程::Unit 2：已存在 fr_3ab215399f09.mp3
+2026-10-26 18:30:43,118 INFO [OK]   1792841305241 法语::初级课程::Unit 2：已存在 fr_650063167dfc.mp3
+2026-10-26 18:30:43,178 INFO [OK]   1792841305304 法语::初级课程::Unit 2：已存在 fr_7c80be9799c5.mp3
+2026-10-26 18:30:43,249 INFO [OK]   1792841305367 法语::初级课程::Unit 2：已存在 fr_a360afbd9db8.mp3
+2026-10-26 18:30:43,315 INFO [OK]   1792841305426 法语::初级课程::Unit 2：已存在 fr_61e6bc4a7c95.mp3
+2026-10-26 18:30:43,364 INFO [OK]   1792841305490 法语::初级课程::Unit 2：已存在 fr_3bfb31093123.mp3
+2026-10-26 18:30:43,448 INFO [OK]   1792841305553 法语::初级课程::Unit 2：已存在 fr_5e3af7a49e12.mp3
+2026-10-26 18:30:43,513 INFO [OK]   1792841309769 法语::初级课程::Unit 3：已存在 fr_e26c3f03ef15.mp3
+2026-10-26 18:30:43,582 INFO [OK]   1792841309830 法语::初级课程::Unit 3：已存在 fr_c1bc05d3372c.mp3
+2026-10-26 18:30:43,631 INFO [OK]   1792841309891 法语::初级课程::Unit 3：已存在 fr_249140be963c.mp3
+2026-10-26 18:30:43,693 INFO [OK]   1792841309954 法语::初级课程::Unit 3：已存在 fr_f5662bc8c9d4.mp3
+2026-10-26 18:30:43,792 INFO [OK]   1792841310016 法语::初级课程::Unit 3：已存在 fr_fc7264146ab2.mp3
+2026-10-26 18:30:43,851 INFO [OK]   1792841310078 法语::初级课程::Unit 3：已存在 fr_3593283c79e2.mp3
+2026-10-26 18:30:43,915 INFO [OK]   1792841310140 法语::初级课程::Unit 3：已存在 fr_466c0769b1da.mp3
+2026-10-26 18:30:43,977 INFO [OK]   1792841310204 法语::初级课程::Unit 3：已存在 fr_506b2869fe1a.mp3
+2026-10-26 18:30:44,038 INFO [OK]   1792841310266 法语::初级课程::Unit 3：已存在 fr_3336e1266e30.mp3
+2026-10-26 18:30:44,111 INFO [OK]   1792841310328 法语::初级课程::Unit 3：已存在 fr_0d2cec8a74ac.mp3
+2026-10-26 18:30:44,168 INFO [OK]   1792841310388 法语::初级课程::Unit 3：已存在 fr_7192aaec77dc.mp3
+2026-10-26 18:30:44,227 INFO [OK]   1792841310452 法语::初级课程::Unit 3：已存在 fr_210b4f8554cb.mp3
+2026-10-26 18:30:44,293 INFO [OK]   1792841310528 法语::初级课程::Unit 3：已存在 fr_f376b5d1a010.mp3
+2026-10-26 18:30:44,351 INFO [OK]   1792841310591 法语::初级课程::Unit 3：已存在 fr_a7d3ca42dce8.mp3
+2026-10-26 18:30:44,427 INFO [OK]   1792841310654 法语::初级课程::Unit 3：已存在 fr_3972ba2c9fbf.mp3
+2026-10-26 18:30:44,476 INFO [OK]   1792841310716 法语::初级课程::Unit 3：已存在 fr_327857c369cf.mp3
+2026-10-26 18:30:44,541 INFO [OK]   1792841310777 法语::初级课程::Unit 3：已存在 fr_1dedc8061870.mp3
+2026-10-26 18:30:44,608 INFO [OK]   1792841310840 法语::初级课程::Unit 3：已存在 fr_9924be288dbd.mp3
+2026-10-26 18:30:44,674 INFO [OK]   1792841310903 法语::初级课程::Unit 3：已存在 fr_1c5818add0f1.mp3
+2026-10-26 18:30:44,750 INFO [OK]   1792841310964 法语::初级课程::Unit 3：已存在 fr_06ab81fd7ebe.mp3
+2026-10-26 18:30:44,808 INFO [OK]   1792841311028 法语::初级课程::Unit 3：已存在 fr_6e975dfba187.mp3
+2026-10-26 18:30:44,891 INFO [OK]   1792841311090 法语::初级课程::Unit 3：已存在 fr_6766e8f9121d.mp3
+2026-10-26 18:30:44,949 INFO [OK]   1792841311150 法语::初级课程::Unit 3：已存在 fr_c52df5edda92.mp3
+2026-10-26 18:30:45,007 INFO [OK]   1792841311213 法语::初级课程::Unit 3：已存在 fr_f68789c0d958.mp3
+2026-10-26 18:30:45,007 INFO dry-run 完成。加 --apply 才会真正写入 Anki。
+2026-10-26 18:30:50,154 INFO AnkiConnect version: 6
+2026-10-26 18:30:50,155 INFO 模式：DRY-RUN
+2026-10-26 18:30:50,217 INFO 模型 Obsidian-basic 现有字段：['Front', 'Back', 'Context', 'Source', 'Audio']
+2026-10-26 18:30:50,217 INFO 字段 Audio 已存在，跳过
+2026-10-26 18:30:50,275 INFO 模板 Card 1 已包含 Audio 播放器，跳过
+2026-10-26 18:30:50,402 INFO 卡组 法语：56 张
+2026-10-26 18:30:50,483 INFO 卡组 法语::初级课程：56 张
+2026-10-26 18:30:50,539 INFO 卡组 法语::初级课程::Unit 2：24 张
+2026-10-26 18:30:50,613 INFO 卡组 法语::初级课程::Unit 3：24 张
+2026-10-26 18:30:50,661 INFO 卡组 法语::初级课程::Unit 4：8 张
+2026-10-26 18:30:50,661 INFO 待处理 56 张卡
+2026-10-26 18:30:50,800 INFO [OK]   1792832820525 法语::初级课程::Unit 4：已存在 fr_f288a217ed63.mp3
+2026-10-26 18:30:50,866 INFO [OK]   1792832820586 法语::初级课程::Unit 4：已存在 fr_5d27896a942d.mp3
+2026-10-26 18:30:50,947 INFO [OK]   1792832820649 法语::初级课程::Unit 4：已存在 fr_06f0d0c2c385.mp3
+2026-10-26 18:30:51,014 INFO [OK]   1792832820699 法语::初级课程::Unit 4：已存在 fr_46e6c748bdda.mp3
+2026-10-26 18:30:51,089 INFO [OK]   1792832820771 法语::初级课程::Unit 4：已存在 fr_c1942689bf61.mp3
+2026-10-26 18:30:51,154 INFO [OK]   1792832820832 法语::初级课程::Unit 4：已存在 fr_90e2c39186dc.mp3
+2026-10-26 18:30:51,211 INFO [OK]   1792832820895 法语::初级课程::Unit 4：已存在 fr_d07fad51ed95.mp3
+2026-10-26 18:30:51,285 INFO [OK]   1792832820957 法语::初级课程::Unit 4：已存在 fr_641fb3b1c750.mp3
+2026-10-26 18:30:51,343 INFO [OK]   1792841304120 法语::初级课程::Unit 2：已存在 fr_ad5c133249b6.mp3
+2026-10-26 18:30:51,401 INFO [OK]   1792841304173 法语::初级课程::Unit 2：已存在 fr_ead89fb0d931.mp3
+2026-10-26 18:30:51,401 INFO [SKIP] 1792841304235 法语::初级课程::Unit 2：没有找到可读的法语片段
+2026-10-26 18:30:51,466 INFO [OK]   1792841304298 法语::初级课程::Unit 2：已存在 fr_28d05335fffd.mp3
+2026-10-26 18:30:51,523 INFO [OK]   1792841304360 法语::初级课程::Unit 2：已存在 fr_f42ad2e73dfb.mp3
+2026-10-26 18:30:51,588 INFO [OK]   1792841304422 法语::初级课程::Unit 2：已存在 fr_41c83bb53674.mp3
+2026-10-26 18:30:51,654 INFO [OK]   1792841304500 法语::初级课程::Unit 2：已存在 fr_f1a87cd62d30.mp3
+2026-10-26 18:30:51,711 INFO [OK]   1792841304548 法语::初级课程::Unit 2：已存在 fr_ee67d391299f.mp3
+2026-10-26 18:30:51,778 INFO [OK]   1792841304623 法语::初级课程::Unit 2：已存在 fr_79764a83352e.mp3
+2026-10-26 18:30:51,842 INFO [OK]   1792841304685 法语::初级课程::Unit 2：已存在 fr_a4183d456082.mp3
+2026-10-26 18:30:51,906 INFO [OK]   1792841304745 法语::初级课程::Unit 2：已存在 fr_796465e5f0cb.mp3
+2026-10-26 18:30:51,964 INFO [OK]   1792841304809 法语::初级课程::Unit 2：已存在 fr_0490c58bbb11.mp3
+2026-10-26 18:30:52,023 INFO [OK]   1792841304869 法语::初级课程::Unit 2：已存在 fr_d1ac95dc2035.mp3
+2026-10-26 18:30:52,093 INFO [OK]   1792841304931 法语::初级课程::Unit 2：已存在 fr_8e767df78b8a.mp3
+2026-10-26 18:30:52,151 INFO [OK]   1792841304995 法语::初级课程::Unit 2：已存在 fr_1d67617a0328.mp3
+2026-10-26 18:30:52,235 INFO [OK]   1792841305055 法语::初级课程::Unit 2：已存在 fr_7fab9533745c.mp3
+2026-10-26 18:30:52,302 INFO [OK]   1792841305117 法语::初级课程::Unit 2：已存在 fr_c0fcee2e5a70.mp3
+2026-10-26 18:30:52,367 INFO [OK]   1792841305179 法语::初级课程::Unit 2：已存在 fr_3ab215399f09.mp3
+2026-10-26 18:30:52,440 INFO [OK]   1792841305241 法语::初级课程::Unit 2：已存在 fr_650063167dfc.mp3
+2026-10-26 18:30:52,493 INFO [OK]   1792841305304 法语::初级课程::Unit 2：已存在 fr_7c80be9799c5.mp3
+2026-10-26 18:30:52,556 INFO [OK]   1792841305367 法语::初级课程::Unit 2：已存在 fr_a360afbd9db8.mp3
+2026-10-26 18:30:52,629 INFO [OK]   1792841305426 法语::初级课程::Unit 2：已存在 fr_61e6bc4a7c95.mp3
+2026-10-26 18:30:52,687 INFO [OK]   1792841305490 法语::初级课程::Unit 2：已存在 fr_3bfb31093123.mp3
+2026-10-26 18:30:52,752 INFO [OK]   1792841305553 法语::初级课程::Unit 2：已存在 fr_5e3af7a49e12.mp3
+2026-10-26 18:30:52,819 INFO [OK]   1792841309769 法语::初级课程::Unit 3：已存在 fr_e26c3f03ef15.mp3
+2026-10-26 18:30:52,893 INFO [OK]   1792841309830 法语::初级课程::Unit 3：已存在 fr_c1bc05d3372c.mp3
+2026-10-26 18:30:52,950 INFO [OK]   1792841309891 法语::初级课程::Unit 3：已存在 fr_249140be963c.mp3
+2026-10-26 18:30:53,018 INFO [OK]   1792841309954 法语::初级课程::Unit 3：已存在 fr_f5662bc8c9d4.mp3
+2026-10-26 18:30:53,075 INFO [OK]   1792841310016 法语::初级课程::Unit 3：已存在 fr_fc7264146ab2.mp3
+2026-10-26 18:30:53,151 INFO [OK]   1792841310078 法语::初级课程::Unit 3：已存在 fr_3593283c79e2.mp3
+2026-10-26 18:30:53,216 INFO [OK]   1792841310140 法语::初级课程::Unit 3：已存在 fr_466c0769b1da.mp3
+2026-10-26 18:30:53,280 INFO [OK]   1792841310204 法语::初级课程::Unit 3：已存在 fr_506b2869fe1a.mp3
+2026-10-26 18:30:53,340 INFO [OK]   1792841310266 法语::初级课程::Unit 3：已存在 fr_3336e1266e30.mp3
+2026-10-26 18:30:53,414 INFO [OK]   1792841310328 法语::初级课程::Unit 3：已存在 fr_0d2cec8a74ac.mp3
+2026-10-26 18:30:53,482 INFO [OK]   1792841310388 法语::初级课程::Unit 3：已存在 fr_7192aaec77dc.mp3
+2026-10-26 18:30:53,540 INFO [OK]   1792841310452 法语::初级课程::Unit 3：已存在 fr_210b4f8554cb.mp3
+2026-10-26 18:30:53,614 INFO [OK]   1792841310528 法语::初级课程::Unit 3：已存在 fr_f376b5d1a010.mp3
+2026-10-26 18:30:53,663 INFO [OK]   1792841310591 法语::初级课程::Unit 3：已存在 fr_a7d3ca42dce8.mp3
+2026-10-26 18:30:53,727 INFO [OK]   1792841310654 法语::初级课程::Unit 3：已存在 fr_3972ba2c9fbf.mp3
+2026-10-26 18:30:53,787 INFO [OK]   1792841310716 法语::初级课程::Unit 3：已存在 fr_327857c369cf.mp3
+2026-10-26 18:30:53,875 INFO [OK]   1792841310777 法语::初级课程::Unit 3：已存在 fr_1dedc8061870.mp3
+2026-10-26 18:30:53,936 INFO [OK]   1792841310840 法语::初级课程::Unit 3：已存在 fr_9924be288dbd.mp3
+2026-10-26 18:30:53,995 INFO [OK]   1792841310903 法语::初级课程::Unit 3：已存在 fr_1c5818add0f1.mp3
+2026-10-26 18:30:54,061 INFO [OK]   1792841310964 法语::初级课程::Unit 3：已存在 fr_06ab81fd7ebe.mp3
+2026-10-26 18:30:54,120 INFO [OK]   1792841311028 法语::初级课程::Unit 3：已存在 fr_6e975dfba187.mp3
+2026-10-26 18:30:54,186 INFO [OK]   1792841311090 法语::初级课程::Unit 3：已存在 fr_6766e8f9121d.mp3
+2026-10-26 18:30:54,244 INFO [OK]   1792841311150 法语::初级课程::Unit 3：已存在 fr_c52df5edda92.mp3
+2026-10-26 18:30:54,310 INFO [OK]   1792841311213 法语::初级课程::Unit 3：已存在 fr_f68789c0d958.mp3
+2026-10-26 18:30:54,310 INFO dry-run 完成。加 --apply 才会真正写入 Anki。
+2026-10-26 18:31:30,083 INFO AnkiConnect version: 6
+2026-10-26 18:31:30,083 INFO 模式：DRY-RUN
+2026-10-26 18:31:30,131 INFO 模型 Obsidian-basic 现有字段：['Front', 'Back', 'Context', 'Source', 'Audio']
+2026-10-26 18:31:30,131 INFO 字段 Audio 已存在，跳过
+2026-10-26 18:31:30,193 INFO 模板 Card 1 已包含 Audio 播放器，跳过
+2026-10-26 18:31:30,327 INFO 卡组 法语：56 张
+2026-10-26 18:31:30,387 INFO 卡组 法语::初级课程：56 张
+2026-10-26 18:31:30,449 INFO 卡组 法语::初级课程::Unit 2：24 张
+2026-10-26 18:31:30,511 INFO 卡组 法语::初级课程::Unit 3：24 张
+2026-10-26 18:31:30,571 INFO 卡组 法语::初级课程::Unit 4：8 张
+2026-10-26 18:31:30,571 INFO 待处理 56 张卡
+2026-10-26 18:31:31,644 INFO [OK]   1792832820525 法语::初级课程::Unit 4：已存在 fr_f288a217ed63.mp3
+2026-10-26 18:31:31,703 INFO [OK]   1792832820586 法语::初级课程::Unit 4：已存在 fr_5d27896a942d.mp3
+2026-10-26 18:31:31,763 INFO [OK]   1792832820649 法语::初级课程::Unit 4：已存在 fr_06f0d0c2c385.mp3
+2026-10-26 18:31:31,825 INFO [OK]   1792832820699 法语::初级课程::Unit 4：已存在 fr_46e6c748bdda.mp3
+2026-10-26 18:31:31,887 INFO [OK]   1792832820771 法语::初级课程::Unit 4：已存在 fr_c1942689bf61.mp3
+2026-10-26 18:31:31,962 INFO [OK]   1792832820832 法语::初级课程::Unit 4：已存在 fr_90e2c39186dc.mp3
+2026-10-26 18:31:32,014 INFO [OK]   1792832820895 法语::初级课程::Unit 4：已存在 fr_d07fad51ed95.mp3
+2026-10-26 18:31:32,073 INFO [OK]   1792832820957 法语::初级课程::Unit 4：已存在 fr_641fb3b1c750.mp3
+2026-10-26 18:31:32,139 INFO [OK]   1792841304120 法语::初级课程::Unit 2：已存在 fr_ad5c133249b6.mp3
+2026-10-26 18:31:32,203 INFO [OK]   1792841304173 法语::初级课程::Unit 2：已存在 fr_ead89fb0d931.mp3
+2026-10-26 18:31:32,203 INFO [SKIP] 1792841304235 法语::初级课程::Unit 2：没有找到可读的法语片段
+2026-10-26 18:31:32,262 INFO [OK]   1792841304298 法语::初级课程::Unit 2：已存在 fr_28d05335fffd.mp3
+2026-10-26 18:31:32,326 INFO [OK]   1792841304360 法语::初级课程::Unit 2：已存在 fr_f42ad2e73dfb.mp3
+2026-10-26 18:31:32,385 INFO [OK]   1792841304422 法语::初级课程::Unit 2：已存在 fr_41c83bb53674.mp3
+2026-10-26 18:31:32,445 INFO [OK]   1792841304500 法语::初级课程::Unit 2：已存在 fr_f1a87cd62d30.mp3
+2026-10-26 18:31:32,513 INFO [OK]   1792841304548 法语::初级课程::Unit 2：已存在 fr_ee67d391299f.mp3
+2026-10-26 18:31:32,569 INFO [OK]   1792841304623 法语::初级课程::Unit 2：已存在 fr_79764a83352e.mp3
+2026-10-26 18:31:32,634 INFO [OK]   1792841304685 法语::初级课程::Unit 2：已存在 fr_a4183d456082.mp3
+2026-10-26 18:31:32,699 INFO [OK]   1792841304745 法语::初级课程::Unit 2：已存在 fr_796465e5f0cb.mp3
+2026-10-26 18:31:32,759 INFO [OK]   1792841304809 法语::初级课程::Unit 2：已存在 fr_0490c58bbb11.mp3
+2026-10-26 18:31:32,822 INFO [OK]   1792841304869 法语::初级课程::Unit 2：已存在 fr_d1ac95dc2035.mp3
+2026-10-26 18:31:32,885 INFO [OK]   1792841304931 法语::初级课程::Unit 2：已存在 fr_8e767df78b8a.mp3
+2026-10-26 18:31:32,944 INFO [OK]   1792841304995 法语::初级课程::Unit 2：已存在 fr_1d67617a0328.mp3
+2026-10-26 18:31:33,029 INFO [OK]   1792841305055 法语::初级课程::Unit 2：已存在 fr_7fab9533745c.mp3
+2026-10-26 18:31:33,091 INFO [OK]   1792841305117 法语::初级课程::Unit 2：已存在 fr_c0fcee2e5a70.mp3
+2026-10-26 18:31:33,154 INFO [OK]   1792841305179 法语::初级课程::Unit 2：已存在 fr_3ab215399f09.mp3
+2026-10-26 18:31:33,216 INFO [OK]   1792841305241 法语::初级课程::Unit 2：已存在 fr_650063167dfc.mp3
+2026-10-26 18:31:33,278 INFO [OK]   1792841305304 法语::初级课程::Unit 2：已存在 fr_7c80be9799c5.mp3
+2026-10-26 18:31:33,342 INFO [OK]   1792841305367 法语::初级课程::Unit 2：已存在 fr_a360afbd9db8.mp3
+2026-10-26 18:31:33,405 INFO [OK]   1792841305426 法语::初级课程::Unit 2：已存在 fr_61e6bc4a7c95.mp3
+2026-10-26 18:31:33,466 INFO [OK]   1792841305490 法语::初级课程::Unit 2：已存在 fr_3bfb31093123.mp3
+2026-10-26 18:31:33,531 INFO [OK]   1792841305553 法语::初级课程::Unit 2：已存在 fr_5e3af7a49e12.mp3
+2026-10-26 18:31:33,587 INFO [OK]   1792841309769 法语::初级课程::Unit 3：已存在 fr_e26c3f03ef15.mp3
+2026-10-26 18:31:33,652 INFO [OK]   1792841309830 法语::初级课程::Unit 3：已存在 fr_c1bc05d3372c.mp3
+2026-10-26 18:31:33,712 INFO [OK]   1792841309891 法语::初级课程::Unit 3：已存在 fr_249140be963c.mp3
+2026-10-26 18:31:33,771 INFO [OK]   1792841309954 法语::初级课程::Unit 3：已存在 fr_f5662bc8c9d4.mp3
+2026-10-26 18:31:33,836 INFO [OK]   1792841310016 法语::初级课程::Unit 3：已存在 fr_fc7264146ab2.mp3
+2026-10-26 18:31:33,896 INFO [OK]   1792841310078 法语::初级课程::Unit 3：已存在 fr_3593283c79e2.mp3
+2026-10-26 18:31:33,968 INFO [OK]   1792841310140 法语::初级课程::Unit 3：已存在 fr_466c0769b1da.mp3
+2026-10-26 18:31:34,029 INFO [OK]   1792841310204 法语::初级课程::Unit 3：已存在 fr_506b2869fe1a.mp3
+2026-10-26 18:31:34,092 INFO [OK]   1792841310266 法语::初级课程::Unit 3：已存在 fr_3336e1266e30.mp3
+2026-10-26 18:31:34,153 INFO [OK]   1792841310328 法语::初级课程::Unit 3：已存在 fr_0d2cec8a74ac.mp3
+2026-10-26 18:31:34,212 INFO [OK]   1792841310388 法语::初级课程::Unit 3：已存在 fr_7192aaec77dc.mp3
+2026-10-26 18:31:34,273 INFO [OK]   1792841310452 法语::初级课程::Unit 3：已存在 fr_210b4f8554cb.mp3
+2026-10-26 18:31:34,335 INFO [OK]   1792841310528 法语::初级课程::Unit 3：已存在 fr_f376b5d1a010.mp3
+2026-10-26 18:31:34,396 INFO [OK]   1792841310591 法语::初级课程::Unit 3：已存在 fr_a7d3ca42dce8.mp3
+2026-10-26 18:31:34,467 INFO [OK]   1792841310654 法语::初级课程::Unit 3：已存在 fr_3972ba2c9fbf.mp3
+2026-10-26 18:31:34,530 INFO [OK]   1792841310716 法语::初级课程::Unit 3：已存在 fr_327857c369cf.mp3
+2026-10-26 18:31:34,590 INFO [OK]   1792841310777 法语::初级课程::Unit 3：已存在 fr_1dedc8061870.mp3
+2026-10-26 18:31:34,673 INFO [OK]   1792841310840 法语::初级课程::Unit 3：已存在 fr_9924be288dbd.mp3
+2026-10-26 18:31:34,733 INFO [OK]   1792841310903 法语::初级课程::Unit 3：已存在 fr_1c5818add0f1.mp3
+2026-10-26 18:31:34,794 INFO [OK]   1792841310964 法语::初级课程::Unit 3：已存在 fr_06ab81fd7ebe.mp3
+2026-10-26 18:31:34,855 INFO [OK]   1792841311028 法语::初级课程::Unit 3：已存在 fr_6e975dfba187.mp3
+2026-10-26 18:31:34,922 INFO [OK]   1792841311090 法语::初级课程::Unit 3：已存在 fr_6766e8f9121d.mp3
+2026-10-26 18:31:34,977 INFO [OK]   1792841311150 法语::初级课程::Unit 3：已存在 fr_c52df5edda92.mp3
+2026-10-26 18:31:35,052 INFO [OK]   1792841311213 法语::初级课程::Unit 3：已存在 fr_f68789c0d958.mp3
+2026-10-26 18:31:35,052 INFO dry-run 完成。加 --apply 才会真正写入 Anki。
