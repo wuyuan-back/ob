@@ -420,3 +420,253 @@
 2026-10-26 18:31:34,977 INFO [OK]   1792841311150 法语::初级课程::Unit 3：已存在 fr_c52df5edda92.mp3
 2026-10-26 18:31:35,052 INFO [OK]   1792841311213 法语::初级课程::Unit 3：已存在 fr_f68789c0d958.mp3
 2026-10-26 18:31:35,052 INFO dry-run 完成。加 --apply 才会真正写入 Anki。
+2026-10-28 00:04:42,936 INFO AnkiConnect version: 6
+2026-10-28 00:04:42,936 INFO 模式：DRY-RUN
+2026-10-28 00:04:42,998 INFO 模型 Obsidian-basic 现有字段：['Front', 'Back', 'Context', 'Source', 'Audio']
+2026-10-28 00:04:42,998 INFO 字段 Audio 已存在，跳过
+2026-10-28 00:04:43,061 INFO 模板 Card 1 已包含 Audio 播放器，跳过
+2026-10-28 00:04:43,185 INFO 卡组 法语：112 张
+2026-10-28 00:04:43,246 INFO 卡组 法语::初级课程：112 张
+2026-10-28 00:04:43,307 INFO 卡组 法语::初级课程::Unit 2：24 张
+2026-10-28 00:04:43,384 INFO 卡组 法语::初级课程::Unit 3：24 张
+2026-10-28 00:04:43,446 INFO 卡组 法语::初级课程::Unit 4：8 张
+2026-10-28 00:04:43,508 INFO 卡组 法语::初级课程::第一阶段：56 张
+2026-10-28 00:04:43,509 INFO 待处理 112 张卡
+2026-10-28 00:04:43,728 INFO [OK]   1792832820525 法语::初级课程::Unit 4：已存在 fr_f288a217ed63.mp3
+2026-10-28 00:04:43,789 INFO [OK]   1792832820586 法语::初级课程::Unit 4：已存在 fr_5d27896a942d.mp3
+2026-10-28 00:04:43,851 INFO [OK]   1792832820649 法语::初级课程::Unit 4：已存在 fr_06f0d0c2c385.mp3
+2026-10-28 00:04:43,914 INFO [OK]   1792832820699 法语::初级课程::Unit 4：已存在 fr_46e6c748bdda.mp3
+2026-10-28 00:04:43,976 INFO [OK]   1792832820771 法语::初级课程::Unit 4：已存在 fr_c1942689bf61.mp3
+2026-10-28 00:04:44,040 INFO [OK]   1792832820832 法语::初级课程::Unit 4：已存在 fr_90e2c39186dc.mp3
+2026-10-28 00:04:44,100 INFO [OK]   1792832820895 法语::初级课程::Unit 4：已存在 fr_d07fad51ed95.mp3
+2026-10-28 00:04:44,163 INFO [OK]   1792832820957 法语::初级课程::Unit 4：已存在 fr_641fb3b1c750.mp3
+2026-10-28 00:04:44,225 INFO [OK]   1792841304120 法语::初级课程::Unit 2：已存在 fr_ad5c133249b6.mp3
+2026-10-28 00:04:44,287 INFO [OK]   1792841304173 法语::初级课程::Unit 2：已存在 fr_ead89fb0d931.mp3
+2026-10-28 00:04:44,288 INFO [SKIP] 1792841304235 法语::初级课程::Unit 2：没有找到可读的法语片段
+2026-10-28 00:04:44,350 INFO [OK]   1792841304298 法语::初级课程::Unit 2：已存在 fr_28d05335fffd.mp3
+2026-10-28 00:04:44,411 INFO [OK]   1792841304360 法语::初级课程::Unit 2：已存在 fr_f42ad2e73dfb.mp3
+2026-10-28 00:04:44,473 INFO [OK]   1792841304422 法语::初级课程::Unit 2：已存在 fr_41c83bb53674.mp3
+2026-10-28 00:04:44,535 INFO [OK]   1792841304500 法语::初级课程::Unit 2：已存在 fr_f1a87cd62d30.mp3
+2026-10-28 00:04:44,599 INFO [OK]   1792841304548 法语::初级课程::Unit 2：已存在 fr_ee67d391299f.mp3
+2026-10-28 00:04:44,662 INFO [OK]   1792841304623 法语::初级课程::Unit 2：已存在 fr_79764a83352e.mp3
+2026-10-28 00:04:44,723 INFO [OK]   1792841304685 法语::初级课程::Unit 2：已存在 fr_a4183d456082.mp3
+2026-10-28 00:04:44,785 INFO [OK]   1792841304745 法语::初级课程::Unit 2：已存在 fr_796465e5f0cb.mp3
+2026-10-28 00:04:44,849 INFO [OK]   1792841304809 法语::初级课程::Unit 2：已存在 fr_0490c58bbb11.mp3
+2026-10-28 00:04:44,911 INFO [OK]   1792841304869 法语::初级课程::Unit 2：已存在 fr_d1ac95dc2035.mp3
+2026-10-28 00:04:44,972 INFO [OK]   1792841304931 法语::初级课程::Unit 2：已存在 fr_8e767df78b8a.mp3
+2026-10-28 00:04:45,035 INFO [OK]   1792841304995 法语::初级课程::Unit 2：已存在 fr_1d67617a0328.mp3
+2026-10-28 00:04:45,097 INFO [OK]   1792841305055 法语::初级课程::Unit 2：已存在 fr_7fab9533745c.mp3
+2026-10-28 00:04:45,159 INFO [OK]   1792841305117 法语::初级课程::Unit 2：已存在 fr_c0fcee2e5a70.mp3
+2026-10-28 00:04:45,222 INFO [OK]   1792841305179 法语::初级课程::Unit 2：已存在 fr_3ab215399f09.mp3
+2026-10-28 00:04:45,283 INFO [OK]   1792841305241 法语::初级课程::Unit 2：已存在 fr_650063167dfc.mp3
+2026-10-28 00:04:45,345 INFO [OK]   1792841305304 法语::初级课程::Unit 2：已存在 fr_7c80be9799c5.mp3
+2026-10-28 00:04:45,409 INFO [OK]   1792841305367 法语::初级课程::Unit 2：已存在 fr_a360afbd9db8.mp3
+2026-10-28 00:04:45,470 INFO [OK]   1792841305426 法语::初级课程::Unit 2：已存在 fr_61e6bc4a7c95.mp3
+2026-10-28 00:04:45,533 INFO [OK]   1792841305490 法语::初级课程::Unit 2：已存在 fr_3bfb31093123.mp3
+2026-10-28 00:04:45,596 INFO [OK]   1792841305553 法语::初级课程::Unit 2：已存在 fr_5e3af7a49e12.mp3
+2026-10-28 00:04:45,658 INFO [OK]   1792841309769 法语::初级课程::Unit 3：已存在 fr_e26c3f03ef15.mp3
+2026-10-28 00:04:45,720 INFO [OK]   1792841309830 法语::初级课程::Unit 3：已存在 fr_c1bc05d3372c.mp3
+2026-10-28 00:04:45,783 INFO [OK]   1792841309891 法语::初级课程::Unit 3：已存在 fr_249140be963c.mp3
+2026-10-28 00:04:45,846 INFO [OK]   1792841309954 法语::初级课程::Unit 3：已存在 fr_f5662bc8c9d4.mp3
+2026-10-28 00:04:45,906 INFO [OK]   1792841310016 法语::初级课程::Unit 3：已存在 fr_fc7264146ab2.mp3
+2026-10-28 00:04:45,969 INFO [OK]   1792841310078 法语::初级课程::Unit 3：已存在 fr_3593283c79e2.mp3
+2026-10-28 00:04:46,031 INFO [OK]   1792841310140 法语::初级课程::Unit 3：已存在 fr_466c0769b1da.mp3
+2026-10-28 00:04:46,094 INFO [OK]   1792841310204 法语::初级课程::Unit 3：已存在 fr_506b2869fe1a.mp3
+2026-10-28 00:04:46,157 INFO [OK]   1792841310266 法语::初级课程::Unit 3：已存在 fr_3336e1266e30.mp3
+2026-10-28 00:04:46,218 INFO [OK]   1792841310328 法语::初级课程::Unit 3：已存在 fr_0d2cec8a74ac.mp3
+2026-10-28 00:04:46,281 INFO [OK]   1792841310388 法语::初级课程::Unit 3：已存在 fr_7192aaec77dc.mp3
+2026-10-28 00:04:46,343 INFO [OK]   1792841310452 法语::初级课程::Unit 3：已存在 fr_210b4f8554cb.mp3
+2026-10-28 00:04:46,407 INFO [OK]   1792841310528 法语::初级课程::Unit 3：已存在 fr_f376b5d1a010.mp3
+2026-10-28 00:04:46,468 INFO [OK]   1792841310591 法语::初级课程::Unit 3：已存在 fr_a7d3ca42dce8.mp3
+2026-10-28 00:04:46,530 INFO [OK]   1792841310654 法语::初级课程::Unit 3：已存在 fr_3972ba2c9fbf.mp3
+2026-10-28 00:04:46,592 INFO [OK]   1792841310716 法语::初级课程::Unit 3：已存在 fr_327857c369cf.mp3
+2026-10-28 00:04:46,652 INFO [OK]   1792841310777 法语::初级课程::Unit 3：已存在 fr_1dedc8061870.mp3
+2026-10-28 00:04:46,729 INFO [OK]   1792841310840 法语::初级课程::Unit 3：已存在 fr_9924be288dbd.mp3
+2026-10-28 00:04:46,790 INFO [OK]   1792841310903 法语::初级课程::Unit 3：已存在 fr_1c5818add0f1.mp3
+2026-10-28 00:04:46,852 INFO [OK]   1792841310964 法语::初级课程::Unit 3：已存在 fr_06ab81fd7ebe.mp3
+2026-10-28 00:04:46,913 INFO [OK]   1792841311028 法语::初级课程::Unit 3：已存在 fr_6e975dfba187.mp3
+2026-10-28 00:04:46,976 INFO [OK]   1792841311090 法语::初级课程::Unit 3：已存在 fr_6766e8f9121d.mp3
+2026-10-28 00:04:47,039 INFO [OK]   1792841311150 法语::初级课程::Unit 3：已存在 fr_c52df5edda92.mp3
+2026-10-28 00:04:47,100 INFO [OK]   1792841311213 法语::初级课程::Unit 3：已存在 fr_f68789c0d958.mp3
+2026-10-28 00:04:47,101 INFO [PLAN] 1793116978956 法语::初级课程::第一阶段 | Back/plain | fr_29ca880b62e3.mp3 | 'vous vu, petit pəti, deux dø, CaReFuL, avec, pour, neuf, seul.'
+2026-10-28 00:04:47,102 INFO [PLAN] 1793116979046 法语::初级课程::第一阶段 | Back/plain | fr_a65a31c3f087.mp3 | 'il paʁl.'
+2026-10-28 00:04:47,102 INFO [PLAN] 1793116979102 法语::初级课程::第一阶段 | Back/<code> | fr_d3629ae1cd47.mp3 | 'ou.'
+2026-10-28 00:04:47,103 INFO [PLAN] 1793116979172 法语::初级课程::第一阶段 | Back/plain | fr_6363c491731c.mp3 | 'an, am, en, em ɑ, enfant, on, om ɔ, bonbon, in, im, ain, ein ɛ, pain, un, um œ, un.'
+2026-10-28 00:04:47,103 INFO [PLAN] 1793116979232 法语::初级课程::第一阶段 | Back/plain | fr_fca2428d7de8.mp3 | 'les amis lez ami, vous avez vuz ave, un homme œn ɔm.'
+2026-10-28 00:04:47,103 INFO [PLAN] 1793116979423 法语::初级课程::第一阶段 | Back/<code> | fr_8d7c0f998eb2.mp3 | 'Salut.'
+2026-10-28 00:04:47,104 INFO [PLAN] 1793116979514 法语::初级课程::第一阶段 | Back/plain | fr_c6b63ebc783b.mp3 | 'onze, douze, treize, quatorze, quinze, seize.'
+2026-10-28 00:04:47,104 INFO [PLAN] 1793116979581 法语::初级课程::第一阶段 | Back/<code> | fr_5b27304091ab.mp3 | 'avoir, Je.'
+2026-10-28 00:04:47,105 INFO [PLAN] 1793117007929 法语::初级课程::第一阶段 | Back/<code> | fr_9e8ae43650e7.mp3 | 'es, est.'
+2026-10-28 00:04:47,105 INFO [PLAN] 1793117007989 法语::初级课程::第一阶段 | Back/<code> | fr_6dbe632d3e59.mp3 | 'je.'
+2026-10-28 00:04:47,106 INFO [PLAN] 1793117008055 法语::初级课程::第一阶段 | Back/plain | fr_c828346cec01.mp3 | "J'ai vingt ans, avoir, être."
+2026-10-28 00:04:47,106 INFO [PLAN] 1793117008117 法语::初级课程::第一阶段 | Back/plain | fr_7e3404c97e95.mp3 | "J'ai faim., J'ai soif, avoir."
+2026-10-28 00:04:47,107 INFO [PLAN] 1793117008180 法语::初级课程::第一阶段 | Back/<code> | fr_78e6287e59fa.mp3 | 'Je suis un étudiant.'
+2026-10-28 00:04:47,107 INFO [PLAN] 1793117008272 法语::初级课程::第一阶段 | Back/<code> | fr_ac0ba9926215.mp3 | 'il y a, avoir.'
+2026-10-28 00:04:47,107 INFO [PLAN] 1793117008361 法语::初级课程::第一阶段 | Back/<code> | fr_fde35551af25.mp3 | 'ne, pas.'
+2026-10-28 00:04:47,108 INFO [PLAN] 1793117008424 法语::初级课程::第一阶段 | Back/<code> | fr_d54ec3c5403f.mp3 | 'avoir.'
+2026-10-28 00:04:47,108 INFO [PLAN] 1793117015764 法语::初级课程::第一阶段 | Back/plain | fr_04464d89ffe5.mp3 | 'le, la, les.'
+2026-10-28 00:04:47,109 INFO [PLAN] 1793117015837 法语::初级课程::第一阶段 | Back/plain | fr_672fbf7ba109.mp3 | 'un, une, des.'
+2026-10-28 00:04:47,109 INFO [PLAN] 1793117015903 法语::初级课程::第一阶段 | Back/plain | fr_c54d57744a80.mp3 | "l'ami, l'école, l'homme, l'hôtel."
+2026-10-28 00:04:47,109 INFO [PLAN] 1793117015963 法语::初级课程::第一阶段 | Back/<code> | fr_452fdafc9cd0.mp3 | 'un.'
+2026-10-28 00:04:47,109 INFO [PLAN] 1793117016030 法语::初级课程::第一阶段 | Back/plain | fr_a398b22349f8.mp3 | 'un problème, une question, problème.'
+2026-10-28 00:04:47,110 INFO [PLAN] 1793117016117 法语::初级课程::第一阶段 | Back/plain | fr_9e3d050aed41.mp3 | 'un livre, des livres.'
+2026-10-28 00:04:47,110 INFO [PLAN] 1793117016182 法语::初级课程::第一阶段 | Back/plain | fr_4af4127a0072.mp3 | 'un journal, des journaux, un animal, des animaux.'
+2026-10-28 00:04:47,111 INFO [PLAN] 1793117016244 法语::初级课程::第一阶段 | Back/plain | fr_fa42a5b9db27.mp3 | "un, une, des, le, la, les, J'ai un chat, Le chat est noir, J'aime le café, Je suis étudiant."
+2026-10-28 00:04:47,111 INFO [PLAN] 1793117019498 法语::初级课程::第一阶段 | Back/plain | fr_021df5e9cceb.mp3 | 'Je parle I speak, I am speaking, I have been speaking.'
+2026-10-28 00:04:47,111 INFO [PLAN] 1793117019563 法语::初级课程::第一阶段 | Back/plain | fr_55c385982bb2.mp3 | "J'habite à Paris depuis deux ans."
+2026-10-28 00:04:47,112 INFO [SKIP] 1793117019629 法语::初级课程::第一阶段：没有找到可读的法语片段
+2026-10-28 00:04:47,112 INFO [PLAN] 1793117019716 法语::初级课程::第一阶段 | Back/plain | fr_4a5922d23ad3.mp3 | 'je, tu, il, elle, ils, elles, parle, parles, parle, parlent, paʁl.'
+2026-10-28 00:04:47,112 INFO [PLAN] 1793117019781 法语::初级课程::第一阶段 | Back/plain | fr_6f6d03f61361.mp3 | 'nous mangeons, nous commençons.'
+2026-10-28 00:04:47,113 INFO [PLAN] 1793117019857 法语::初级课程::第一阶段 | Back/plain | fr_e68476dc7117.mp3 | "j'appelle, nous appelons, j'achète, nous achetons, ils, nous."
+2026-10-28 00:04:47,113 INFO [PLAN] 1793117019968 法语::初级课程::第一阶段 | Back/plain | fr_4a99b3966072.mp3 | "J'étudie le français depuis un an, J'habite à Paris depuis deux ans."
+2026-10-28 00:04:47,114 INFO [PLAN] 1793117020032 法语::初级课程::第一阶段 | Back/plain | fr_169b31690147.mp3 | 'je, nous, nous, e mange, mangeons nous, ç commence, commençons -eler, -eter, ils, appelle, appelons -e, er, è achète, achetons, ils, elles, nous, vous.'
+2026-10-28 00:04:47,115 INFO [PLAN] 1793117035374 法语::初级课程::第一阶段 | Back/<code> | fr_971525beb86e.mp3 | 'ne.'
+2026-10-28 00:04:47,115 INFO [PLAN] 1793117035461 法语::初级课程::第一阶段 | Front/<code> | fr_f373432054bc.mp3 | 'ne...jamais, ne...rien, ne...plus, ne...personne.'
+2026-10-28 00:04:47,116 INFO [PLAN] 1793117035524 法语::初级课程::第一阶段 | Back/<code> | fr_971525beb86e.mp3 | 'ne.'
+2026-10-28 00:04:47,116 INFO [PLAN] 1793117035619 法语::初级课程::第一阶段 | Back/<code> | fr_062da10c6cfb.mp3 | 'de, le, la, les.'
+2026-10-28 00:04:47,116 INFO [PLAN] 1793117035711 法语::初级课程::第一阶段 | Back/plain | fr_ce130d8235a4.mp3 | 'Tu parles français, ②est-ce que, Est-ce que tu parles français, Parles-tu français.'
+2026-10-28 00:04:47,117 INFO [PLAN] 1793117035774 法语::初级课程::第一阶段 | Back/plain | fr_915683e9cbc4.mp3 | 'est-ce que, Où est-ce que tu habites, qui, que, quoi, où, quand, comment, pourquoi, combien, quel, Parle-t-il.'
+2026-10-28 00:04:47,117 INFO [PLAN] 1793117035833 法语::初级课程::第一阶段 | Back/<code> | fr_f604d6f75b21.mp3 | 'si, oui.'
+2026-10-28 00:04:47,118 INFO [PLAN] 1793117035894 法语::初级课程::第一阶段 | Back/<code> | fr_c7fb23f8c124.mp3 | 'un, une, des, du, de la, de.'
+2026-10-28 00:04:47,118 INFO [PLAN] 1793117040547 法语::初级课程::第一阶段 | Back/plain | fr_a1146da92184.mp3 | "Comment tu t'appelles?, Comment vous appelez-vous, Tu t'appelles comment."
+2026-10-28 00:04:47,118 INFO [PLAN] 1793117040629 法语::初级课程::第一阶段 | Back/<code> | fr_7616a68de015.mp3 | 'Je aussi.'
+2026-10-28 00:04:47,119 INFO [PLAN] 1793117040717 法语::初级课程::第一阶段 | Back/plain | fr_ae7fe90e80da.mp3 | "Excusez-moi, où est la gare, s'il vous plaît? - C'est tout droit, puis à gauche."
+2026-10-28 00:04:47,119 INFO [PLAN] 1793117040809 法语::初级课程::第一阶段 | Back/<code> | fr_acd175d7059c.mp3 | 'Je veux un café.'
+2026-10-28 00:04:47,120 INFO [PLAN] 1793117040870 法语::初级课程::第一阶段 | Back/plain | fr_bbe0d40bf40e.mp3 | 'avec du sucre, sans sucre.'
+2026-10-28 00:04:47,120 INFO [PLAN] 1793117040933 法语::初级课程::第一阶段 | Back/plain | fr_f40a5039e3e5.mp3 | "Ça fait combien?, Je ne comprends pas. Pouvez-vous répéter, s'il vous plaît."
+2026-10-28 00:04:47,120 INFO [PLAN] 1793117040988 法语::初级课程::第一阶段 | Back/<code> | fr_a1a8bbfb23a3.mp3 | 'toilettes, Où est les toilettes.'
+2026-10-28 00:04:47,121 INFO [PLAN] 1793117041092 法语::初级课程::第一阶段 | Back/<code> | fr_9549e4db8ff1.mp3 | 'Moi aussi, Je aussi, Tu étudies quoi.'
+2026-10-28 00:04:47,121 INFO [PLAN] 1793117045583 法语::初级课程::第一阶段 | Back/plain | fr_e45d7d01cfcb.mp3 | "J'ai 20 ans, J'ai faim, J'ai un chat."
+2026-10-28 00:04:47,121 INFO [PLAN] 1793117045641 法语::初级课程::第一阶段 | Back/<code> | fr_d9fd04c3bfa4.mp3 | 'un chat, de, le chat.'
+2026-10-28 00:04:47,122 INFO [PLAN] 1793117045739 法语::初级课程::第一阶段 | Back/plain | fr_9a6e0ec2a623.mp3 | "Tu n'as pas de frère, Est-ce que tu n'as pas de frère."
+2026-10-28 00:04:47,122 INFO [PLAN] 1793117045832 法语::初级课程::第一阶段 | Back/plain | fr_60d993b28e30.mp3 | '①Nous ne mangeons pas à midi. ②Est-ce que nous mangeons à midi? ③Est-ce que nous ne mangeons pas à midi.'
+2026-10-28 00:04:47,123 INFO [PLAN] 1793117045897 法语::初级课程::第一阶段 | Back/plain | fr_cba55feb818e.mp3 | 'nous, er, nous, vous.'
+2026-10-28 00:04:47,123 INFO [PLAN] 1793117045957 法语::初级课程::第一阶段 | Back/plain | fr_ac5ff408143d.mp3 | 'je, tu, il, ils.'
+2026-10-28 00:04:47,124 INFO [PLAN] 1793117046025 法语::初级课程::第一阶段 | Back/plain | fr_e23744dbfe4b.mp3 | "Bonjour, Comment tu t'appelles?, Je m'appelle..., J'habite à..., Je suis étudiante, Enchantée, à bientôt."
+2026-10-28 00:04:47,124 INFO [PLAN] 1793117046116 法语::初级课程::第一阶段 | Back/plain | fr_68fec4f59697.mp3 | "1 Je suis 20 ans J'ai 20 ans 2 Je ai un chat J'ai un chat 3 Je n'ai pas un chat Je n'ai pas de chat 4 Nous mangons, appellons Nous mangeons, appelons 5 - Tu ne viens pas? - Oui - Si."
+2026-10-28 00:04:47,125 INFO dry-run 完成。加 --apply 才会真正写入 Anki。
+2026-10-28 00:06:37,950 INFO AnkiConnect version: 6
+2026-10-28 00:06:37,951 INFO 模式：DRY-RUN
+2026-10-28 00:06:38,012 INFO 模型 Obsidian-basic 现有字段：['Front', 'Back', 'Context', 'Source', 'Audio']
+2026-10-28 00:06:38,013 INFO 字段 Audio 已存在，跳过
+2026-10-28 00:06:38,074 INFO 模板 Card 1 已包含 Audio 播放器，跳过
+2026-10-28 00:06:38,199 INFO 卡组 法语：112 张
+2026-10-28 00:06:38,262 INFO 卡组 法语::初级课程：112 张
+2026-10-28 00:06:38,323 INFO 卡组 法语::初级课程::Unit 2：24 张
+2026-10-28 00:06:38,401 INFO 卡组 法语::初级课程::Unit 3：24 张
+2026-10-28 00:06:38,478 INFO 卡组 法语::初级课程::Unit 4：8 张
+2026-10-28 00:06:38,540 INFO 卡组 法语::初级课程::第一阶段：56 张
+2026-10-28 00:06:38,541 INFO 待处理 112 张卡
+2026-10-28 00:06:38,760 INFO [OK]   1792832820525 法语::初级课程::Unit 4：已存在 fr_f288a217ed63.mp3
+2026-10-28 00:06:38,820 INFO [OK]   1792832820586 法语::初级课程::Unit 4：已存在 fr_5d27896a942d.mp3
+2026-10-28 00:06:38,883 INFO [OK]   1792832820649 法语::初级课程::Unit 4：已存在 fr_06f0d0c2c385.mp3
+2026-10-28 00:06:38,938 INFO [OK]   1792832820699 法语::初级课程::Unit 4：已存在 fr_46e6c748bdda.mp3
+2026-10-28 00:06:38,995 INFO [OK]   1792832820771 法语::初级课程::Unit 4：已存在 fr_c1942689bf61.mp3
+2026-10-28 00:06:39,070 INFO [OK]   1792832820832 法语::初级课程::Unit 4：已存在 fr_90e2c39186dc.mp3
+2026-10-28 00:06:39,132 INFO [OK]   1792832820895 法语::初级课程::Unit 4：已存在 fr_d07fad51ed95.mp3
+2026-10-28 00:06:39,195 INFO [OK]   1792832820957 法语::初级课程::Unit 4：已存在 fr_641fb3b1c750.mp3
+2026-10-28 00:06:39,257 INFO [OK]   1792841304120 法语::初级课程::Unit 2：已存在 fr_ad5c133249b6.mp3
+2026-10-28 00:06:39,318 INFO [OK]   1792841304173 法语::初级课程::Unit 2：已存在 fr_ead89fb0d931.mp3
+2026-10-28 00:06:39,319 INFO [SKIP] 1792841304235 法语::初级课程::Unit 2：没有找到可读的法语片段
+2026-10-28 00:06:39,383 INFO [OK]   1792841304298 法语::初级课程::Unit 2：已存在 fr_28d05335fffd.mp3
+2026-10-28 00:06:39,443 INFO [OK]   1792841304360 法语::初级课程::Unit 2：已存在 fr_f42ad2e73dfb.mp3
+2026-10-28 00:06:39,505 INFO [OK]   1792841304422 法语::初级课程::Unit 2：已存在 fr_41c83bb53674.mp3
+2026-10-28 00:06:39,567 INFO [OK]   1792841304500 法语::初级课程::Unit 2：已存在 fr_f1a87cd62d30.mp3
+2026-10-28 00:06:39,630 INFO [OK]   1792841304548 法语::初级课程::Unit 2：已存在 fr_ee67d391299f.mp3
+2026-10-28 00:06:39,690 INFO [OK]   1792841304623 法语::初级课程::Unit 2：已存在 fr_79764a83352e.mp3
+2026-10-28 00:06:39,752 INFO [OK]   1792841304685 法语::初级课程::Unit 2：已存在 fr_a4183d456082.mp3
+2026-10-28 00:06:39,812 INFO [OK]   1792841304745 法语::初级课程::Unit 2：已存在 fr_796465e5f0cb.mp3
+2026-10-28 00:06:39,875 INFO [OK]   1792841304809 法语::初级课程::Unit 2：已存在 fr_0490c58bbb11.mp3
+2026-10-28 00:06:39,935 INFO [OK]   1792841304869 法语::初级课程::Unit 2：已存在 fr_d1ac95dc2035.mp3
+2026-10-28 00:06:39,998 INFO [OK]   1792841304931 法语::初级课程::Unit 2：已存在 fr_8e767df78b8a.mp3
+2026-10-28 00:06:40,059 INFO [OK]   1792841304995 法语::初级课程::Unit 2：已存在 fr_1d67617a0328.mp3
+2026-10-28 00:06:40,122 INFO [OK]   1792841305055 法语::初级课程::Unit 2：已存在 fr_7fab9533745c.mp3
+2026-10-28 00:06:40,184 INFO [OK]   1792841305117 法语::初级课程::Unit 2：已存在 fr_c0fcee2e5a70.mp3
+2026-10-28 00:06:40,260 INFO [OK]   1792841305179 法语::初级课程::Unit 2：已存在 fr_3ab215399f09.mp3
+2026-10-28 00:06:40,322 INFO [OK]   1792841305241 法语::初级课程::Unit 2：已存在 fr_650063167dfc.mp3
+2026-10-28 00:06:40,383 INFO [OK]   1792841305304 法语::初级课程::Unit 2：已存在 fr_7c80be9799c5.mp3
+2026-10-28 00:06:40,444 INFO [OK]   1792841305367 法语::初级课程::Unit 2：已存在 fr_a360afbd9db8.mp3
+2026-10-28 00:06:40,506 INFO [OK]   1792841305426 法语::初级课程::Unit 2：已存在 fr_61e6bc4a7c95.mp3
+2026-10-28 00:06:40,569 INFO [OK]   1792841305490 法语::初级课程::Unit 2：已存在 fr_3bfb31093123.mp3
+2026-10-28 00:06:40,632 INFO [OK]   1792841305553 法语::初级课程::Unit 2：已存在 fr_5e3af7a49e12.mp3
+2026-10-28 00:06:40,693 INFO [OK]   1792841309769 法语::初级课程::Unit 3：已存在 fr_e26c3f03ef15.mp3
+2026-10-28 00:06:40,756 INFO [OK]   1792841309830 法语::初级课程::Unit 3：已存在 fr_c1bc05d3372c.mp3
+2026-10-28 00:06:40,819 INFO [OK]   1792841309891 法语::初级课程::Unit 3：已存在 fr_249140be963c.mp3
+2026-10-28 00:06:40,880 INFO [OK]   1792841309954 法语::初级课程::Unit 3：已存在 fr_f5662bc8c9d4.mp3
+2026-10-28 00:06:40,944 INFO [OK]   1792841310016 法语::初级课程::Unit 3：已存在 fr_fc7264146ab2.mp3
+2026-10-28 00:06:41,005 INFO [OK]   1792841310078 法语::初级课程::Unit 3：已存在 fr_3593283c79e2.mp3
+2026-10-28 00:06:41,068 INFO [OK]   1792841310140 法语::初级课程::Unit 3：已存在 fr_466c0769b1da.mp3
+2026-10-28 00:06:41,131 INFO [OK]   1792841310204 法语::初级课程::Unit 3：已存在 fr_506b2869fe1a.mp3
+2026-10-28 00:06:41,194 INFO [OK]   1792841310266 法语::初级课程::Unit 3：已存在 fr_3336e1266e30.mp3
+2026-10-28 00:06:41,255 INFO [OK]   1792841310328 法语::初级课程::Unit 3：已存在 fr_0d2cec8a74ac.mp3
+2026-10-28 00:06:41,318 INFO [OK]   1792841310388 法语::初级课程::Unit 3：已存在 fr_7192aaec77dc.mp3
+2026-10-28 00:06:41,380 INFO [OK]   1792841310452 法语::初级课程::Unit 3：已存在 fr_210b4f8554cb.mp3
+2026-10-28 00:06:41,443 INFO [OK]   1792841310528 法语::初级课程::Unit 3：已存在 fr_f376b5d1a010.mp3
+2026-10-28 00:06:41,505 INFO [OK]   1792841310591 法语::初级课程::Unit 3：已存在 fr_a7d3ca42dce8.mp3
+2026-10-28 00:06:41,568 INFO [OK]   1792841310654 法语::初级课程::Unit 3：已存在 fr_3972ba2c9fbf.mp3
+2026-10-28 00:06:41,629 INFO [OK]   1792841310716 法语::初级课程::Unit 3：已存在 fr_327857c369cf.mp3
+2026-10-28 00:06:41,691 INFO [OK]   1792841310777 法语::初级课程::Unit 3：已存在 fr_1dedc8061870.mp3
+2026-10-28 00:06:41,755 INFO [OK]   1792841310840 法语::初级课程::Unit 3：已存在 fr_9924be288dbd.mp3
+2026-10-28 00:06:41,816 INFO [OK]   1792841310903 法语::初级课程::Unit 3：已存在 fr_1c5818add0f1.mp3
+2026-10-28 00:06:41,878 INFO [OK]   1792841310964 法语::初级课程::Unit 3：已存在 fr_06ab81fd7ebe.mp3
+2026-10-28 00:06:41,941 INFO [OK]   1792841311028 法语::初级课程::Unit 3：已存在 fr_6e975dfba187.mp3
+2026-10-28 00:06:42,002 INFO [OK]   1792841311090 法语::初级课程::Unit 3：已存在 fr_6766e8f9121d.mp3
+2026-10-28 00:06:42,065 INFO [OK]   1792841311150 法语::初级课程::Unit 3：已存在 fr_c52df5edda92.mp3
+2026-10-28 00:06:42,128 INFO [OK]   1792841311213 法语::初级课程::Unit 3：已存在 fr_f68789c0d958.mp3
+2026-10-28 00:06:42,129 INFO [PLAN] 1793116978956 法语::初级课程::第一阶段 | Back/plain | fr_29ca880b62e3.mp3 | 'vous vu, petit pəti, deux dø, CaReFuL, avec, pour, neuf, seul.'
+2026-10-28 00:06:42,130 INFO [PLAN] 1793116979046 法语::初级课程::第一阶段 | Back/plain | fr_a65a31c3f087.mp3 | 'il paʁl.'
+2026-10-28 00:06:42,130 INFO [PLAN] 1793116979102 法语::初级课程::第一阶段 | Back/<code> | fr_d3629ae1cd47.mp3 | 'ou.'
+2026-10-28 00:06:42,131 INFO [PLAN] 1793116979172 法语::初级课程::第一阶段 | Back/plain | fr_6363c491731c.mp3 | 'an, am, en, em ɑ, enfant, on, om ɔ, bonbon, in, im, ain, ein ɛ, pain, un, um œ, un.'
+2026-10-28 00:06:42,131 INFO [PLAN] 1793116979232 法语::初级课程::第一阶段 | Back/plain | fr_fca2428d7de8.mp3 | 'les amis lez ami, vous avez vuz ave, un homme œn ɔm.'
+2026-10-28 00:06:42,132 INFO [PLAN] 1793116979423 法语::初级课程::第一阶段 | Back/<code> | fr_8d7c0f998eb2.mp3 | 'Salut.'
+2026-10-28 00:06:42,132 INFO [PLAN] 1793116979514 法语::初级课程::第一阶段 | Back/plain | fr_c6b63ebc783b.mp3 | 'onze, douze, treize, quatorze, quinze, seize.'
+2026-10-28 00:06:42,133 INFO [PLAN] 1793116979581 法语::初级课程::第一阶段 | Back/<code> | fr_5b27304091ab.mp3 | 'avoir, Je.'
+2026-10-28 00:06:42,133 INFO [PLAN] 1793117007929 法语::初级课程::第一阶段 | Back/<code> | fr_9e8ae43650e7.mp3 | 'es, est.'
+2026-10-28 00:06:42,134 INFO [PLAN] 1793117007989 法语::初级课程::第一阶段 | Back/<code> | fr_6dbe632d3e59.mp3 | 'je.'
+2026-10-28 00:06:42,134 INFO [PLAN] 1793117008055 法语::初级课程::第一阶段 | Back/plain | fr_c828346cec01.mp3 | "J'ai vingt ans, avoir, être."
+2026-10-28 00:06:42,135 INFO [PLAN] 1793117008117 法语::初级课程::第一阶段 | Back/plain | fr_7e3404c97e95.mp3 | "J'ai faim., J'ai soif, avoir."
+2026-10-28 00:06:42,135 INFO [PLAN] 1793117008180 法语::初级课程::第一阶段 | Back/<code> | fr_78e6287e59fa.mp3 | 'Je suis un étudiant.'
+2026-10-28 00:06:42,136 INFO [PLAN] 1793117008272 法语::初级课程::第一阶段 | Back/<code> | fr_ac0ba9926215.mp3 | 'il y a, avoir.'
+2026-10-28 00:06:42,136 INFO [PLAN] 1793117008361 法语::初级课程::第一阶段 | Back/<code> | fr_fde35551af25.mp3 | 'ne, pas.'
+2026-10-28 00:06:42,137 INFO [PLAN] 1793117008424 法语::初级课程::第一阶段 | Back/<code> | fr_d54ec3c5403f.mp3 | 'avoir.'
+2026-10-28 00:06:42,137 INFO [PLAN] 1793117015764 法语::初级课程::第一阶段 | Back/plain | fr_04464d89ffe5.mp3 | 'le, la, les.'
+2026-10-28 00:06:42,138 INFO [PLAN] 1793117015837 法语::初级课程::第一阶段 | Back/plain | fr_672fbf7ba109.mp3 | 'un, une, des.'
+2026-10-28 00:06:42,138 INFO [PLAN] 1793117015903 法语::初级课程::第一阶段 | Back/plain | fr_c54d57744a80.mp3 | "l'ami, l'école, l'homme, l'hôtel."
+2026-10-28 00:06:42,139 INFO [PLAN] 1793117015963 法语::初级课程::第一阶段 | Back/<code> | fr_452fdafc9cd0.mp3 | 'un.'
+2026-10-28 00:06:42,139 INFO [PLAN] 1793117016030 法语::初级课程::第一阶段 | Back/plain | fr_a398b22349f8.mp3 | 'un problème, une question, problème.'
+2026-10-28 00:06:42,140 INFO [PLAN] 1793117016117 法语::初级课程::第一阶段 | Back/plain | fr_9e3d050aed41.mp3 | 'un livre, des livres.'
+2026-10-28 00:06:42,140 INFO [PLAN] 1793117016182 法语::初级课程::第一阶段 | Back/plain | fr_4af4127a0072.mp3 | 'un journal, des journaux, un animal, des animaux.'
+2026-10-28 00:06:42,140 INFO [PLAN] 1793117016244 法语::初级课程::第一阶段 | Back/plain | fr_fa42a5b9db27.mp3 | "un, une, des, le, la, les, J'ai un chat, Le chat est noir, J'aime le café, Je suis étudiant."
+2026-10-28 00:06:42,141 INFO [PLAN] 1793117019498 法语::初级课程::第一阶段 | Back/plain | fr_021df5e9cceb.mp3 | 'Je parle I speak, I am speaking, I have been speaking.'
+2026-10-28 00:06:42,141 INFO [PLAN] 1793117019563 法语::初级课程::第一阶段 | Back/plain | fr_55c385982bb2.mp3 | "J'habite à Paris depuis deux ans."
+2026-10-28 00:06:42,141 INFO [SKIP] 1793117019629 法语::初级课程::第一阶段：没有找到可读的法语片段
+2026-10-28 00:06:42,142 INFO [PLAN] 1793117019716 法语::初级课程::第一阶段 | Back/plain | fr_4a5922d23ad3.mp3 | 'je, tu, il, elle, ils, elles, parle, parles, parle, parlent, paʁl.'
+2026-10-28 00:06:42,143 INFO [PLAN] 1793117019781 法语::初级课程::第一阶段 | Back/plain | fr_6f6d03f61361.mp3 | 'nous mangeons, nous commençons.'
+2026-10-28 00:06:42,143 INFO [PLAN] 1793117019857 法语::初级课程::第一阶段 | Back/plain | fr_e68476dc7117.mp3 | "j'appelle, nous appelons, j'achète, nous achetons, ils, nous."
+2026-10-28 00:06:42,144 INFO [PLAN] 1793117019968 法语::初级课程::第一阶段 | Back/plain | fr_4a99b3966072.mp3 | "J'étudie le français depuis un an, J'habite à Paris depuis deux ans."
+2026-10-28 00:06:42,145 INFO [PLAN] 1793117020032 法语::初级课程::第一阶段 | Back/plain | fr_169b31690147.mp3 | 'je, nous, nous, e mange, mangeons nous, ç commence, commençons -eler, -eter, ils, appelle, appelons -e, er, è achète, achetons, ils, elles, nous, vous.'
+2026-10-28 00:06:42,145 INFO [PLAN] 1793117035374 法语::初级课程::第一阶段 | Back/<code> | fr_971525beb86e.mp3 | 'ne.'
+2026-10-28 00:06:42,146 INFO [PLAN] 1793117035461 法语::初级课程::第一阶段 | Front/<code> | fr_f373432054bc.mp3 | 'ne...jamais, ne...rien, ne...plus, ne...personne.'
+2026-10-28 00:06:42,146 INFO [PLAN] 1793117035524 法语::初级课程::第一阶段 | Back/<code> | fr_971525beb86e.mp3 | 'ne.'
+2026-10-28 00:06:42,147 INFO [PLAN] 1793117035619 法语::初级课程::第一阶段 | Back/<code> | fr_062da10c6cfb.mp3 | 'de, le, la, les.'
+2026-10-28 00:06:42,147 INFO [PLAN] 1793117035711 法语::初级课程::第一阶段 | Back/plain | fr_ce130d8235a4.mp3 | 'Tu parles français, ②est-ce que, Est-ce que tu parles français, Parles-tu français.'
+2026-10-28 00:06:42,148 INFO [PLAN] 1793117035774 法语::初级课程::第一阶段 | Back/plain | fr_915683e9cbc4.mp3 | 'est-ce que, Où est-ce que tu habites, qui, que, quoi, où, quand, comment, pourquoi, combien, quel, Parle-t-il.'
+2026-10-28 00:06:42,148 INFO [PLAN] 1793117035833 法语::初级课程::第一阶段 | Back/<code> | fr_f604d6f75b21.mp3 | 'si, oui.'
+2026-10-28 00:06:42,149 INFO [PLAN] 1793117035894 法语::初级课程::第一阶段 | Back/<code> | fr_c7fb23f8c124.mp3 | 'un, une, des, du, de la, de.'
+2026-10-28 00:06:42,149 INFO [PLAN] 1793117040547 法语::初级课程::第一阶段 | Back/plain | fr_a1146da92184.mp3 | "Comment tu t'appelles?, Comment vous appelez-vous, Tu t'appelles comment."
+2026-10-28 00:06:42,149 INFO [PLAN] 1793117040629 法语::初级课程::第一阶段 | Back/<code> | fr_7616a68de015.mp3 | 'Je aussi.'
+2026-10-28 00:06:42,150 INFO [PLAN] 1793117040717 法语::初级课程::第一阶段 | Back/plain | fr_ae7fe90e80da.mp3 | "Excusez-moi, où est la gare, s'il vous plaît? - C'est tout droit, puis à gauche."
+2026-10-28 00:06:42,150 INFO [PLAN] 1793117040809 法语::初级课程::第一阶段 | Back/<code> | fr_acd175d7059c.mp3 | 'Je veux un café.'
+2026-10-28 00:06:42,150 INFO [PLAN] 1793117040870 法语::初级课程::第一阶段 | Back/plain | fr_bbe0d40bf40e.mp3 | 'avec du sucre, sans sucre.'
+2026-10-28 00:06:42,151 INFO [PLAN] 1793117040933 法语::初级课程::第一阶段 | Back/plain | fr_f40a5039e3e5.mp3 | "Ça fait combien?, Je ne comprends pas. Pouvez-vous répéter, s'il vous plaît."
+2026-10-28 00:06:42,151 INFO [PLAN] 1793117040988 法语::初级课程::第一阶段 | Back/<code> | fr_a1a8bbfb23a3.mp3 | 'toilettes, Où est les toilettes.'
+2026-10-28 00:06:42,152 INFO [PLAN] 1793117041092 法语::初级课程::第一阶段 | Back/<code> | fr_9549e4db8ff1.mp3 | 'Moi aussi, Je aussi, Tu étudies quoi.'
+2026-10-28 00:06:42,152 INFO [PLAN] 1793117045583 法语::初级课程::第一阶段 | Back/plain | fr_e45d7d01cfcb.mp3 | "J'ai 20 ans, J'ai faim, J'ai un chat."
+2026-10-28 00:06:42,152 INFO [PLAN] 1793117045641 法语::初级课程::第一阶段 | Back/<code> | fr_d9fd04c3bfa4.mp3 | 'un chat, de, le chat.'
+2026-10-28 00:06:42,153 INFO [PLAN] 1793117045739 法语::初级课程::第一阶段 | Back/plain | fr_9a6e0ec2a623.mp3 | "Tu n'as pas de frère, Est-ce que tu n'as pas de frère."
+2026-10-28 00:06:42,153 INFO [PLAN] 1793117045832 法语::初级课程::第一阶段 | Back/plain | fr_60d993b28e30.mp3 | '①Nous ne mangeons pas à midi. ②Est-ce que nous mangeons à midi? ③Est-ce que nous ne mangeons pas à midi.'
+2026-10-28 00:06:42,154 INFO [PLAN] 1793117045897 法语::初级课程::第一阶段 | Back/plain | fr_cba55feb818e.mp3 | 'nous, er, nous, vous.'
+2026-10-28 00:06:42,154 INFO [PLAN] 1793117045957 法语::初级课程::第一阶段 | Back/plain | fr_ac5ff408143d.mp3 | 'je, tu, il, ils.'
+2026-10-28 00:06:42,155 INFO [PLAN] 1793117046025 法语::初级课程::第一阶段 | Back/plain | fr_e23744dbfe4b.mp3 | "Bonjour, Comment tu t'appelles?, Je m'appelle..., J'habite à..., Je suis étudiante, Enchantée, à bientôt."
+2026-10-28 00:06:42,155 INFO [PLAN] 1793117046116 法语::初级课程::第一阶段 | Back/plain | fr_68fec4f59697.mp3 | "1 Je suis 20 ans J'ai 20 ans 2 Je ai un chat J'ai un chat 3 Je n'ai pas un chat Je n'ai pas de chat 4 Nous mangons, appellons Nous mangeons, appelons 5 - Tu ne viens pas? - Oui - Si."
+2026-10-28 00:06:42,155 INFO dry-run 完成。加 --apply 才会真正写入 Anki。

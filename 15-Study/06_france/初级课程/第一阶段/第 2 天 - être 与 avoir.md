@@ -8,6 +8,15 @@ tags:
   - 类型/变位
   - 类型/语法
 date: 2026-10-27
+flashcards:
+  q-pbrc: { nid: 1793117007929, hash: 5t3c45g5, sync: vy4tmvei }
+  q-852k: { nid: 1793117007989, hash: x33tzxpu, sync: j3kauipb }
+  q-h3gf: { nid: 1793117008055, hash: ze5ieyvn, sync: nqf2r438 }
+  q-sunb: { nid: 1793117008117, hash: x7fduken, sync: mzxfti85 }
+  q-i4g9: { nid: 1793117008180, hash: rgpmvsmb, sync: 8qzhy32v }
+  q-hjez: { nid: 1793117008272, hash: rbxkpk4m, sync: vcyk67n3 }
+  q-gqtj: { nid: 1793117008361, hash: xjebgjst, sync: kygke9dx }
+  q-gn6c: { nid: 1793117008424, hash: 3y32p5mj, sync: vvgtv9sn }
 ---
 
 # 第 2 天 · être 与 avoir
@@ -246,18 +255,25 @@ avoir：j'______ / tu ______ / il ______ / nous ______ / vous ______ / ils _____
 ## 卡片区
 
 être 的现在时六个人称变位？::je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont。⚠ 易错：`es` 和 `est` 读音都是 [ɛ]。
+^q-pbrc
 
 avoir 的现在时六个人称变位？::j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont。⚠ 易错：`je` 必须省音成 `j'`。
+^q-852k
 
 "我 20 岁"用法语怎么说？::J'ai vingt ans。⚠ 易错：年龄用 avoir，不用 être。
+^q-h3gf
 
 "我饿了 / 我渴了"用法语怎么说？::J'ai faim. / J'ai soif。⚠ 易错：中文说"我很饿"，法语用 avoir + 名词。
+^q-sunb
 
 职业前要不要加冠词？::不加。例：Je suis étudiant. / Elle est professeur。⚠ 易错：`Je suis un étudiant` 不自然。
+^q-i4g9
 
 `Il y a un livre` 和 `J'ai un livre` 有什么区别？::`il y a` 表存在（某处有某物）；`avoir` 表所属（某人有）。
+^q-hjez
 
 否定句 `ne…pas` 放在哪？::`ne` 在变位动词前，`pas` 在变位动词后。例：Je ne suis pas étudiant。⚠ 易错：元音前 `ne → n'`。
+^q-gqtj
 
 ### être 和 avoir 怎么选？ #card
 
@@ -268,3 +284,4 @@ avoir 的现在时六个人称变位？::j'ai, tu as, il/elle a, nous avons, vou
 | 地点：Elle est à Paris. | 感受：J'ai faim. |
 
 ⚠ 易错：年龄和生理感受用 `avoir`，这是中文母语者最高频的错误。
+^q-gn6c

@@ -8,6 +8,15 @@ tags:
   - 类型/变位
   - 类型/语法
 date: 2026-10-27
+flashcards:
+  q-esvf: { nid: 1793117019498, hash: c9kjr2qc, sync: ifhdun6v }
+  q-bbxz: { nid: 1793117019563, hash: 944fyf8m, sync: ktpkdxer }
+  q-qwwz: { nid: 1793117019629, hash: uj7wrkiu, sync: jihzxvxu }
+  q-4zzf: { nid: 1793117019716, hash: 5g747yt6, sync: gzjyvppg }
+  q-r35x: { nid: 1793117019781, hash: a8xy9up5, sync: qsjzz9ka }
+  q-jn4t: { nid: 1793117019857, hash: qwzy2qen, sync: g2uujmnx }
+  q-utsv: { nid: 1793117019968, hash: cu7wtrfw, sync: 75a8j9wk }
+  q-62bt: { nid: 1793117020032, hash: rne5ukp9, sync: ky335dby }
 ---
 
 # 第 4 天 · 现在时与 -er 动词
@@ -253,18 +262,25 @@ date: 2026-10-27
 ## 卡片区
 
 法语现在时能表达英语的哪三种时态？::一般现在、现在进行、现在完成进行。例：Je parle = I speak / I am speaking / I have been speaking。
+^q-esvf
 
 `depuis` 后面用什么时态？::现在时。例：J'habite à Paris depuis deux ans。⚠ 易错：不能用复合过去时。
+^q-bbxz
 
 -er 动词的六个词尾？::-e, -es, -e, -ons, -ez, -ent。⚠ 易错：`-ent` 不发音。
+^q-qwwz
 
 -er 动词哪几个人称读音完全相同？::je / tu / il(elle) / ils(elles) 四个。例：parle / parles / parle / parlent 都读 [paʁl]。
+^q-4zzf
 
 `manger` 和 `commencer` 的 nous 形式？::nous mangeons / nous commençons。⚠ 易错：-ger 加 e 防 [ɡ]；-cer 加 ç 保 [s]。
+^q-r35x
 
 `appeler` 和 `acheter` 的 je / nous 形式？::j'appelle / nous appelons；j'achète / nous achetons。⚠ 易错：只有单数和 ils 变，nous 不变。
+^q-jn4t
 
 "我学法语一年了"用法语怎么说？::J'étudie le français depuis un an。⚠ 易错：用现在时，不用完成时。例：J'habite à Paris depuis deux ans 同理。
+^q-utsv
 
 ### -er 动词的四个拼写变化？ #card
 
@@ -276,3 +292,4 @@ date: 2026-10-27
 | -e+辅音+er | 单数+ils 变 è | achète / achetons |
 
 ⚠ 规律：单数和 ils/elles 是"重读"形式，nous / vous 保持原样。
+^q-62bt
